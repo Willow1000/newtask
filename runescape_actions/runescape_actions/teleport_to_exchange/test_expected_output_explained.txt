@@ -1,0 +1,4 @@
+the idea here is to open the testing images and when I see something strange, like a missing file or a black image, for some unpredictable reason, 
+ I want it to be properly explained why that is happening in this file
+
+

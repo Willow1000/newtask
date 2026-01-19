@@ -1,0 +1,21 @@
+I: Bus=0010 Vendor=001f Product=0001 Version=0100
+N: Name="PC Speaker"
+P: Phys=isa0061/input0
+S: Sysfs=/devices/platform/pcspkr/input/input0
+U: Uniq=
+H: Handlers=kbd event0 
+B: PROP=0
+B: EV=40001
+B: SND=6
+
+I: Bus=0011 Vendor=0001 Product=0001 Version=ab00
+N: Name="AT Translated Set 2 keyboard"
+P: Phys=d34b2567-b9b6-42b9-8778-0a4ec0b
+S: Sysfs=/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/d34b2567-b9b6-42b9-8778-0a4ec0b955bf/serio0/input/input1
+U: Uniq=
+H: Handlers=sysrq kbd event1 
+B: PROP=0
+B: EV=100013
+B: KEY=402000000 3803078f800d001 feffffdfffefffff fffffffffffffffe
+B: MSC=10
+

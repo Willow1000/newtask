@@ -1,0 +1,11 @@
+cleanup_plugin
+runescape
+
+1. Click the red cross to delete any text from plugin search box
+2. Click the screwdriver icon to exit configurations
+toggle_plugin
+runescape
+
+1. Click the screwdriver icon
+2. Type plugin name in the search box
+3. Click the toggle button next to plugin name

@@ -1,0 +1,15 @@
+SMELTING_BRONZE_BAR
+runescape
+
+1. action setup
+2. Move to (Edgeville Banker)
+3. Highlight (Banker)
+4. Withdraw (Tin ore x 14)
+5. Withdraw (Copper Ore x 14)
+6. Move to (Edgeville Furnace)
+7. Highlight (Furnace)
+8. Smelt Bronze Bar
+9. Move to (Banker)
+10. Highlight (Banker)
+11. Deposit (Bronze Bar)
+12. Repeat Steps 11 to 18.

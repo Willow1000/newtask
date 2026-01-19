@@ -1,0 +1,166 @@
+from PIL import ImageGrab
+from PIL import Image
+import copy
+
+from common_action_framework.common_action_framework.basic_interaction import (
+    get_action_picture_by_name,
+    none_step_verify,
+    get_test_picture_by_name,
+)
+from common_action_framework.common_action_framework.image_matching_logic import (
+    template_matching
+)
+from common_action_framework.common_action_framework.common import (
+    send_user_name_to_replay_in_client,
+    send_pw_to_replay_in_client,
+    send_tab_key_to_client,
+    send_enter_key_to_client,
+    random_mouse_movement,
+    verify_after_checking_once,
+)
+
+from common_action_framework.common_action_framework.reuse_action import (
+    update_action,
+    update_step,
+    merge_dicts,
+)
+
+from runescape_actions.commons.highlight_npc.action_description import get_action_ordered_steps as highlight_npc
+from runescape_actions.commons.buy_from_grand_exchange.action_description import get_action_ordered_steps as buy_from_exchange
+from runescape_actions.commons.deposit_bank.action_description import (
+    get_deposit_x, 
+    get_deposit_all
+    )
+from runescape_actions.commons.deposit_bank.action_description import get_deposit_all
+
+from common_action_framework.common_action_framework.reuse_action import update_action
+
+all_failure_elements = {
+    "send_creds": [
+        get_action_picture_by_name("try_again_button")
+    ],
+}
+
+time_limit = None  # time limit for this action (in minutes)
+current_action_id = "smelting_steel_bar_setup"
+app_config_id = "full_rs"  # each action may require a different set of configs from the app itself
+context = "rs_ps"  # context to know what profile to use, what is this session related to, etc.
+
+
+
+step_0 = {
+    "check": none_step_verify,
+    "verify": get_action_picture_by_name("report"),
+    "test": [
+        {
+            "mock_image": get_test_picture_by_name("not_in_game_lobby"),  
+            "replay_input": {"replay_type": "mouse", "coords": None},
+        },
+    ],
+    "extra_test_info": {
+        "end_mock_image_list": [
+            get_test_picture_by_name("test_lowbar")
+        ],
+    },
+    "processor_info": {
+        "processor_type": {
+            "check": "template_match",
+            "verify": "template_match",
+        },
+    },
+    "id": "check_app_state_in_game_lobby", 
+}
+
+action_ordered_steps = [step_0,]
+
+# Step 1: Highlight_npc (grand exchange clerk)
+
+updates = [
+    {
+        "id": "type_npc_name",     
+        "check_args": {
+            "write_string_in_client": {
+                "string_to_write": "Grand Exchange Clerk", 
+            },
+        },
+        "verify": get_action_picture_by_name("clerk_inserted"), 
+        "extra_test_info": {
+            "end_mock_image_list": [
+            get_test_picture_by_name("test_clerk_inserted")
+            ],
+        },
+    },
+]
+
+highlight_clerk = highlight_npc(updates).copy()
+action_ordered_steps += highlight_clerk
+
+
+# Step 2: Buy Iron Ore (500)
+# Step 3: Buy Coal (1000)
+
+buy_items = buy_from_exchange([
+    ("Iron Ore", "500"), 
+    ("Coal", "1000",),
+    ])
+
+
+action_ordered_steps += copy.deepcopy(buy_items)
+
+
+# Step 4: Highlight Banker
+
+updates = [
+    {
+        "id": "type_npc_name",     
+        "check_args": {
+            "write_string_in_client": {
+                "string_to_write": "banker", 
+            },
+        },
+        "verify": get_action_picture_by_name("banker_inserted"), 
+        "extra_test_info": {
+            "end_mock_image_list": [
+            get_test_picture_by_name("test_banker_inserted")
+            ],
+        },
+    },
+]
+
+highlight_banker = highlight_npc(updates).copy()
+action_ordered_steps += highlight_banker
+
+
+# Step 5: Deposit (iron ore x 500)
+
+deposit_iron_ore = get_deposit_x("500", "iron_ore_inventory", "test_inventory_after_buy")
+action_ordered_steps += deposit_iron_ore
+
+
+# Step 6: Deposit (coins)
+
+deposit_coins = get_deposit_all("coins", "test_inventory_after_buy")
+action_ordered_steps += deposit_coins
+
+
+# Step 7: Deposit (coal x 1000)
+
+deposit_coal = get_deposit_x("1000", "coal_inventory", "test_inventory_after_buy")
+action_ordered_steps += deposit_coal
+
+
+# final step, always add a final step, this is for the if else cases
+
+final_step = {
+    "check": none_step_verify,
+    "verify": none_step_verify,
+    "id": "object_markers_final_step",
+    "processor_info": {
+        "processor_type": {
+            "check": "template_match",
+            "verify": "template_match",
+        },
+    },
+}
+
+action_ordered_steps += [final_step,]

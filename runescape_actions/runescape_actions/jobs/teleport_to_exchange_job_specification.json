@@ -1,0 +1,12 @@
+{
+  "id": "teleport_to_exchange_job",
+  "session_order": ["teleport_to_exchange"],
+  "sessions_to_run": {
+    "sessions": {
+      "teleport_to_exchange": {
+        "action_name_list": ["teleport_to_exchange"],
+        "append_log_path": "teleport_to_exchange"
+      }
+    }
+  }
+}

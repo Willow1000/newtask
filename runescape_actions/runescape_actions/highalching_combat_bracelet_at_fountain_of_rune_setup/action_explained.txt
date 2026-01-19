@@ -1,0 +1,8 @@
+highalching_combat_bracelet_at_fountain_of_rune_setup
+runescape
+
+1. highlight (grand exchange clerk)
+2. buy (combat bracelet)
+3. highlight (banker)
+4. deposit (combat bracelet)
+5. deposit (coins)

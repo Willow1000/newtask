@@ -1,0 +1,10 @@
+ground_markers
+runescape
+
+1. Click the screwdriver icon
+2. Type "Ground Markers" in the search box.
+3. Toggle the plugin on
+4. Click red corss on plugin search (cleanup)
+5. Click the screwdriver icon (cleanup)
+6. Click shift+right_click in coords (x,y) on the screen
+7. Click mark tile

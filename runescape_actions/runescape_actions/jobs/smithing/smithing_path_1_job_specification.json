@@ -1,0 +1,20 @@
+{
+  "id": "smithing_path_1_job",
+  "session_order": ["smelting_bronze_bar_setup", "mining_smithing_path1"],
+  "description": "path 1 for mining and smithing is just the edgeville path for smelting",
+  "sessions_to_run": {
+    "sessions": {
+      "smelting_setup": {
+        "action_name_list": ["smelting_bronze_bar_setup"],
+        "append_log_path": "smelting_bronze_bar_setup",
+        "description": "setup all smelting tasks"
+      }, 
+      "mining_smithing_path1": {
+        "action_name_list": ["smelting_bronze_bar"],
+        "append_log_path": "smelting_bronze_bar",
+        "description": "smelting all smelting tasks"
+      }
+    }
+  }
+}
+

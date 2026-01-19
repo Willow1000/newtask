@@ -1,0 +1,10 @@
+highlight_npc
+runescape
+
+1. Click the screwdriver icon
+2. Type "npc" in the search box.
+3. Click the gear icon next to NPC indicators.
+4. Click the NPC name textbox.
+5. Type "Banker" in the textbox below NPCs to highlight.
+6. Click on the button next to NPC indicator (toggle plugin)
+7. Repeat click on the button next to NPC indicator (duplicate step).

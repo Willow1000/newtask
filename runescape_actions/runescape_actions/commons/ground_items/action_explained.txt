@@ -1,0 +1,9 @@
+ground_items
+runescape
+
+1. Click Screwdriver (configuration)
+2. Search "Ground Items"
+3. Click the gear to enter plugin options
+4. Click the "Highlited Items" textbox
+5. Type "Campire" (can change)
+6. Cleanup_plugin

@@ -1,0 +1,12 @@
+cooking_raw_tuna
+runelite
+
+1. select (tinderbox)
+2. select (logs)/(use_tinderbox_to_logs)
+3. mark object (fire)
+4. select (raw_tuna)
+5. select(fire)/(use_raw_tuna_to_fire)
+6. select (all)
+7. select (cook_raw_tuna)
+8. cooking raw tuna end condition
+9. deposit (tuna)

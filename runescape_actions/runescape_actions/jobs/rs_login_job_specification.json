@@ -1,0 +1,13 @@
+{
+  "id": "rs_login_job",
+  "session_order": ["rs_login_session"],
+  "sessions_to_run": {
+    "sessions": {
+      "rs_login_session": {
+        "action_name_list": ["rs_login"],
+        "append_log_path": "rs_login"
+      }
+    }
+  }
+}
+

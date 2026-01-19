@@ -1,0 +1,16 @@
+enter_exchange
+runescape
+
+1. Click the clerk
+2. Click the "continue" option
+3. Click the "setup trade offers" option
+4. Click "continue"
+
+# these are required as the initial steps of buying from the grand exchange action
+# the first 4 steps are from the enter_exchange action
+# 1. Click the Grand Exchange Clerk
+# 2. Click continue
+# 3. Click "I'd like to setup a trade offer"
+# 4. Click continue
+
+

@@ -1,0 +1,13 @@
+{
+  "id": "in_game_pause_job",
+  "session_order": ["in_game_pause_session"],
+  "sessions_to_run": {
+    "sessions": {
+      "in_game_pause_session": {
+        "action_name_list": ["in_game_pause"],
+        "config_required_in_app": "buy_sell_config",
+        "append_log_path": "in_game_pause"
+      }
+    }
+  }
+}

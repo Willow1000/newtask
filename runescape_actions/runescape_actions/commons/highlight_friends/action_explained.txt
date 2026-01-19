@@ -1,0 +1,17 @@
+highlight_friends
+runescape
+
+1. Click the screwdriver icon
+2. Type "Player Indicators" in the search box.
+3. Toggle the plugin on
+4. Click the gearbox to enter settings
+5. Click the highlight friends name textbox
+6. Click the enable option (add y px offset to the click function you used in step 5)
+7. Cick the Go Back arrow (cleanup)
+8. Click the red cross on the search bar (cleanup)
+9. Click the screwdriver icon to exit configuration (cleanup)
+
+
+
+
+

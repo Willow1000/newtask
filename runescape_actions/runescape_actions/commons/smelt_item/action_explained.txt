@@ -1,0 +1,7 @@
+smelt_item
+runescape
+
+1. Click the furnace
+2. Click smelt
+3. Click "All" (can be changed to "X")
+4. Click the item you want to smelt

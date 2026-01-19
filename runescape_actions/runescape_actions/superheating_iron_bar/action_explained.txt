@@ -1,0 +1,17 @@
+superheating_iron_bar
+runescape
+
+1. Equip (staff of fire)
+2. highlight (grand exchange clerk)
+3. Buy (nature rune x 800)
+4. Buy (iron ore x 100)
+5. highlight (banker)
+6. Deposit (coins)
+7. Deposit (iron ore x 100)
+8. Withdraw (iron ore x 27)
+9. Select spellbook tab (superheat item)
+10. Use on (iron ore)
+11. Select Superheat Spell again
+12. If there are still iron ores go to step 10.
+13. highlight (banker)
+14. Deposit (iron bar)

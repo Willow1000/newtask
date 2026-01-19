@@ -1,0 +1,10 @@
+crafting_bracelet
+runescape
+
+1. Move to (Edgeville Furnace)
+2. Click Highlight (Furnace)
+3. Select (X Bracelet)
+4. Move to (Banker)
+5. Highlight (Banker)
+6. Deposit (X Bracelet)
+7. Withdraw (Gold Bar)

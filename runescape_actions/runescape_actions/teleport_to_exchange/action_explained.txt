@@ -1,0 +1,5 @@
+teleport_to_exchange
+runescape
+
+1. open spellbook and teleport to varrock
+2. move to grandExchange from varrock

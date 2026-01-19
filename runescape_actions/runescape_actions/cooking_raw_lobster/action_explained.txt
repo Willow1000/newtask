@@ -1,0 +1,11 @@
+Cooking raw lobster
+runelite
+
+1. select (tinderbox)
+2. select (logs)/(use_tinderbox_to_logs)
+3. mark object (fire)
+4. select (raw_lobster)
+5. select(fire)/(use_raw_lobster_to_fire)
+6. select (all)
+7. select (cook_raw_lobster)
+9. deposit (lobster)

@@ -1,0 +1,14 @@
+smelting_silver_bar
+runescape
+
+1. action setup
+2. move to (edgeville banker)
+3. Highlight (banker)
+4. Withdraw (Silver Ore x 28)
+5. Move to Furnace
+6. Highlight (furnace)
+7. Smelt (silver bar)
+8. Move to banker 
+9. highlight (banker)
+10. Deposit (Silver bar)
+11. repeat 9 to 16 

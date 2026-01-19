@@ -1,0 +1,14 @@
+trade_at_exchange
+runescape
+
+action consists of trading items in great exchange without deposit/withdrawals 
+therefore, action assumes that you have enough inventory space, the items are sent to inventory and assumed to be in 
+ the inventory at the time of action execution
+between runs of this trade_at_exchange action, it is assumed that the bot deposits any profits/losses from the previous 
+ run of trade_at_exchange, this action is supposed to not really maintain state between executions
+before this action starts, a different action should be executed to ensure that the bot has enough inventory space/enough gold to 
+ trade/enough grand exchange available slots, a proper setup full clean up of all of these things
+
+1.
+
+

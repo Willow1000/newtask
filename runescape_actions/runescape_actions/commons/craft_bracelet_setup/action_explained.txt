@@ -1,0 +1,10 @@
+crafting_bracelet_setup
+runescape
+
+1. Highlight (Grand Exchange Clerk)
+2. Buy (X Bar)
+3. Highlight (banker)
+4. Deposit (X Bar)
+5. Deposit (Coins)
+6. Withdraw (Bracelet Mould)
+7. Withdraw (X Bar x 26)

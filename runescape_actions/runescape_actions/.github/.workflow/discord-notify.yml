@@ -1,0 +1,13 @@
+name: Notify Discord on Push
+on:
+  push:
+    branches:
+      - master  # Change this to the branch you want to monitor
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Send Discord Notification
+        run: |
+            curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"New commit pushed to the repository. Commit: \`${{ github.sha }}\`, Message: \`${{ github.event.head_commit.message }}\`\"}" ${{ vars.DISCORD_WEBHOOK_URL }}

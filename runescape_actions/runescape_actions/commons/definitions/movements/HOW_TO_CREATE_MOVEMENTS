@@ -1,0 +1,48 @@
+0. plugins and setup (everything here should already be setup, just double check)
+use the camera plugin (should already be setup as well):
+ turn on the expand pitch limit
+ expand outer zoom limit: 200 
+ zoom speed: 100
+ control function: None
+zoom out as much as you can and mark the tiles in this way
+make sure you are at zoom 100% in your computer and 1920x1080 resolution, or as high as you can go, in order to take the pictures
+to mark the pictures on screen you have to have the object markers plugin (this plugin should already be setup as well)
+
+1. the plugins I mentioned above should already be set, if they are not set for you, maybe you have an older version of the config, make sure you ask me for the correct 
+ version of the config file
+
+2.before marking the tiles, you should press the 'w' key until you see the game from above (a bird eye view of the game if you will), this 
+ makes it easier to mark the tiles
+
+3.understand that the are of the game you see is not a square, what does this mean?, well if you mark something horizontally
+ the next time the game is running the camera may not be in the same position, so the tile you marked may not be visible, the purpose 
+  of marking the tiles is to make sure they are always visible, to ensure this happens, make sure you always mark the tiles vertically
+this means that whenever you mark a tile, you must change the game camera with the 'a' and 'd' keys until the place you want to mark is above you
+
+special things to take into account when creating the movements:
+ make sure you understand 3. before starting, or you will have to restart, because the colors will be offscreen when the camera angle changes
+ make sure not to use a light blue color when marking the tiles
+ the purpose of marking the tiles with colors is to make sure that tile color ON SCREEN is unique at any time, 
+  if you mark the tile color the same as any other color on screen or any other possible color on screen, you will to recreate
+    the tile marks, make sure to remember what the purpose of this is, this is also the reason why you CAN NOT use a light blue color
+     when marking the tiles
+ make sure you do a couple of movement files and get feedback, before moving on to do more movements
+ when marking other objects that are not tiles, like doors or other things on the map, you mark them the same way with shift+right click, 
+  make sure you add those object colors to the color_map file, AND REMEMBER the purpose is that the colors are unique ON screen
+ to reference an object in the movement file, you can do something like in the following example:
+  InitialColor: color_ditch
+  FinalColor: FFA93AB5
+  ColorPattern: (FFDF808E,FFE54B62,FFE5213F)
+ instead of a color, the initial color is a reference to an object, this must have the same name as in the color_map file: 
+  the color map needs to have the color_ditch color setup
+  in this example, the color map can look something like this: 
+    default_blue: FF00FAFA
+    wilderness_ditch: FFA93AB6
+    clerk: FF880A0A
+  as you can see: wilderness_ditch: FFA93AB6, is the reference to the color you use in the movement file, NOTICE that it must have the same name
+  
+  
+other considerations:
+ when an npc talks to you the zoom is reset though, this must automatically be taken into account, 
+  whoever creates the movement file, doesnt need to take this into account, the program MUST handle this automatically,
+   this problem is mentioned here because the engineers must be aware of this problem

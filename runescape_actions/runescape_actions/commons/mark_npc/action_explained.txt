@@ -1,0 +1,9 @@
+mark_npc
+runescape
+
+1. Shift lick the npc to mark
+2. Click the tag button
+3. Shift Click tagged Npc
+4. Hover Mouse to Tag color
+5. Click Pick Color
+6. Pick Color action

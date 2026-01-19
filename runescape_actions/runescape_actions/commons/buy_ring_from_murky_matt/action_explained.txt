@@ -1,0 +1,11 @@
+buy_ring_from_murky_matt
+runescape
+
+1. Click Murky Matt
+2. Click "talk to murky matt"
+3. Click "Continue"
+4. Click "I heard you deal reings of forging"
+5. Click "Continue"
+6. Click "Continue"
+7. Type ((number of rings) + enter)
+8. Click "Continue"

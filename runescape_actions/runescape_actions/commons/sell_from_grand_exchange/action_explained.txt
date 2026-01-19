@@ -1,0 +1,25 @@
+sell_from_grand_exchange
+runescape
+
+# the buy_from_grand_exchange action is used to build the sell action
+
+# action is separated in 3 parts, because whoever wants to use the buy from exchange, may want to use the buy/sell multiple times,
+#  this is doable by repeating the buy/sell action multiple times, and only doing the enter/exit exchange action once
+
+# the first 4 steps are from the enter_exchange action
+# 1. Click the Grand Exchange Clerk
+# 2. Click continue
+# 3. Click "I'd like to setup a trade offer"
+# 4. Click continue
+
+# the buy_from_grand_exchange action is used to build the sell action (only step 5 is different)
+5. Click one of the "Sell offer" Icons  # this is the different step compared to buy_from_grand_exchange action
+6. Type the item name + Enter
+7. Click the "..." to set quantity
+8. Type quantity + Enter
+9. Click the "..." to set price
+10. Type price + 
+11. Click confirm
+
+# these are the steps of the action leave_exchange
+# 12. Click cross to exit exchange

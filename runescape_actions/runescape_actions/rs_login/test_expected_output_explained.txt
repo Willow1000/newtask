@@ -1,0 +1,18 @@
+the idea and the reason this file exists:
+ this exists because when I open the test output images and when I see something strange, like a missing file or a black image, for some unpredictable reason, 
+  I want it to be properly documented and explained why that is happening
+
+ 
+TODO:
+  add plugin warning window verifications (step 1 and 2 images) 
+  step 2,3 are still incomplete, I require to be able to reproduce those problems in order to take the pictures, these 
+   problems are only reproducible when an update is released
+    I need to send a discord notification in the 'check' field
+
+EXPECTED OUTPUT:
+  step 8 is ignored, since it's a union step
+  step 12 is expected to have failures, since it tests against multiple different test images
+  step 13 is expected to have failures, since it's a jump step and tests multiple verify images
+  step 17, 19, 20 is expected to be ignored, tests keyboard
+  step 20 always jumps, so it's not expected to produce output
+

@@ -1,0 +1,3 @@
+InitialColor: color_river
+FinalColor: FF3498DB
+ColorPattern: (FF2980B9,FF1ABC9C,FF16A085)

@@ -1,0 +1,4 @@
+color_ditch: FFA93AB6
+color_river: FFA93AB7
+color_forest: FFA93AB8
+blabla: FFA93AB7

@@ -1,0 +1,11 @@
+withdraw_bank
+runescape
+
+1. Click the banker
+2. Click the "continue" option
+3. Click the "access my bank account option
+4. Right Click on an Item
+5. Click Withdraw_x
+6. Type ammount
+7. Click enter
+8. Click the cross to leave bank

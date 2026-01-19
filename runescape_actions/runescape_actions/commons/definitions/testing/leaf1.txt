@@ -1,0 +1,3 @@
+InitialColor: color_ditch
+FinalColor: FFA93AB5
+ColorPattern: (FFDF808E,FFE54B62,FFE5213F)

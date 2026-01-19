@@ -1,0 +1,6 @@
+toggle_run_test
+runescape
+
+1. Check if it is already toggled (if yes skip to final step 3)
+2. Click boots
+3. blank step (only used for step 1 to be able to jump to)

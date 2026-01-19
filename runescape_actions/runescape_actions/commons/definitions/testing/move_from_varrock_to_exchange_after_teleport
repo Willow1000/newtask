@@ -1,0 +1,5 @@
+# TODO: this goes into the movements/ directory, outside of this directory
+ 
+InitialColor: FFFF2200
+FinalColor: FFDA50D7
+ColorPattern: (FF330000,FF4AF489,FFFA00F3)

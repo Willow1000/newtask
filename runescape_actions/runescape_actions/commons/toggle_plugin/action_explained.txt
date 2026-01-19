@@ -1,0 +1,6 @@
+toggle_plugin
+runescape
+
+1. Click the screwdriver icon
+2. Type plugin name in the search box
+3. Click the toggle button next to plugin name

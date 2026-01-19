@@ -1,0 +1,7 @@
+entity_hider
+runescape
+
+1. Click Screwdriver (configuration)
+2. Search "Entity Hider"
+3. Toggle on the plugin (if already on skip to step 4)
+4. Cleanup_plugin

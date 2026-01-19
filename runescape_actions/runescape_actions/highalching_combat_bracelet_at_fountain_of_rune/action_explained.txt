@@ -1,0 +1,16 @@
+highalching_combat_bracelet_at_fountain_of_rune_setup
+runescape
+
+1. withdraw (combat bracelet)
+2. move to (underwall tunnel)
+3. select (underwall tunnel)
+4. climb-down (underwall tunnel)
+5. move to (wilderness ditch)
+6. select (wilderness ditch)
+7. click cross wilderness ditch
+8. click enter wilderness
+9. move to (fountain of rune)
+10. select (spellbook) 
+11. select (level 55: high level alchemy)
+12. select (combat bracelet)
+14. select (teleport to varrock) 

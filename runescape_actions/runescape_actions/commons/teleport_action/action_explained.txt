@@ -1,0 +1,7 @@
+teleport_to_grand_exchange
+runescape
+
+1. go to spells
+2. teleport to city
+3. move to grand exchange with the appropriate movement
+

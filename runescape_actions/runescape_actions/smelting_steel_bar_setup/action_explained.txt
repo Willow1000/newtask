@@ -1,0 +1,10 @@
+smelting_steel_bar_setup
+runescape
+
+1. highlight (grand exchange clerk)
+2. buy (iron ore x 500)
+3. buy (coal x 1000)
+3. Highlight (banker)
+4. Deposit (iron ore x 500)
+5. Deposit (coal x 1000)
+6. deposit (coins)

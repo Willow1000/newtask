@@ -1,0 +1,14 @@
+{
+  "id": "trade_at_exchange",
+  "session_order": ["trade_at_exchange"],
+  "sessions_to_run": {
+    "sessions": {
+      "trade_at_exchange": {
+        "action_name_list": ["trade_at_exchange"],
+        "config_required_in_app": "buy_sell_config",
+        "append_log_path": "trade_at_exchange"
+      }
+    }
+  }
+}
+

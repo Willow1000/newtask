@@ -1,0 +1,12 @@
+cooking_raw_anchovies_setup
+runescape
+
+1. Inventory (tinderbox) 
+2. highlight npc (grand_exchange_clerk)
+3. buy (3)(logs), (78)(raw_lobster)
+4. highlight npc (banker)
+5. deposit (all_coins)
+6. deposit (all_logs)
+7. deposit (all_raw_anchovies)
+8. withdraw (1)(logs)
+9. withdraw (26)(raw_anchovies)

@@ -1,0 +1,10 @@
+smelting_bronze_bar_setup
+runescape
+
+1. Highlight (grand exchange clerk)
+2. Buy (Tin Ore x 800)
+3. Buy (Copper Ore X 800)
+4. Highlight (banker)
+5. Deposit  (Coins) 
+6. Deposit (Tin Ore)
+7. Deposit (Copper Ore) 

@@ -1,0 +1,25 @@
+SMELTING_IRON_BAR
+runescape
+
+1. highlight (grand exchange clerk)
+2. buy (iron ore x 140)
+3. buy (ruby ring x 1)
+4. Walk to Tile FFFF00E7
+5. highlight (murky matt (runes))
+6. Select deal in rings of forging
+7. equip (Rings of forging)
+8. Move to banker
+9. Highlight (banker)
+10. Deposit (iron ore x 140)
+11. deposit (coins)
+12. move to (edgeville banker)
+13. Highlight (banker)
+14. Withdraw (iron ore x 28)
+15. walk to edgeville furnace
+16. Highlight (furnace)
+17. Smelt (iron bar)
+18. Move to banker 
+19. highlight (banker)
+20. Deposit (iron bar)
+21. Withdraw (iron ore x 28)
+22. repeat 16 to 21 

@@ -1,0 +1,26 @@
+rs_login
+runescape
+new_plugin_list: 
+
+# this is an example, it doesnt have to be so explainy, but it should be clear enough to understand, so it is expected for this 
+ # to be quite descriptive, I want to know what is happening without having to read the action_description.py file
+  # notice that this is not meant to translate 1 to 1 against the steps in action_description.py
+# never forget the 3rd line: new_plugin_list: in case you had to setup a new plugin in your action, and you will also have 
+ # to add a "sub" action that will setup that plugin
+
+1. verify if rs app requires update
+2. accepts terms of service
+3. checks for warning message
+4. press existing user
+5. press change world
+6. --loop-- find image in worlds for current user account
+7. move mouse randomly (to avoid messing up template matching)
+8. choose world
+9. loop to 6 until correct world is chosen
+10. --loop-- write user credentials
+11. enter credentials
+12. wait for login
+13. if login fails, press try again, delete previous inputted login
+14. loop to 10 until login is successful
+15. when login succedes press ok on popup unable_to_open_link_ok_button, press click_here_to_play_button and u are ingame
+

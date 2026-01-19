@@ -1,0 +1,6 @@
+move_to
+runescape
+
+1. move to color1
+2. move to color2
+3. move to color3 (if color 3 != finalColor, jump to step 1)

@@ -1,0 +1,15 @@
+SMELTING_STEEL_BAR
+runescape
+
+1. action setup
+2. move to (edgeville banker)
+3. Highlight (banker)
+4. Withdraw (iron ore x 9)
+5. Withdraw (coal x 18)
+6. Move to Furnace
+7. Highlight (furnace)
+8. Smelt (steel bar)
+9. Move to banker 
+10. highlight (banker)
+11. Deposit (Steel bar)
+12. repeat 9 to 16 
