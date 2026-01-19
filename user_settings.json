@@ -1,0 +1,36 @@
+{
+  "5929851207": {
+    "routes": {
+      "3558822452": [
+        "testforwarding11341"
+      ]
+    },
+    "forwarding": true,
+    "disabled_routes": {},
+    "available_channels": {
+      "3558822452": {
+        "id": 3558822452,
+        "title": "Testforws1",
+        "username": null,
+        "participants_count": 1,
+        "is_megagroup": false,
+        "access_hash": -3666262705789752321
+      },
+      "testforwarding11341": {
+        "id": 3650648201,
+        "title": "Testforws",
+        "username": "testforwarding11341"
+      }
+    },
+    "required_keywords": [],
+    "blocked_keywords": [],
+    "allowed_media_types": [
+      "photo",
+      "video",
+      "audio",
+      "document",
+      "sticker",
+      "text"
+    ]
+  }
+}

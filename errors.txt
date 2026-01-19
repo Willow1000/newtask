@@ -1,0 +1,327 @@
+[2026-01-16 18:12:15] ERROR: Could not edit message: 🏠 <b>Main Menu</b>
+
+📊 <b>Your Current Setup:</b>
+• 📋 Selected Channels: 0
+• 🔄 Active Routes: 0
+• ⚡ Forwarding: ❌ OFF
+
+💡 <b>Quick Actions:</b>
+Use the buttons below to manage your setup!
+[2026-01-16 18:12:15] EXCEPTION: Timed out
+[2026-01-16 18:12:15] EXCEPTION TYPE: TimedOut
+--------------------------------------------------
+[2026-01-16 18:16:44] ERROR: Could not edit message: 📋 <b>Browse Channels</b>
+
+Found <b>24</b> channels/groups you're a member of.
+Currently selected: <b>2</b> channels
+
+💡 <b>Click on channels to select/deselect them</b>
+Selected channels will be marked with ☑️
+[2026-01-16 18:16:44] EXCEPTION: Timed out
+[2026-01-16 18:16:44] EXCEPTION TYPE: TimedOut
+--------------------------------------------------
+[2026-01-16 18:17:51] ERROR: Error handling route management menu for user 5929851207
+[2026-01-16 18:17:51] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 18:17:51] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 18:17:58] ERROR: Error handling route management menu for user 5929851207
+[2026-01-16 18:17:58] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 18:17:58] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 18:17:58] ERROR: Could not edit message: ❌ An error occurred while loading route management.
+[2026-01-16 18:17:58] EXCEPTION: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2026-01-16 18:17:58] EXCEPTION TYPE: BadRequest
+--------------------------------------------------
+[2026-01-16 18:19:59] ERROR: Error handling route management menu for user 5929851207
+[2026-01-16 18:19:59] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 18:19:59] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 18:20:06] ERROR: Error processing message for user 5929851207
+[2026-01-16 18:20:06] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 18:20:06] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 18:21:08] ERROR: Error handling route management menu for user 5929851207
+[2026-01-16 18:21:08] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 18:21:08] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 18:21:34] ERROR: Error processing message for user 5929851207
+[2026-01-16 18:21:34] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 18:21:34] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 18:22:25] ERROR: Error processing message for user 5929851207
+[2026-01-16 18:22:25] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 18:22:25] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 18:22:32] ERROR: Error processing message for user 5929851207
+[2026-01-16 18:22:32] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 18:22:32] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 20:35:34] ERROR: Error handling route management menu for user 5929851207
+[2026-01-16 20:35:34] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 20:35:34] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 20:38:10] ERROR: Error handling route management menu for user 5929851207
+[2026-01-16 20:38:10] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 20:38:10] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 20:38:10] ERROR: Could not edit message: ❌ An error occurred while loading route management.
+[2026-01-16 20:38:10] EXCEPTION: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2026-01-16 20:38:10] EXCEPTION TYPE: BadRequest
+--------------------------------------------------
+[2026-01-16 20:39:06] ERROR: Error handling route management menu for user 5929851207
+[2026-01-16 20:39:06] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-16 20:39:06] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-16 20:39:07] ERROR: Could not edit message: ❌ An error occurred while loading route management.
+[2026-01-16 20:39:07] EXCEPTION: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2026-01-16 20:39:07] EXCEPTION TYPE: BadRequest
+--------------------------------------------------
+[2026-01-17 11:22:49] ERROR: Error handling route management menu for user 5929851207
+[2026-01-17 11:22:49] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-17 11:22:49] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 17:36:18] ERROR: Error listing routes for user 5929851207
+[2026-01-17 17:36:18] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-17 17:36:18] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 17:36:27] ERROR: Error handling route management menu for user 5929851207
+[2026-01-17 17:36:27] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-17 17:36:27] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 17:36:29] ERROR: Error handling route management menu for user 5929851207
+[2026-01-17 17:36:29] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-17 17:36:29] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 17:36:29] ERROR: Could not edit message: ❌ An error occurred while loading route management.
+[2026-01-17 17:36:29] EXCEPTION: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2026-01-17 17:36:29] EXCEPTION TYPE: BadRequest
+--------------------------------------------------
+[2026-01-17 17:37:33] ERROR: Error handling route management menu for user 5929851207
+[2026-01-17 17:37:33] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-17 17:37:33] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 17:37:33] ERROR: Could not edit message: ❌ An error occurred while loading route management.
+[2026-01-17 17:37:33] EXCEPTION: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2026-01-17 17:37:33] EXCEPTION TYPE: BadRequest
+--------------------------------------------------
+[2026-01-17 17:37:44] ERROR: Error handling route management menu for user 5929851207
+[2026-01-17 17:37:44] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-17 17:37:44] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 17:38:03] ERROR: Error processing message for user 5929851207
+[2026-01-17 17:38:03] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-17 17:38:03] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 17:38:12] ERROR: Error processing message for user 5929851207
+[2026-01-17 17:38:12] EXCEPTION: 'list' object has no attribute 'items'
+[2026-01-17 17:38:12] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 18:14:14] ERROR: Could not edit message: 🔤 <b>Set Route-Specific Keywords</b>
+
+Configure keywords that apply ONLY to this route:
+
+✅ <b>Required Keywords</b> (1):
+niaje
+
+❌ <b>Blocked Keywords</b> (0):
+None
+
+💡 <b>How it works:</b>
+• These keywords apply ONLY to this route
+• They override global keyword settings for this route
+• Other routes use their own or global settings
+• Stickers are always forwarded (ignore keywords)
+
+Select an option:
+[2026-01-17 18:14:14] EXCEPTION: 'NoneType' object has no attribute 'edit_message_text'
+[2026-01-17 18:14:14] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 18:15:36] ERROR: Could not edit message: 🔤 <b>Set Route-Specific Keywords</b>
+
+Configure keywords that apply ONLY to this route:
+
+✅ <b>Required Keywords</b> (1):
+niaje
+
+❌ <b>Blocked Keywords</b> (0):
+None
+
+💡 <b>How it works:</b>
+• These keywords apply ONLY to this route
+• They override global keyword settings for this route
+• Other routes use their own or global settings
+• Stickers are always forwarded (ignore keywords)
+
+Select an option:
+[2026-01-17 18:15:36] EXCEPTION: 'NoneType' object has no attribute 'edit_message_text'
+[2026-01-17 18:15:36] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 18:41:26] ERROR: Error handling callback query: enhanced_select_target_testforwarding11341_0
+[2026-01-17 18:41:26] EXCEPTION: name 'show_keyword_options' is not defined
+[2026-01-17 18:41:26] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 18:41:55] ERROR: Error handling callback query: enhanced_select_target_testforwarding11341_0
+[2026-01-17 18:41:55] EXCEPTION: name 'show_keyword_options' is not defined
+[2026-01-17 18:41:55] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 18:45:56] ERROR: Could not edit message: ➕ <b>Add New Route</b>
+
+Create a new forwarding route from a source channel to a destination channel.
+
+📊 Available Channels: <b>2</b>
+
+💡 <b>How it works:</b>
+1. Select a source channel (where messages come from)
+2. Select a destination channel (where messages go to)
+3. The bot will forward messages between them
+4. No 'forwarded from' attribution
+5. Instant deletion and editing sync enabled
+
+Choose how you want to add the route:
+[2026-01-17 18:45:56] EXCEPTION: Timed out
+[2026-01-17 18:45:56] EXCEPTION TYPE: TimedOut
+--------------------------------------------------
+[2026-01-17 18:46:48] ERROR: Error handling callback query: enhanced_set_keywords
+[2026-01-17 18:46:48] EXCEPTION: name 'handle_enhanced_keyword_option' is not defined
+[2026-01-17 18:46:48] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 18:49:37] ERROR: Could not edit message: 🔤 <b>Set Route-Specific Keywords</b>
+
+Configure keywords that apply ONLY to this route:
+
+✅ <b>Required Keywords</b> (1):
+niaje
+
+❌ <b>Blocked Keywords</b> (0):
+None
+
+💡 <b>How it works:</b>
+• These keywords apply ONLY to this route
+• They override global keyword settings for this route
+• Other routes use their own or global settings
+• Stickers are always forwarded (ignore keywords)
+
+Select an option:
+[2026-01-17 18:49:37] EXCEPTION: 'NoneType' object has no attribute 'edit_message_text'
+[2026-01-17 18:49:37] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 18:53:01] ERROR: Error handling callback query: enhanced_back_to_keyword_setup
+[2026-01-17 18:53:01] EXCEPTION: name 'user_id' is not defined
+[2026-01-17 18:53:01] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 18:53:04] ERROR: Error handling callback query: enhanced_back_to_keyword_setup
+[2026-01-17 18:53:04] EXCEPTION: name 'user_id' is not defined
+[2026-01-17 18:53:04] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 18:53:06] ERROR: Error handling callback query: enhanced_back_to_keyword_setup
+[2026-01-17 18:53:06] EXCEPTION: name 'user_id' is not defined
+[2026-01-17 18:53:06] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 18:53:11] ERROR: Could not edit message: 🔤 <b>Set Route-Specific Keywords</b>
+
+Configure keywords that apply ONLY to this route:
+
+✅ <b>Required Keywords</b> (1):
+poa
+
+❌ <b>Blocked Keywords</b> (0):
+None
+
+💡 <b>How it works:</b>
+• These keywords apply ONLY to this route
+• They override global keyword settings for this route
+• Other routes use their own or global settings
+• Stickers are always forwarded (ignore keywords)
+
+Select an option:
+[2026-01-17 18:53:11] EXCEPTION: 'NoneType' object has no attribute 'edit_message_text'
+[2026-01-17 18:53:11] EXCEPTION TYPE: AttributeError
+--------------------------------------------------
+[2026-01-17 18:55:49] ERROR: Error handling callback query: enhanced_add_route
+[2026-01-17 18:55:49] EXCEPTION: name 'query_data' is not defined
+[2026-01-17 18:55:49] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 18:55:58] ERROR: Error handling callback query: enhanced_add_route
+[2026-01-17 18:55:58] EXCEPTION: name 'query_data' is not defined
+[2026-01-17 18:55:58] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 18:56:07] ERROR: Error handling callback query: enhanced_add_route
+[2026-01-17 18:56:07] EXCEPTION: name 'query_data' is not defined
+[2026-01-17 18:56:07] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 18:56:14] ERROR: Error handling callback query: enhanced_add_route
+[2026-01-17 18:56:14] EXCEPTION: name 'query_data' is not defined
+[2026-01-17 18:56:14] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 18:56:18] ERROR: Error handling callback query: enhanced_add_route
+[2026-01-17 18:56:18] EXCEPTION: name 'query_data' is not defined
+[2026-01-17 18:56:18] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 19:00:26] ERROR: Error handling callback query: enhanced_add_route
+[2026-01-17 19:00:26] EXCEPTION: name 'query_data' is not defined
+[2026-01-17 19:00:26] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 19:01:45] ERROR: Error handling callback query: enhanced_add_route
+[2026-01-17 19:01:45] EXCEPTION: name 'query_data' is not defined
+[2026-01-17 19:01:45] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 19:02:55] ERROR: Error handling callback query: enhanced_add_route
+[2026-01-17 19:02:55] EXCEPTION: name 'query_data' is not defined
+[2026-01-17 19:02:55] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 19:03:18] ERROR: Error handling callback query: enhanced_add_route
+[2026-01-17 19:03:18] EXCEPTION: name 'query_data' is not defined
+[2026-01-17 19:03:18] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-17 19:17:16] ERROR: Error handling callback query: enhanced_add_route
+[2026-01-17 19:17:16] EXCEPTION: name 'query_data' is not defined
+[2026-01-17 19:17:16] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-18 04:03:27] ERROR: Error handling callback query: add_keyword_required
+[2026-01-18 04:03:27] EXCEPTION: name 'query_data' is not defined
+[2026-01-18 04:03:27] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-18 04:03:48] ERROR: Error handling callback query: add_keyword_required
+[2026-01-18 04:03:48] EXCEPTION: name 'query_data' is not defined
+[2026-01-18 04:03:48] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-18 04:47:31] ERROR: Error handling callback query: select_route_for_keywords_3558822452->testforwarding11341_0
+[2026-01-18 04:47:31] EXCEPTION: name 'handle_route_keyword_selection' is not defined
+[2026-01-18 04:47:31] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-18 04:53:04] ERROR: Error handling callback query: edit_route_required_keywords
+[2026-01-18 04:53:04] EXCEPTION: name 'get_route_keyword_editing_keyboard' is not defined
+[2026-01-18 04:53:04] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-18 04:53:17] ERROR: Error handling callback query: edit_route_blocked_keywords
+[2026-01-18 04:53:17] EXCEPTION: name 'get_route_keyword_editing_keyboard' is not defined
+[2026-01-18 04:53:17] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-18 04:55:50] ERROR: Error handling callback query: add_route_keyword_required
+[2026-01-18 04:55:50] EXCEPTION: name 'handle_add_route_keyword_mode' is not defined
+[2026-01-18 04:55:50] EXCEPTION TYPE: NameError
+--------------------------------------------------
+[2026-01-19 09:01:25] ERROR: Could not edit message: 📋 <b>Browse Channels</b>
+
+Found <b>27</b> channels/groups you're a member of.
+Currently selected: <b>0</b> channels
+
+💡 <b>Click on channels to select/deselect them</b>
+Selected channels will be marked with ☑️
+[2026-01-19 09:01:25] EXCEPTION: Timed out
+[2026-01-19 09:01:25] EXCEPTION TYPE: TimedOut
+--------------------------------------------------
+[2026-01-19 09:06:21] ERROR: Error handling callback query: toggle_channel_3650648201_1
+[2026-01-19 09:06:21] EXCEPTION: Timed out
+[2026-01-19 09:06:21] EXCEPTION TYPE: TimedOut
+--------------------------------------------------
+[2026-01-19 09:06:41] ERROR: Could not edit message: 📋 <b>Browse Channels</b>
+
+Found <b>27</b> channels/groups you're a member of.
+Currently selected: <b>1</b> channels
+
+💡 <b>Click on channels to select/deselect them</b>
+Selected channels will be marked with ☑️
+[2026-01-19 09:06:41] EXCEPTION: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2026-01-19 09:06:41] EXCEPTION TYPE: BadRequest
+--------------------------------------------------
