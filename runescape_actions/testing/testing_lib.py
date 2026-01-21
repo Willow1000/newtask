@@ -29,9 +29,16 @@ color_code_dictionary = {
     "others": {"color_name": "blue", "value": (255, 0, 0)},
 }
 
+manually_set_precision = 0.6  # default is 0.6
+
 class NoComponentError(Exception):
     """Error raised when verification component is missing."""
     pass
+
+
+def set_global_precision(precision: float):
+    global manually_set_precision
+    manually_set_precision = precision
 
 
 def create_directory_if_not_exists(directory_path):
@@ -62,11 +69,15 @@ def build_action_sreenshot_path(action_name):
 
 
 def build_icon_image(action_screenshot_path, icon_image):
-    global parent_action_name_g 
-    icon_image_in_main_path = f'{action_screenshot_path}/{icon_image}'
-    if not os.path.exists(icon_image_in_main_path): 
-        icon_image_in_main_path = f'{ parent_action_name_g }/all_action_files/screenshots/{ icon_image }'
-        return icon_image_in_main_path 
+    global parent_action_name_g
+    if icon_image.startswith('all/'): 
+        common_photos_path = "./runescape_actions/runescape_actions/commons/0common_photos/" 
+        icon_image_in_main_path = f"{ common_photos_path }/{ icon_image[4:] }"
+    else:
+        icon_image_in_main_path = f'{action_screenshot_path}/{icon_image}'
+        if not os.path.exists(icon_image_in_main_path): 
+            icon_image_in_main_path = f'{ parent_action_name_g }/all_action_files/screenshots/{ icon_image }'
+            return icon_image_in_main_path 
     return icon_image_in_main_path
       
 
@@ -110,8 +121,8 @@ def test_image_against_test_image(element_args, icon_image, background_images_to
     return: report string
     '''
     global parent_action_name_g
+    global manually_set_precision
      
-    minimum_required_precision = 0.6
     action_screenshot_path = build_action_sreenshot_path(action_name)
     background_images_to_find_icon_in_list, unique_background_images = \
         build_background_images_to_find(action_screenshot_path, background_images_to_find_icon_in_list)
@@ -119,7 +130,7 @@ def test_image_against_test_image(element_args, icon_image, background_images_to
     report, match_result = compare_icon_to_image_list(
         icon_image, background_images_to_find_icon_in_list, 
         algorithm='template_match',
-        precision=minimum_required_precision 
+        precision=manually_set_precision 
     )
     # match_result is a tuple with: (match_result_x, match_result_y, precision) 
     action_name_dir = action_name.split('/')[-1].split('.')[0]
@@ -161,7 +172,7 @@ def test_image_against_test_image(element_args, icon_image, background_images_to
     color = color_code_dictionary[test_element_type]["value"]
 
     for background_image in background_images_to_find_icon_in_list:
-        if precision > minimum_required_precision: 
+        if precision > manually_set_precision: 
             report += draw_cross(background_image, output_image_path, match_coords, color=color)
             report += draw_cross(background_image, first_output_dir, match_coords, color=color)
         else:
@@ -175,7 +186,7 @@ def test_image_against_test_image(element_args, icon_image, background_images_to
             parent_action = os.path.basename(parent_action_name_g.rstrip(os.sep))
             out_path = f'local_test_output/{parent_action}/unique_images_for_this_test/'
             new_out_path = f'{out_path}/{output_image_path.split("/")[-1]}'
-            if precision > minimum_required_precision:
+            if precision > manually_set_precision:
                 report += draw_cross(background_image, new_out_path, match_coords, color=color)
             else:
                 # I want to know if the image was not found

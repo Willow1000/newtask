@@ -12,6 +12,7 @@ from matplotlib.pyplot import step
 from runelite_cv.testing import draw_cross
 from .testing_lib import save_all_pngs_to_output_path
 from .testing_lib import save_all_unique_pngs_to_output_path
+from .testing_lib import set_global_precision
 
 
 """
@@ -38,7 +39,9 @@ class Test(ABC):
         actions_project_path="",
         testing_lib_path="",
         parent_action_base_path=None,
+        minimum_image_precision="0.6",
     ):
+        set_global_precision(float( minimum_image_precision ))
         self.current_action_list_projects_path = current_action_list_projects_path
         self.actions_project_path = actions_project_path
         self.testing_lib_path = testing_lib_path
@@ -50,7 +53,7 @@ class Test(ABC):
         self.unique_background_images: list[str] = list()
 
         # this step_id_ran_cnt just counts how many times a step has been ran 
-        self.highlight_steps_ran_num = self.highlight_steps_ran_num + 1
+        self.highlight_steps_ran_num = 0
         self.step_id_ran_cnt = {
             'default': 0,
         }
@@ -215,7 +218,8 @@ class Test(ABC):
          
         self.highlight_steps_ran_num = self.highlight_steps_ran_num + 1
         mock_arg_dict_by_test_element:dict = self.mock_highlight_args(args_to_func_received)
-        mock_ret = mock_arg_dict_by_test_element.get(test_element, mock_arg_dict_by_test_element['default'])
+        test_element = f"{test_element}_{self.highlight_steps_ran_num}"
+        mock_ret = mock_arg_dict_by_test_element.get(test_element, mock_arg_dict_by_test_element[f"default_{self.highlight_steps_ran_num}"])
         color_list = mock_ret['highlight_color']
          
         output_str = f'log for highlights step:\ninput_image_path: {input_image_path}\n' 

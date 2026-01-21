@@ -10,8 +10,10 @@ TODO:
     I need to send a discord notification in the 'check' field
 
 EXPECTED OUTPUT:
-  step 8 is ignored, since it's a union step
-  step 12 is expected to have failures, since it tests against multiple different test images
+  step id: "random_movement_for_check_world_step" is ignored, since it's a union step
+  step id: "loop_until_world_selected" is a loop, the first image iteration of the loop is expected to fail, 
+   since the world was not selected yet, however, all subsequent iterations are expected to pass, however, this assumes 
+    that the precision is as is in the step's description, if precision is lowered the first image will be able to match a wrong image
   step 13 is expected to have failures, since it's a jump step and tests multiple verify images
   step 17, 19, 20 is expected to be ignored, tests keyboard
   step 20 always jumps, so it's not expected to produce output

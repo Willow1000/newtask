@@ -73,12 +73,6 @@ step_0 = {
         get_action_picture_by_name("accept_terms"),
     ],
     "verify_mode": "verify_once",
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("initial_screen_for_rs_app_didnt_appear_yet"),
-            "replay_input": {"replay_type": "mouse", "coords": None},
-        },
-    ],
     "extra_test_info": {
         "end_mock_image_list": [
             get_test_picture_by_name("test_existing_user"),
@@ -120,43 +114,10 @@ step_1 = {
     "id": "verify_if_rs_app_requires_update",
 }
 
-# this is meant to be repeated with step 4
 step_2 = {
-    "check": get_action_picture_by_name("terms_of_service"),
-    "verify": get_action_picture_by_name("terms_of_service"), 
-    "reverse_verification": True,
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("terms_of_service_test_screen"),
-            "replay_input": {"replay_type": "mouse", "coords": None},
-        },
-    ],
-    "extra_test_info": {
-        "end_mock_image_list": [get_test_picture_by_name("test_existing_user")],
-    },
-    "processor_info": {
-        "processor_type": {
-            "check": "template_match",
-            "verify": "template_match",
-        },
-    },
-    "replay_info": {
-        "click_info": {
-            "click_type": "click",
-            "number_clicks": 1,
-        },
-    },
-    "id": "accepts_terms_of_service",
-    "error_limit": None,
-}
-
-step_3 = {
     "check": get_action_picture_by_name("plugin_warning_msg"),
     "verify": get_action_picture_by_name("plugin_warning_msg"), 
     "reverse_verification": True,
-    "extra_test_info": {
-        "end_mock_image_list": [get_test_picture_by_name("test_existing_user")],
-    },
     "processor_info": {
         "processor_type": {
             "check": "template_match",
@@ -173,7 +134,7 @@ step_3 = {
     "error_limit": None,
 }
 
-step_3_5 = {
+step_3 = {
     "check": get_action_picture_by_name("OK_button_for_unable_to_open_link_message"),
     "verify": [get_action_picture_by_name("OK_button_for_unable_to_open_link_message")],
     # need the accept_terms_test_screen image to be added to the test images
@@ -184,7 +145,9 @@ step_3_5 = {
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
-    "verify_mode": "verify_once",
+    "extra_test_info": {
+        "end_mock_image_list": [get_test_picture_by_name("press_ok_and_the_link_will_be_copied_after_loign_screen")],
+    },
     "processor_info": {
         "processor_type": {
             "check": "template_match",
@@ -214,7 +177,6 @@ step_4 = {
     "extra_test_info": {
         "end_mock_image_list": [get_test_picture_by_name("test_existing_user")],
     },
-    "verify_mode": "verify_once",
     "processor_info": {
         "processor_type": {
             "check": "template_match",
@@ -242,7 +204,6 @@ step_4_5 = {
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
-    "verify_mode": "verify_once",
     "processor_info": {
         "processor_type": {
             "check": "template_match",
@@ -447,10 +408,6 @@ step_10 = {
                 "replay_type": "NA",
                 "word_to_write": None,
             },
-            # reply_to_server set to False means no message will be sent to server to continue
-            #  to the next step, this is used when you dont have to send anything to the server,
-            #   for that specific test in that step, it's not exactly the same as not setting the
-            #    'test' field
         },
     ],
     "extra_test_info": {
@@ -469,18 +426,20 @@ step_10 = {
         "verify_args": [
             # this is a list, because it's a set of args per verification image, and there can be more
             #  than one verification image, in this case, the corresponding element from this list
-            #   to the image in the 'verify' field would the second element, because the failure
-            #    elements count first in the verification step
+            #   to the image in the 'verify' field would the first element
             {
                 # the default precision is 0.8, but you can change it here
                 "precision_required": 0.9,
-                #  due to this image being repeated (there is a bunch of ***),
+                # for reference on what this does:
+                #  example: whenever an image is being repeated (not the case here, but just for reference),
                 #  it's better to lower this precision because the template matching will not be so sure
                 #   where to find the image, but since we want whatever repetition there may exist we can
                 #    lower the precision and it will be fine, the idea is that
                 #     a repeating image found will lower precision (obviously)
                 #      this may become more apparent after testing, but usually you just want
                 #       to use a different image, because a lower precision will mean the image repeats
+                #        therefore, if there is 5 images of the same thing on screen, but we still want to press one of them 
+                #         we have to lower this precision
             },
         ],
     },
@@ -532,29 +491,10 @@ step_12 = {
             "check": "xdot_keyboard_processing",
             "verify": "template_match",
         },
-        "verify_args": [
-            # this is a list, because it's a set of args per verification image, and there can be more
-            #  than one verification image, in this case, the corresponding element from this list
-            #   to the image in the 'verify' field would the second element, because the failure
-            #    elements count first in the verification step
-            {
-                # the default precision is 0.8, but you can change it here
-                "precision_required": 0.65,
-                #  due to this image being repeated (there is a bunch of ***),
-                #  it's better to lower this precision because the template matching will not be so sure
-                #   where to find the image, but since we want whatever repetition there may exist we can
-                #    lower the precision and it will be fine, the idea is that
-                #     a repeating image found will lower precision (obviously)
-                #      this may become more apparent after testing, but usually you just want
-                #       to use a different image, because a lower precision will mean the image repeats
-            },
-        ],
     },
     "id": "send_creds",
 }
 
-# must wait because a jump step instantly jumps if the UI hasnt updated accordingly (ignoring the if clause)
-#  a common example of awaiting until the image exists and then using the image in a decision
 step_12_2 = {
     "check": none_step_verify,
     "verify": [
@@ -574,7 +514,9 @@ step_12_2 = {
 
 step_13 = {
     "jump": {
-        # (it jumps if the condition in verify is false)
+        # (remember: it jumps if the condition in verify is false, so we flipped it with reverse_verification, now it jumps 
+        #  if the verify is true(the images exist))
+        # therefore, now we have: if any of the images exist, it will jump
         "step_num": "enter_game",
         "verify": [
             get_action_picture_by_name("click_here_to_play_button"),
@@ -592,16 +534,12 @@ step_13 = {
                 "replay_type": "NA",
                 "word_to_write": None,
             },
-            # reply_to_server set to False means no message will be sent to server to continue
-            #  to the next step, this is used when you dont have to send anything to the server,
-            #   for that specific test in that step, it's not exactly the same as not setting the
-            #    'test' field
         },
     ],
     "extra_test_info": {
         "loop_info": {
             "num_iterations": 2,
-            "img_after_loop": get_test_picture_by_name("test_login_success"),
+            "img_after_loop": get_test_picture_by_name("pre_login_screen"),
         },
     },
     "processor_info": {
@@ -789,17 +727,9 @@ step_21 = {
 # login (actually enters the game)
 step_22 = {
     "check": get_action_picture_by_name("click_here_to_play_button"),
-    "verify": [ get_action_picture_by_name("inventory"), get_action_picture_by_name("inventory_pressed") ],
+    "verify": [ get_action_picture_by_name("all/dashboard/menu/inventory"), get_action_picture_by_name("all/dashboard/menu/inventory_pressed") ],
     "verify_mode": "verify_once",
     "test": [
-        # {
-            # I set this one in the next step, for verify, instead of setting it here
-            # "mock_image": get_test_picture_by_name("test_login_success"),
-            # "replay_input": {
-                # "replay_type": "keyboard",
-                # "word_to_write": None,
-            # },
-        # },
         {
             "mock_image": get_test_picture_by_name("pre_login_screen"),
             "replay_input": {
@@ -824,12 +754,15 @@ step_22 = {
 }
 
 # final step, always add a final step, this is for the if else cases
-# final step should take a "test" field, this is because by default the previous step uses the next step "test" field to be able to test its steps
 final_step = {
     "check": none_step_verify,
     "verify": none_step_verify,
     "id": "rs_login_final_step",
     "test": [
+        # this test field in the final step, is not testing anything in the final step, it's useful only to test the "verify" 
+        # of the previous step, there is a better way to test the "verify" field, by using the: "extra_test_info" field, which is 
+         # "extra_test_info" main use, however, this was left here for reference and backwards compatibility, you should always 
+          # use "extra_test_info" field to test the "verify" field
         {
             "mock_image": get_test_picture_by_name("test_login_success"),
             "replay_input": {
@@ -850,10 +783,9 @@ action_ordered_steps = [
     step_0,
     step_1,
     step_2,
-    step_3,
-    step_3_5, # step_3_5 and step_4_5 are the same on purpose 
+    step_3, # step_3 and step_4_5 are the same on purpose 
     step_4,
-    step_4_5, # step_3_5 and step_4_5 are the same on purpose
+    step_4_5, # step_3 and step_4_5 are the same on purpose
     step_5,
     step_6,
     step_7,
@@ -877,6 +809,9 @@ action_ordered_steps = [
     final_step,
 ]
 
+# StepManipulator is very useful and should always be present at the end, it just changes the step ids and makes them 
+ # unique per action, this is useful, cause some actions have other actions inside them more than once, and this would repeat 
+  # the step ids, causing many many problems
 StepManipulator(
     action_ordered_steps, 
     current_action_id,
