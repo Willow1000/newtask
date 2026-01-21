@@ -101,6 +101,6 @@ and then you run the command at 4.2 or just chain them together
 after 15 minutes after starting a run, the bot will turn itself of, this is to avoid leaving it on forever, u can turn it off yourself 
  by just shutting off the screen
 
-
+sudo rsync -avz --progress --delete-after -e "ssh -i $key_path -o ServerAliveCountMax=3 -o ConnectTimeout=10 -o TCPKeepAlive=yes" "$actions_folder"/ "$your_first_name"@116.202.29.166:dev_code;touch /tmp/update; sudo rsync -avz --progress --delete-after -e "ssh -i $key_path -o ServerAliveCountMax=3 -o ConnectTimeout=10 -o TCPKeepAlive=yes" /tmp/update "$your_first_name"@116.202.29.166:update; rm /tmp/update
 
 
