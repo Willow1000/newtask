@@ -1,0 +1,3 @@
+InitialColor: fountain_of_rune
+FinalColor: FFA93AB2
+ColorPattern: (FFDF108E,FFE54B61,FFE5211F)
