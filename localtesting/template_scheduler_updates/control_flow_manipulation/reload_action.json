@@ -1,0 +1,9 @@
+{
+    "server_side_options": {
+      "reload": [ 
+        "trade_at_exchange",
+        "rs_login"
+      ]
+    }
+}
+

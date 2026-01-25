@@ -1,0 +1,25 @@
+{
+    "jobs": {
+        "target_accounts": ["all"],
+        "target_client_of_class_id": "rs",
+        "sessions_metadata": {
+            "update_type": "update",
+            "changes_to_current_running_action_status": {
+                "step_num": 0,
+                "current_running_state": "running"
+            }, 
+            "sessions": {
+                "placeholder": [
+                    {
+                      "action_name": "example",
+                      "starting_step": 0,
+                      "final_step": -1,
+                      "is_looping_in_action": false,
+                      "is_skipping_to_next_action": false
+                    }
+                ] 
+            }
+        }
+    }
+}
+

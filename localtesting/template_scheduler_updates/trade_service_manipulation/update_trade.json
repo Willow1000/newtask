@@ -1,0 +1,13 @@
+{
+  "trade_updates": {
+    "trade_ids": {
+      "trade_id_placeholder": {
+        "target_accounts": ["all"],
+      },
+      "trade_id_placeholder": {
+        "target_accounts": ["all"],
+      }
+    }
+  }
+}
+
