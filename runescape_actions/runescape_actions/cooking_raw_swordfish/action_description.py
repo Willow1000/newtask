@@ -77,7 +77,7 @@ action_ordered_steps = copy.deepcopy( cook_raw_swordfish )
 # Step 8: Deposit cooked swordfish (all)
 
 deposit_cooked_swordfish = get_deposit_all("cooked_swordfish", "test_swordfish")
-action_ordered_steps += deposit_cooked_swordfish
+action_ordered_steps += copy.deepcopy(deposit_cooked_swordfish)
 
 
 # final step, always add a final step, this is for the if else cases

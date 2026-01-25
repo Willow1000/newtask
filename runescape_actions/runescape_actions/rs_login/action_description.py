@@ -56,7 +56,7 @@ all_failure_elements = {
 
 time_limit = None  # time limit for this action (in minutes)
 current_action_id = "rs_login"
-app_config_id = "full_rs"  # each action may require a different set of configs from the app itself
+app_config_id = "initial-config"  # each action may require a different set of configs from the app itself
 context = "rs_ps"  # context to know what profile to use, what is this session related to, etc.
 
 # TODO: add plugin warning window verifications (step 1 and 2 images)

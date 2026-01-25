@@ -1,5 +1,6 @@
 import sys
 import os
+# remember that you must be inside the directory outside of runescape_actions for this to work
 
 sys.path.append(os.path.join(os.getcwd(), 'runescape_actions'))
 sys.path.append(os.path.join(os.getcwd(), 'LocallyAvailableActionTooling'))
@@ -8,10 +9,9 @@ from runescape_actions.commons.move_to.action_logic.movementParser import (
     parseFile,
     parsecolor,
 )
-
-projects_path = os.environ["CLIENT_MANAGER_PROJECTS_PATH"]
-runescape_actions_path = projects_path + "/runescape_actions"
-
+# remember that you must be inside the directory outside of runescape_actions for this to work
+runescape_actions_path = os.path.join(os.getcwd(), 'runescape_actions')
+# remember that you must be inside the directory outside of runescape_actions for this to work
 map_colors= {}
 
 map_colors = parsecolor(runescape_actions_path + "/runescape_actions/commons/definitions/testing/colors.txt", map_colors)

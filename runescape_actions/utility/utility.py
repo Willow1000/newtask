@@ -1,4 +1,6 @@
 import json 
+import inspect
+import ast
 
 
 
@@ -61,8 +63,65 @@ def load_raw_json_message_to_dict(raw_json_msg):
    json_msg = raw_json_msg.decode("ascii")
    return json_to_dict(json_msg)
 
+
+def find_variable_details() -> tuple:
+    """
+    finds the name of the first argument variable from two frames above
+     this is meant only to be called like in the following example:
+        def test_func(a):
+            print(find_variable_name())  # find_variable_name frame above var name is: "a" and two above it is: "test_var"
+        test_var = "test"
+        test_func() # prints test_var
+      **notice that there is NO argument, that's because it always gets the first argument
+    :returns tuple with (name of variable, line number, file name)
+    """
+    frame = inspect.currentframe()
+    try:
+        caller_frame = frame.f_back
+        caller_caller_frame = caller_frame.f_back
+
+        if caller_caller_frame is None:
+            return None
+
+        caller_lineno = caller_caller_frame.f_lineno
+        caller_filename = caller_caller_frame.f_code.co_filename
+        caller_function_name = caller_frame.f_code.co_name
+
+        with open(caller_filename, 'r') as f:
+            source = f.read()
+
+        # Parse the entire file
+        tree = ast.parse(source)
+
+        # Find the function call on the specific line
+        for node in ast.walk(tree):
+            if (isinstance(node, ast.Call) and
+                    hasattr(node, 'lineno') and
+                    node.lineno == caller_lineno):
+
+                # Check if this is a call to our caller function
+                if (isinstance(node.func, ast.Name) and
+                        node.func.id == caller_function_name and
+                        node.args):
+
+                    # Get the first argument (assuming that's what we want)
+                    first_arg = node.args[0]
+                    if isinstance(first_arg, ast.Name):
+                        return (first_arg.id, caller_lineno, caller_filename)
+
+        return None
+    except Exception:
+        return None
+    finally:
+        del frame
+
  
 def dictionary_readeable_print(temp_dict, exception_list=None, depth=0, is_printing=True):
+    temp_tup = find_variable_details()
+    if temp_tup:
+        var_name, line, file = temp_tup
+        print(f"dictionary readeable print called, with variable name: {var_name}, from line: {line}, from file: {file}")
+        print(f"search for: dictionary_readeable_print({var_name}), in file: {file}")
     ret_str = ""
     if depth == 0:
         ret_str += "\n"

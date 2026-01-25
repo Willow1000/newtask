@@ -1,5 +1,7 @@
 #runescape_actions
-# this repo is meant to work alongside another repo: LocallyAvailableActionTooling, you must have access to that repo, without access you can only test locally
+# please ignore the formatting in this documentation on github, after you pull the branch, read it in your local editor
+
+*this repo is meant to work alongside another repo: LocallyAvailableActionTooling, you must have access to that repo, without access you can only test locally
 ** creating a developer environment docs at: restricted_user_scripts/README.md (this is not for developers, it's for me)
 
 section I:
@@ -8,6 +10,7 @@ section I:
   1. will provide an overview of the basic elements, you should use the basic'este action here as an example, 
    that would be rs_login, it will also explain a bit of the scheduler (what you will be using to change 
     the state of what is running in real time), this is great to know, cause it will be your debugger
+   1.2. overview of everything and where to start
   2. overview of how the bot is meant to do things
   3. framework documentation (basic concepts and basic elements, ofc the full docs for this are in: reusable_actions/README.md)
    3.1 what is an action
@@ -24,7 +27,7 @@ section I:
     1.6 common step structure patterns (these are very important patterns you need to learn because they reappear often)
      *this part of the documentation will update often as more patterns start being more commonly used
      1.6.1 awaiting for an expected UI change to make a decision
-  5. overview of basic local testing
+  5. overview of local testing
   6. overview of how the action directory structure works
  section II: 
   1. how to build actions, what does each file do, etc.
@@ -39,6 +42,7 @@ section I:
    2.3 accessing the bot state (README_bot_status_api.md) 
    2.3.2 profile and accessing the profile
    2.3.3 accessing running bot status (main functionality you will want to know)
+   2.3.4 StepManipulator and step id naming
   3. testing your actions locally
    3.1 how to correctly test: which steps do I really need to test? 
    3.1.2 the test fields
@@ -46,14 +50,50 @@ section I:
    3.2.1 explaining local testing
    3.3 running Local tests
    3.4 analysing the output of local testing:
+   3.5 correctly setting precision for a step as you are testing
   4. live testing your actions on a running system
   5. putting actions together (the scheduler) 
    *how the scheduler works and what you can do with it  
     (the scheduler is what you use to send the live running bot some commands)
  section III:
   1. development phases
+  2. submitting a task for review
 
 
+1.2 overview of everything and where to start: 
+ the following gives you some instructions and steps on how/where to start, and some info on usually asked questions of what to do next?
+ *this section (1.2) is meant to guide you through the rest of the docs to a point where you can get started 
+  doing your own action (you will need more than a guide on where to get started to finish the action though)
+ clone the repos
+ follow the docs in: runescape_actions/readme.md
+ *the docs will also lead to videos explaining most sections
+ *make sure you keep an eye in the: #announcements_engineers channel, whenever there is an update, pull from testing branch and merge into your local branch
+  also you want to enable notifications on: frequently-asked-questions and information-engineers
+  and disable notifications on your -dev-channel, example thomas-dev-channel (that will be your id)
+
+ as you are analysing the docs/videos
+ you can try and analyse the actions that seem the most developed, which are: rs_login, cooking_raw_swordfish, in_game_pause
+
+ first thing you want to be able to do is: local test
+ try doing your local test with: rs_login like in the video, and 
+  afterwards cooking_raw_swordfish action, analyse the output a bit as you watch the corresponding video, 
+   make sure you understand everything and ask wahtever questions, this will be your first thing you will 
+    do in your own action you will be creating
+
+ after that you want to try and start your action, let me know and I will provide you with your first task
+
+ you need to be able to access your in game account I send you, and you need be able to access it through my system.
+ this is what I call the live test, which is how you run the bot.
+ this is section II.4 of the docs, you need to be able to connect to my vpn, and be able to receive back the screen in your machine.
+ Afterwards, you will be synchronizing your files with my remote server and  you will be able to run the bot.
+ This is required before you start your action, because you will be needing to take a few screenshots ingame, for that you need an account, for that you need to one of my accounts, and for that you need to be able to connect to my system this way.
+
+ after the above you are now able to start developing your action, take whatever screenshots you may require, and as you are creating your action, you are also able to local test
+ When you are closer to the finish line you will also be remote testing it live, by this point will 
+  also have wanted to watch the remote testing videos and using the scheduler example
+
+ remember after you are given your task the first phase is to make the bot do that task, whatever you require doing, there are several phases, each phase I will probably give you an idea of what to do, they all pay different and some will be harder than others
+  
 
 2. overview of how the bot is meant to do things
 videos explaining how some of the ingame tools will be used:
@@ -66,6 +106,10 @@ videos introducing you to the tasks, by explaining and refering to this document
 in the link: https://drive.google.com/drive/folders/1RVQaL-BnBDv8EjZ8WIyBhVkAxTLwQHn9?usp=sharing 
  you will see a few videos explaining how to develop, but you need to understand the ingame tools and how to use them, because the bot 
   will need to use them, these videos will refer to this documentation and these sections
+link to videos with the tasks:
+ *you will have your task and I will send those tasks to this link if I have anything on them, you just 
+  have to go into this folder and look for the task after we agree on your next task
+ https://drive.google.com/drive/folders/1a0Vj0o56GF4nO-AQ8QaCKqa0mVxSCLOG?usp=drive_link 
    
 3. framework documentation:
 first a conceptual explanation with some examples:
@@ -133,17 +177,17 @@ first a conceptual explanation with some examples:
       1.6.1 awaiting for an expected UI change to make a decision
       1.6.2 reusing an action in another action
   
- 5. overview of basic local testing
-  *for more information and more detailed info on local testing: section II: 3.1, 3.2, 3.3, 3.4
+ 5. overview of local testing
+  *for more and more detailed information on local testing: section II: 3.1, 3.2, 3.3, 3.4
   here we have an overview:
    it's simple to refer to the video to explain the output of the test and how the "test" fields work
    to understand how the test files work, we must go to section II, 3.1,...
   overview of action_tests.py 
-  comparing the test of an action with dependencies, with action without any dependencies:
+  comparing the action_tests.py file of an action with dependencies, with action without any dependencies:
    rs_login action (no dependencies) to cooking_raw_swordfish action (with dependencies)
   *depencies just means, an action that uses parts of another action, or another reusable action, due to limitations 
    the code for the test must take this into account, this will make more sense once you understand how to reuse an action 
-    a bit better
+    a bit better (section II.1.1)
  
  6. overview of how the action directory structure works
   to run the local tests, check: ( 3.3 running Local tests ) 
@@ -154,7 +198,6 @@ first a conceptual explanation with some examples:
    action_explained.txt, this file explains the steps and how your idea went on structuring the steps
    action_tests.py: see ( section III.3.2 ) testing and action_tests.py  
    test_expected_output_explained.txt: see section 3 as well
-    
   how to start:
    (see section II. 1.4 ) for a detailed overview
     
@@ -211,9 +254,32 @@ building actions:
       these are a rule of thumb, obviously it will depend from thing to thing
     in general separating these 3 phases is ideal, this way I can do the action setup phase for a few different actions in a row, 
      and then decide what to create first, and then I can have a single cleanup phase, depending on the situation
+    you have to imagine your task in the following way:
+     example: you have a cooking action, cook pizza. and your task is to subdivide it: lets subdivide it:
+      1. buy all requirements to cook 100000 pizzas, deposit them in bank
+       *abstract deposit to the bank(already done at this stage of the project) 
+       *same for buying stuff
+       may require moving to some specific spot (movement is very specific and will need to be done at a later stage)
+      2. cook 100000 pizzas
+       2.1 action that checks if everything is ready to start and withdraws from the bank, the requirements for 10 pizzas 
+        (we will be cooking 10 pizzas at a time)
+        * abstract withdrawing from the bank(already done at this stage of the project)
+        checking if everything is ready is very action specific, example: 
+         you can look at the inventory and see if everything that is there is supposed to be there
+        may require moving to some specific spot (movement is very specific and will need to be done at a later stage) 
+       2.2 subdivide into cooking (you can abstract cooking pizza into cooking, such that you can use the cooking action 
+        in the cooking pizza action and the cooking in any other cooking action, like cooking salmon, well if you abstracted a
+         cooking action correctly, you can now use it in the cooking pizza and the cooking salmon actions that you will do later!)
+       2.3 deposit the 10 pizzas to bank
+        *abstract the deposit (such that you can use deposit pizza, salmon, logs, wood, gold (this is already done at this stage))
+       **repeats to start of 2.
+      3. sell 100000 pizzas
+     *it seems harder than it is, the method above actually allows us to create several actions at once, we are essentially 
+      ideally we would be creating the actions for cooking pizza and salmon almoust simultaneously (this is just an example), 
+       but it is common to happen that two actions are super similar
 
  1.3 folder structure of a specific action
-  ( already explained in section I.6 )
+  ( already explained in section I.6, this was left here for reference )
  
  1.3.2 quick guide on how to take screenshots:
   *** you can use the scraper tool, to scrape the images of the internet, this is super useful for 
@@ -249,44 +315,58 @@ building actions:
   7. remember that before pushing the code to the repo: format the code with ruff, 
    using the settings in the ruff/ruff.toml file
   
- HOW TO CREATE THE action_explained.txt file:
+ 1.4.2 HOW TO CREATE THE action_explained.txt file:
   (you have to do it in a specific way to make sure it's easily parseable)
   *check rs_login action example:
   1. first line is action id: 'action_id'
   2. second line is app_id: 'app' (example: runescape)
   3. the optional line starting with: new_plugin_list: 'plugin1,plugin2', this is only for plugins
    you added on top of the basic plugins already set below (search for: basic plugin list), it's important you dont forget this one
-  4. all the lines starting with the step numbers, example:
-   1. selects something
-   2. selects something else
-   3. ...
-   *ideally these names would just be the step ids and the step ids would be descriptive enough and UNIQUE
-   each of the above step descriptions in its own line, if some of these steps are more complex,
-    you should add a TODO on them at the start, but still explain what they are supposed to do, example
+  4. all the lines starting with the descriptions of what you are trying to do, example:
    1. TODO: it's selecting the flower at the top right of the screen, out of all the seven flowers
    2. select shovel
    3. select ...
    this way, whoever is fixing this can have more detailed information, a line shouldnt have a TODO
     with no more information
+  but overall, and ideally the steps should just be descriptive, and remember to update them before you push as well, 
+   this is because once you are done with the action, the initial idea probably does not match the final solution
+
+ 1.4.3 action fields:
+  *these are fields specific for the whole action, they are variables within the action itself
+   example: in_game_pause action has all these fields there
+    time_limit = None  # time limit for this action (in minutes) (this is usually None)
+    current_action_id = "in_game_pause"
+    app_config_id = "initial-config"  # each action may require a different set of configs from the app itself
+     # the default that you should always use is: "initial-config" I will change this later if I must
+    context = "rs_ps"  # context to know what profile to use, what is this session related to, etc.
+     # you dont really want to change this, it should always be rs_ps
+    settings = {
+        "reloaded": False, # "reloaded" field means: every time we use this action we will reload it 
+         # this reloaded may be useful if the action has variables that we need to change at the start of the action, 
+          # everything that needs to change at the start of the action will change if set reloaded to True 
+           # this will usually be False, and the default is False
+    }
+    # settings are the settings for the action, this may change and if it changes further documentation will be added  
+   ** you will usually leave it as it is above, the only thing you will change is: current_action_id, everything else 
+    is quite specific and we will be talking if you need to change it
   
  2. developing using the framework
   this section is about developing your actions, and extra tools you can use to access internal states
  2.1 for documentation on what the step fields are reusable_actions/README.md:
-   1.3 all_failure_elements explained 
-   1.4 explaining the standalone fields in an action (this are elements not specific to any step or all the steps)
-   1.5 explaining all elements in a step
+   ( this is the same as section I.1.4 )
   
  after understanding how to build steps properly, we can move on
 
  2.2 creating 'custom' steps
+  *custom functionality for your steps, (this will be updated constantly as the project advances, it will require more and 
+   more functionality, that will most likely be shared by all)
   the basic functionality from 1. allows to create some interesting things, however, we are still missing custom functionality we  
    want to add in, to do this it is allowed to use custom functions in the 'check' and 'verify' fields, as mentioned above
   full information about building custom steps in file: README_bot_status_api.md
- 2.3 accessing the bot state (README_bot_status_api.md) 
+ (from: README_bot_status_api.md) 
+ 2.3 accessing the bot state
  2.3.2 profile and accessing the profile
  2.3.3 accessing running bot status (main functionality you will want to know)
-
-
 
  3. testing your actions locally
   3.1 how to correctly test: which steps do I really need to test?
@@ -363,6 +443,9 @@ building actions:
       this is for steps that you feel like need special explaining when looking at the local test results
        this will be the first thing I look at if something unexpected is happening in the local test results, 
         it is expected you have the common sense on how to write this properly after a while
+   in rs_login action we have an example of this file:
+    *that is just an example of what you can explain, the only REAL thing that you really need to explain in rs_login expected output 
+     file is the step id: "loop_until_world_selected", cause it explains the decision to increase base precision there
    
   3.2.1 explaining local testing
    the action_tests.py file of the cooking raw swordfish action is the one we will be looking at 
@@ -441,17 +524,25 @@ building actions:
 
 
   3.3 running Local tests
-   run a single test example:
-    cd "path_containing_your_runescape_actions_repo_path"; "venv_path"/python "runescape_actions_repo_path"/runescape_actions/rs_login/action_tests.py --current_action_list_projects_path="runescape_actions/" run
+   run a single test command example:
+    you must first set the environment variables: 
+     export CLIENT_MANAGER_PROJECTS_PATH="path of the directory containing the runescape_actions repo and the LocallyAvailableActionTooling repo"
+     export PATH_CONTAINING_COMMON_ACTION_FRAMEWORK="path of the directory containing the runescape_actions repo and the LocallyAvailableActionTooling repo"/runescape_actions/common_action_framework
+     and set them in your .bashrc (that's how you set environment variables in linux)
+     *it's better if you just have runescape_actions repo and the LocallyAvailableActionTooling repo in the same directory 
+    cd "path_containing_your_runescape_actions_repo_path"; "venv_path"/python ./runescape_actions/runescape_actions/rs_login/action_tests.py --current_action_list_projects_path="runescape_actions/" run
      you can also add:  --minimum_image_precision="0.8" argument as explained in ( section I.6 video), the default  --minimum_image_precision is 0.6
      "venv_path"/python: is your created venv path's python executable, 
       you probably created it following instructions from LocallyAvailableActionTooling/README.md 
      "runescape_actions_repo": self explanatory
      "path_containing_your_runescape_actions_repo_path" is the path the contains the directory with your runescape_actions repo
+   an example of running this command for action: cooking_raw_swordfish
+    cd "path_containing_your_runescape_actions_repo_path";
+    python .\runescape_actions\runescape_actions\cooking_raw_swordfish\action_tests.py --current_action_list_projects_path="runescape_actions/" run
        
 
   3.4 analysing the output of local testing:
-z   when in a composite action (an action composed from many other actions), the output is a bit more complex, the output usually 
+   when in a composite action (an action composed from many other actions), the output is a bit more complex, the output usually 
     goes into: "runescape_actions_repo_path"/local_test_output
      and we will be focusing on the following action's test output: local_test_output/cooking_raw_swordfish, which is a bit complex
     there will be a couple folders here: 
@@ -468,8 +559,19 @@ z   when in a composite action (an action composed from many other actions), the
      I suggest you open all the images in a photo viewer that has a slideshow and just slide throught them to check the output
      once the output is what you expect, just move on to live testing
   
+  3.5 correctly setting precision for a step as you are testing
+   as seen in the video, when testing the default precision should be 0.6, testing itself is a method to visualize better 
+    what precision may be required for a specific step in an action, to change this precision, we already know a bit of how it works: 
+     in rs_login action, step id: "loop_until_world_selected" we have an example, to have an idea about the precision we must 
+      analyse the output of the test, which you can find in the test output folder's directory: a file named: full_report_rs_login 
+       or you can just see the output of running the test in the terminal (as explained in 3.3 )
+   after having analysed the output and understanding the precision requirements as explained in the video, you must 
+    set the precision just like in the example in: "loop_until_world_selected" step, notice that the name of the field is different 
+     when setting the precision for the "verify" and "check" elements
+  
   4. live testing your actions on a running system:
-   take a look at AvailableActionTooling/README.md, it explains quite well what you need to do and all the requirements
+  TO START RUNNING YOUR ACCOUNT AND GET THE SCREEN OF THE APPLICATION BACK TO YOU:
+   take a look at ( LocallyAvailableActionTooling/README.md 4. ), it explains quite well what you need to do and all the requirements
    make sure you only run these tests after you are satisfied with your local tests
     these tests will not really have any output logs that you can see, and you wont be able to get much feedback other than 
      what you can see that is happening on screen
@@ -643,6 +745,15 @@ section III:
  5. fifth phase: error handling, possible errors, explaining possible errors and problems in files, and error fallback
   final thing to do: implementing your task into a scheduler task
 
+2. submitting a task for review 
+  we will be constatly talking through the process probably, but ideally I need:
+   a video of the bot running when you have 
+    finished up, so just send me the video in discord of the bot performing your action on the live test, after I see it 
+     I will review the code of your action, after it is reviewed you will be payed accordingly
+  **due to the nature of the project it's possible some tasks have to be left unfinished for a while in case something is 
+   missing to finish them up, in these cases we will have to subdivide the task and the payment must be reviewed, ideally 
+    the person who started a task will later finish it and get the rest of the payment, because it will be faster for them
+
 
 
 special considerations:
@@ -666,7 +777,7 @@ A: it will depend on the task, before you start the task we will talk about it, 
  we will figure out a better pricing for your next task.
  Remember that you always get paid for each task complete, and only when it is complete
 Q: there will be a video on some of the actions, some actions are already halfway completed, what to do in these cases?
-A: the purpose is to have te bot doing the whole task you need to bot, however, it may be that some tasks may be halfway through, but 
+A: the purpose is to have the bot doing the whole task you need to bot, however, it may be that some tasks may be halfway through, but 
  they may be wrong, therefore, you may need to just recreate everything or simply just adjust it, the idea is that before you start 
   the task you have a couple hours to see everything about the task, understand it and then have a quick call with me with a proper 
    plan on how to implement it, specially when you are starting out

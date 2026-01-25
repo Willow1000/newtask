@@ -159,12 +159,21 @@ example using functions:
     
 
 
- Step id naming:
+ 2.3.4 StepManipulator and step id naming:
   in common_action_framework/common_action_framework/common.py:
   StepManipulator is a class that is going to fix the step id namings, such that for every action, or if you use the same step
    twice when creating another action or something (meaning the step would have the same id), it will make sure that the step id 
     is unique, meaning it will append a bunch of things to the step ids, this should always be used the same way it is used in 
      rs_login action
+  an example from the rs_login action:
+    StepManipulator(
+        action_ordered_steps, 
+        current_action_id,
+        app_config_id,
+        context,
+    ).initialize_step_ids()
+   *this is always going to be the same, you always have to remember to set it at the end of any action
+    
    
    
   

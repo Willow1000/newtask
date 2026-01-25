@@ -9,12 +9,17 @@ TODO:
    problems are only reproducible when an update is released
     I need to send a discord notification in the 'check' field
 
+** the following is just an example of what you can explain, the only REAL thing that you really need to explain here is 
+ the step id: "loop_until_world_selected", cause it explains the increase in base precision decision made there
 EXPECTED OUTPUT:
   step id: "random_movement_for_check_world_step" is ignored, since it's a union step
   step id: "loop_until_world_selected" is a loop, the first image iteration of the loop is expected to fail, 
    since the world was not selected yet, however, all subsequent iterations are expected to pass, however, this assumes 
     that the precision is as is in the step's description, if precision is lowered the first image will be able to match a wrong image
-  step 13 is expected to have failures, since it's a jump step and tests multiple verify images
-  step 17, 19, 20 is expected to be ignored, tests keyboard
-  step 20 always jumps, so it's not expected to produce output
+  step id: "loop_until_login_successful" is expected to have failures, since it's a jump step and tests multiple verify images 
+  step ids: 
+    "delete_and_reinsert_pw",  
+    "delete_and_reinsert_username" 
+     are expected to be ignored, tests keyboard
+  step id:  "loop_to_retry_login" always jumps, so it's not expected to produce output
 
