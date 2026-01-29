@@ -38,7 +38,7 @@ all_failure_elements = {
 }
 
 time_limit = None  # time limit for this action (in minutes)
-current_action_id = "highalching_combat_bracelet_at_fountain_of_rune"
+current_action_id = "highalching_nature_rune"
 app_config_id = "full_rs"  # each action may require a different set of configs from the app itself
 context = "rs_ps"  # context to know what profile to use, what is this session related to, etc.
 
@@ -152,9 +152,19 @@ updates = [
         "verify_args": {
             "reverse_verification": True,
         },
+         "test": [
+        {
+            "mock_image": get_test_picture_by_name("test_nature_rune"),  
+            "replay_input": {"replay_type": "mouse", "coords": None},
+        },
+        {
+            "mock_image": get_test_picture_by_name("test_high_alching_nature_rune"),  
+            "replay_input": {"replay_type": "mouse", "coords": None},
+        },
+        ],
         "extra_test_info": {
         "end_mock_image_list": [
-            get_test_picture_by_name("test_high_alch")
+            get_test_picture_by_name("test_nature_rune")
         ],
     },
     },
@@ -178,11 +188,7 @@ step_10 = {
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
-    "extra_test_info": {
-        "end_mock_image_list": [
-           get_test_picture_by_name("test_nature_rune")
-        ],
-    },
+   
     "processor_info": {
         "processor_type": {
             "check": "template_match",

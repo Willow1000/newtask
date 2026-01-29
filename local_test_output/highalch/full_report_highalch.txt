@@ -1,0 +1,183 @@
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:select_skill_tab
+element:check
+testing check component
+
+background image name: test/test_skill_tab.png
+icon image name: action/skill_tab.png
+precision: 0.999360978603363
+position on screen: (1045, 633)
+
+test element: runescape_actions/runescape_actions/commons/use_spell/all_action_files/screenshots//action/skill_tab.png
+output image path: local_test_output/highalch/dependencies/0_UseSpellTest//0_skill_tab_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_UseSpellTest//0_skill_tab_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_UseSpellTest//0_skill_tab_iteration_0_check.png
+
+tested component for step: select_skill_tab
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:select_skill_tab
+element:verify
+testing verify component
+
+background image name: test/test_spell.png
+icon image name: action/spell.png
+precision: 0.999943733215332
+position on screen: (1030, 403)
+
+test element: runescape_actions/runescape_actions/commons/use_spell/all_action_files/screenshots//action/spell.png
+output image path: local_test_output/highalch/dependencies/0_UseSpellTest//0_spell_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_UseSpellTest//0_spell_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_UseSpellTest//0_spell_iteration_0_verify.png
+
+tested component for step: select_skill_tab
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:use_spell
+element:check
+testing check component
+
+background image name: test/test_nature_rune.png
+icon image name: action/high_alch.png
+precision: 0.6326969265937805
+position on screen: (1168, 130)
+
+test element: /mnt/c/Users/user/OneDrive/Desktop/newtask2/newtask/./runescape_actions/runescape_actions/highalch/all_action_files/screenshots/action/high_alch.png
+output image path: local_test_output/highalch/dependencies/0_UseSpellTest//1_high_alch_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_UseSpellTest//1_high_alch_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_UseSpellTest//1_high_alch_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/unique_images_for_this_test//1_high_alch_iteration_0_check.png
+background image name: test/test_high_alching_nature_rune.png
+icon image name: action/high_alch.png
+precision: 0.581502377986908
+position on screen: (-1, -1)
+
+test element: /mnt/c/Users/user/OneDrive/Desktop/newtask2/newtask/./runescape_actions/runescape_actions/highalch/all_action_files/screenshots/action/high_alch.png
+output image path: local_test_output/highalch/dependencies/0_UseSpellTest//1_high_alch_iteration_1_check.png
+precision is too low, black image created: 0.581502377986908
+
+tested component for step: use_spell
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:use_spell
+element:verify
+testing verify component
+
+background image name: test/test_nature_rune.png
+icon image name: action/high_alch.png
+precision: 0.6326969265937805
+position on screen: (1168, 130)
+
+test element: /mnt/c/Users/user/OneDrive/Desktop/newtask2/newtask/./runescape_actions/runescape_actions/highalch/all_action_files/screenshots/action/high_alch.png
+output image path: local_test_output/highalch/dependencies/0_UseSpellTest//1_high_alch_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/dependencies/0_UseSpellTest//1_high_alch_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/dependencies/0_UseSpellTest//1_high_alch_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/unique_images_for_this_test//1_high_alch_iteration_0_verify_reverse_verify_should_be_black_img.png
+
+tested component for step: use_spell
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 2,
+element was of type: verify
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:click_nature_rune
+element:check
+testing check component
+
+background image name: test/test_nature_rune.png
+icon image name: action/nature_rune.png
+precision: 0.7303088307380676
+position on screen: (912, 271)
+
+test element: runescape_actions/runescape_actions/highalch/all_action_files/screenshots//action/nature_rune.png
+output image path: local_test_output/highalch/0_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/0_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/0_nature_rune_iteration_0_check.png
+
+tested component for step: click_nature_rune
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:click_nature_rune
+element:verify
+testing verify component
+
+no test element provided
+tested component for step: click_nature_rune
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 1,
+element was of type: verify
+
+
+
+final output analysis, with warning and possible errors:
+
+
