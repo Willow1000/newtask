@@ -12,31 +12,33 @@ class HighAlchingNatureRune(Test):
      
     def hooks_setup(self):
         hooks = {
+            
         }
         self.set_hooks(hooks)
 
-    def main_test(self, action_ordered_steps_current_action):
-        # from highalch.action_description import (move_to_fountain_of_rune, move_to_underwall_tunnel)
-        # from runescape_actions.commons.move_to.action_tests import MoveToTest
+    # def main_test(self, action_ordered_steps_current_action):
+    #     # from highalch.action_description import (move_to_fountain_of_rune, move_to_underwall_tunnel)
+    #     # from runescape_actions.commons.move_to.action_tests import MoveToTest
 
-        from highalch.action_description import use_high_alch
-        from runescape_actions.commons.use_spell.action_tests import UseSpellTest
+    #     # from highalch.action_description import use_high_alch
+    #     # from runescape_actions.commons.use_spell.action_tests import UseSpellTest
 
-        from highalch.action_description import highalching_nature_rune
+    #     from highalch.action_description import highalching_nature_rune
             
-        # self.incorporate_test(MoveToTest, move_to_fountain_of_rune)
-        # self.incorporate_test(MoveToTest, move_to_underwall_tunnel)
-        self.incorporate_test(UseSpellTest, use_high_alch)
-        self.test(highalching_nature_rune)
+    #     # self.incorporate_test(MoveToTest, move_to_fountain_of_rune)
+    #     # self.incorporate_test(MoveToTest, move_to_underwall_tunnel)
+    #     # self.incorporate_test(UseSpellTest, use_high_alch)
+    #     self.test(highalching_nature_rune)
      
     def run(self):
         print('testing HighAlchingNatureRune')
         # import everything you need from action_description here
         from highalch.action_description import time_limit, current_action_id, \
             app_config_id, context 
+        from highalch.action_description import action_ordered_steps    
         # from action_description import action_ordered_steps
         # you can have the full action test, or test step by step with singular functions
-        self.full_test(None)
+        self.full_test(action_ordered_steps)
          
          
 if __name__ == "__main__":

@@ -1,4 +1,0 @@
-/opt/code//runescape_actions/runescape_actions/rs_login/all_action_files/screenshots//test/plugin_warning_test_screen.png : Point(x=565, y=431) : Point(x=605, y=507)
-/opt/code//runescape_actions/runescape_actions/rs_login/all_action_files/screenshots//test/password_inserted_screen.png : Point(x=23, y=12) : Point(x=1257, y=597)
-/opt/code//runescape_actions/runescape_actions/rs_login/all_action_files/screenshots//test/try_again_screen.png : Point(x=90, y=19) : Point(x=1102, y=601)
-/opt/code//runescape_actions/runescape_actions/rs_login/all_action_files/screenshots//test.png : Point(x=531, y=141) : Point(x=694, y=281)

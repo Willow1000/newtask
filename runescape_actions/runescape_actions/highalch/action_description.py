@@ -28,7 +28,7 @@ from common_action_framework.common_action_framework.reuse_action import (
 
 from common_action_framework.common_action_framework.reuse_action import update_action
 from runescape_actions.commons.move_to.action_description import get_move_to as get_move_to
-from runescape_actions.commons.use_spell.action_description import action_ordered_steps as use_spell
+# from runescape_actions.commons.use_spell.action_description import action_ordered_steps as use_spell
 from runescape_actions.commons.definitions.full_setup import map_colors
 
 all_failure_elements = {
@@ -38,145 +38,115 @@ all_failure_elements = {
 }
 
 time_limit = None  # time limit for this action (in minutes)
-current_action_id = "highalching_nature_rune"
+current_action_id = "highalching_combat_bracelet_at_fountain_of_rune"
 app_config_id = "full_rs"  # each action may require a different set of configs from the app itself
 context = "rs_ps"  # context to know what profile to use, what is this session related to, etc.
 
 
 
-# Step 1,2,3,4: Move to (underwall tunnel), click underwall tunnel, wilderness ditch)
+# Open Inventory
 
-# move_to_underwall_tunnel = get_move_to("wilderness_ditch")
-# action_ordered_steps = move_to_underwall_tunnel
-
-
-# # Step 5: Click (wilderness ditch)
-
-# step_5 = {
-#     "check": left_click_highlighted,
-#     "check_args": {
-#         "args_by_func": {
-#             "highlight_color": map_colors["wilderness_ditch"]
-#         }
-#     },
-#     "verify": get_action_picture_by_name("cross_ditch"),
-#     "test": [
-#         {
-#             "mock_image": get_test_picture_by_name("test_wilderness_ditch"),  
-#             "replay_input": {"replay_type": "mouse", "coords": None},
-#         },
-#     ],
-#     "extra_test_info": {
-#         "end_mock_image_list": [
-#               get_test_picture_by_name("test_cross_ditch")
-#         ],
-#     },
-#     "processor_info": {
-#         "processor_type": {
-#             "check": "template_match",
-#             "verify": "template_match",
-#         },
-#     },
-#     "id": "click_wilderness_ditch",
-# }
-
-# # Step 6: Click (cross ditch)
-
-# step_6 = {
-#     "check": get_action_picture_by_name("cross_ditch"),
-#     "verify": get_action_picture_by_name("enter_wilderness"),
-#     "test": [
-#         {
-#             "mock_image": get_test_picture_by_name("test_cross_ditch"),  
-#             "replay_input": {"replay_type": "mouse", "coords": None},
-#         },
-#     ],
-#     "extra_test_info": {
-#         "end_mock_image_list": [
-#               get_test_picture_by_name("test_enter_wilderness")
-#         ],
-#     },
-#     "processor_info": {
-#         "processor_type": {
-#             "check": "template_match",
-#             "verify": "template_match",
-#         },
-#     },
-#     "id": "click_cross_ditch",
-# }
-
-
-# # Step 7: Click (enter wilderness)
-
-# step_7 = {
-#     "check": get_action_picture_by_name("enter_wilderness"),
-#     "verify": get_action_picture_by_name("enter_wilderness"),
-#     "verify_args": {
-#         "reverse_verification": True,
-#     }, 
-#     "test": [
-#         {
-#             "mock_image": get_test_picture_by_name("test_enter_wilderness"),  
-#             "replay_input": {"replay_type": "mouse", "coords": None},
-#         },
-#     ],
-#     "extra_test_info": {
-#         "end_mock_image_list": [
-#               get_test_picture_by_name("test_enter_wilderness")
-#         ],
-#     },
-#     "processor_info": {
-#         "processor_type": {
-#             "check": "template_match",
-#             "verify": "template_match",
-#         },
-#     },
-#     "id": "click_enter_wilderness",
-# }
-
-# action_ordered_steps += [step_5, step_6, step_7]
-
-# # Step 8: Move to (fountain of rune)
-
-# move_to_fountain_of_rune = get_move_to("fountain_of_rune")
-# action_ordered_steps += move_to_fountain_of_rune
-
-# Step 9: Use spell (high alch)
-
-action_ordered_steps = []
-updates = [
-    {
-        "id": "use_spell",     
-        "check": get_action_picture_by_name("high_alch"),
-        "verify": get_action_picture_by_name("high_alch"),
-        "verify_args": {
-            "reverse_verification": True,
-        },
-         "test": [
+step_0 = {
+    "check": get_action_picture_by_name("inventory"),  
+    "verify": get_action_picture_by_name("inventory"), 
+    "verify_args": {
+        "reverse_verification": True,
+    }, 
+    "test": [
         {
-            "mock_image": get_test_picture_by_name("test_nature_rune"),  
+            "mock_image": get_test_picture_by_name("test_inventory"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
-        {
-            "mock_image": get_test_picture_by_name("test_high_alching_nature_rune"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
-        },
-        ],
-        "extra_test_info": {
+    ],
+    "extra_test_info": {
         "end_mock_image_list": [
-            get_test_picture_by_name("test_nature_rune")
+           get_test_picture_by_name("test_inventory")
         ],
     },
+    "processor_info": {
+        "processor_type": {
+            "check": "template_match",
+            "verify": "template_match",
+        },
     },
-]
+    "id": "click_inventory",
+}
 
-use_high_alch = copy.deepcopy( update_action(use_spell, updates) )
-action_ordered_steps +=  use_high_alch 
+
+step_1 = {
+    "check": get_action_picture_by_name("skill_tab"),
+    "verify": get_action_picture_by_name("skill_tab"),
+    "test": [
+        {
+            "mock_image": get_test_picture_by_name("test_skill_tab"),  
+            "replay_input": {"replay_type": "mouse", "coords": None},
+        },
+    ],
+    "extra_test_info": {
+        "end_mock_image_list": [
+            get_test_picture_by_name("test_skill_tab")
+        ],
+    },
+    "processor_info": {
+        "processor_type": {
+            "check": "template_match",
+            "verify": "template_match",
+        },
+    },
+    "id": "select_skill_tab", 
+}
+
+
+# Step 2: Select Spell
+
+step_2 = {
+    "check": get_action_picture_by_name("high_alch"),
+    "verify": get_action_picture_by_name("high_alch"),
+    "test": [
+        {
+            "mock_image": get_test_picture_by_name("test_high_alch"),  
+            "replay_input": {"replay_type": "mouse", "coords": None},
+        },
+    ],
+    "extra_test_info": {
+        "end_mock_image_list": [
+            get_test_picture_by_name("test_high_alch")
+        ],
+    },
+    "processor_info": {
+        "processor_type": {
+            "check": "template_match",
+            "verify": "template_match",
+        },
+    },
+    "id": "use_high_alch", 
+}
+
+
+# action_ordered_steps += [step_0,]
+# updates = [
+#     {
+#         "id": "use_spell",     
+#         "check": get_action_picture_by_name("high_alch"),
+#         "verify": get_action_picture_by_name("high_alch"),
+#         "verify_args": {
+#             "reverse_verification": True,
+#         },
+#         "extra_test_info": {
+#         "end_mock_image_list": [
+#             get_test_picture_by_name("test_high_alch")
+#         ],
+#     },
+#     },
+# ]
+
+# use_high_alch = copy.deepcopy( update_action(use_spell, updates) )
+# action_ordered_steps +=  use_high_alch 
 
 
 # Step 10: Click (nature_rune)
 
-step_10 = {
+step_3 = {
     "check": get_action_picture_by_name("nature_rune"),  
     "verify": get_action_picture_by_name("nature_rune"), 
     "verify_args": {
@@ -188,7 +158,11 @@ step_10 = {
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
-   
+    "extra_test_info": {
+        "end_mock_image_list": [
+           get_test_picture_by_name("test_nature_rune")
+        ],
+    },
     "processor_info": {
         "processor_type": {
             "check": "template_match",
@@ -198,7 +172,7 @@ step_10 = {
     "id": "click_nature_rune",
 }
 
-action_ordered_steps += [step_10,]
+
 
 
 # final step, always add a final step, this is for the if else cases
@@ -214,5 +188,5 @@ final_step = {
     },
 }
 
-action_ordered_steps += [final_step,]
-highalching_nature_rune = [step_10, final_step]
+action_ordered_steps = [step_0, step_1, step_2, step_3, final_step,]
+highalching_nature_rune = [step_0, step_1, step_2, step_3, final_step,]
