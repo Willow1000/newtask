@@ -77,13 +77,13 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 
 step_0 = {
     "check": get_action_picture_by_name("fire_staff"),  
-    "verify": [get_action_picture_by_name("all/dashboard/menu/inventory_pressed"),get_action_picture_by_name("fire_staff")], 
+    "verify": [get_action_picture_by_name("fire_staff")], 
     "verify_args": {
         "reverse_verification": True,
     }, 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_firestaff"),  
+            "mock_image": get_test_picture_by_name("test_fire_staff_equiped"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
@@ -107,13 +107,13 @@ step_0 = {
 step_1 = {
     "jump": {
         "step_num": "equip_fire_staff", 
-        "verify": [picture_by_name("fire_staff_equped")],
+        "verify": [get_action_picture_by_name("fire_staff_equiped")],
         "verify_mode": "verify_once",
         "reverse_verification": True,
     },
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_firestaff_equiped"),
+            "mock_image": get_test_picture_by_name("test_fire_staff_equiped"),
             "replay_input": {
                 "replay_type": "NA",
                 "word_to_write": None,
@@ -123,7 +123,7 @@ step_1 = {
     "extra_test_info": {
         "loop_info": {
             "num_iterations": 1,
-            "img_after_loop": get_test_picture_by_name("test_firestaff_equiped"),
+            "img_after_loop": get_test_picture_by_name("test_spell"),
         },
     },
     "processor_info": {
@@ -140,52 +140,73 @@ step_1 = {
     "id": "loop_until_firestaff_equiped",
 }
 
-action_ordered_steps += [step_0,]
-updates = [
-    {
-        "id": "use_spell",     
-        "check": get_action_picture_by_name("high_alch"),
-        "verify": get_action_picture_by_name("rune_longsword"),
-        "verify_args": {
-            "reverse_verification": True,
-        },
-        "extra_test_info": {
-        "end_mock_image_list": [
-            get_test_picture_by_name("test_high_alch")
-        ],
-    },
-    },
-]
+# action_ordered_steps += [step_0,]
+# updates = [
+#     {
+#         "id": "use_spell",     
+#         "check": get_action_picture_by_name("high_alch"),
+#         "verify": get_action_picture_by_name("rune_longsword"),
+#         "verify_args": {
+#             "reverse_verification": True,
+#         },
+#         "extra_test_info": {
+#         "end_mock_image_list": [
+#             get_test_picture_by_name("test_high_alch")
+#         ],
+#     },
+#     },
+# ]
 
-use_high_alch = copy.deepcopy( update_action(use_spell, updates) )
+# use_high_alch = copy.deepcopy( update_action(use_spell, updates) )
 # step_
 # action_ordered_steps +=  use_high_alch 
 
 
-# # Step 10: Click item (rune_longsword)
-
-# step_3 = {
-#     "check": get_action_picture_by_name("rune_longsword"),  
-#     "verify": get_action_picture_by_name("rune_longsword"), 
-#     "verify_args": {
-#         "reverse_verification": True,
-#     }, 
-#     "test": [
-#         {
-#             "mock_image": get_test_picture_by_name("test_nature_rune"),  
-#             "replay_input": {"replay_type": "mouse", "coords": None},
-#         },
-#     ],
-#     "processor_info": {
-#         "processor_type": {
-#             "check": "template_match",
-#             "verify": "template_match",
-#         },
-#     },
-#     "id": "click_item",
-# }
-
 step_2 = {
+    "check": get_action_picture_by_name("skill_tab"),
+    "verify": [get_action_picture_by_name("spell")],
+    "test": [
+        {
+            "mock_image": get_test_picture_by_name("test_skill_tab"),  
+            "replay_input": {"replay_type": "mouse", "coords": None},
+        },
+    ],
+    "processor_info": {
+        "processor_type": {
+            "check": "template_match",
+            "verify": "template_match",
+        },
+    },
+    "id": "select_skill_tab", 
+}
+
+
+# Step 2: Select Spell
+
+step_3 = {
+    "check": get_action_picture_by_name("spell"),
+    "verify": get_action_picture_by_name("rune_longsword"),
+    "test": [
+        {
+            "mock_image": get_test_picture_by_name("test_spell"),  
+            "replay_input": {"replay_type": "mouse", "coords": None},
+        },
+    ],
+    "extra_test_info": {
+        "end_mock_image_list": [
+            get_test_picture_by_name("test_rune_longsword")
+        ],
+    },
+    "processor_info": {
+        "processor_type": {
+            "check": "template_match",
+            "verify": "template_match",
+        },
+    },
+    "id": "use_spell", 
+}
+
+step_4 = {
     "jump": {
         "step_num": "use_spell", 
         "verify": get_action_picture_by_name("rune_longsword"),
@@ -215,7 +236,7 @@ step_2 = {
         },
         "verify_args": [
             {
-                "precision_required": 0.9,
+                "precision_required": 0.7,
                
             },
         ],
@@ -237,5 +258,5 @@ final_step = {
     },
 }
 
-action_ordered_steps = [step_0, step_1,  use_high_alch, step_2, final_step,]
-highalching_nature_rune = [step_0, step_1,  use_high_alch, step_2, final_step,]
+action_ordered_steps = [step_0, step_1,  step_2, step_3, final_step,]
+highalching_nature_rune = [step_0, step_1,  step_2, step_3, final_step,]
