@@ -495,6 +495,7 @@ step_12 = {
     "id": "send_creds",
 }
 
+# it's called 12_2, because I needed a step between step 12 and step 13, and didnt want to change the names of everything after them
 step_12_2 = {
     "check": none_step_verify,
     "verify": [

@@ -29,6 +29,10 @@ class RSLoginTest(Test):
            for every single step with the same step id, not just the step with this id in this action
         """
         hooks = {
+            "rs_login_find_image_in_worlds": {
+                "check": self.get_test_world_string_test, 
+                "verify": self.none_step_verify_hook,
+            }, 
             "random_movement_for_check_world_step": {
                 "check": self.none_step_verify_hook,
             }, 

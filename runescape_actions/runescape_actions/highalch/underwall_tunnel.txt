@@ -1,3 +1,0 @@
-InitialColor: underwall_tunnel
-FinalColor: FFA93AB3
-ColorPattern: (FFDF908E,FFE34B62,FFE5313F)

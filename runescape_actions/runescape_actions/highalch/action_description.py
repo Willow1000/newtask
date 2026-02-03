@@ -44,24 +44,27 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 
 
 
-# Open Inventory
+# check if firestaff is equiped
+# click worn equipments
 
 step_0 = {
-    "check": get_action_picture_by_name("inventory"),  
-    "verify": get_action_picture_by_name("inventory"), 
+    "check": get_action_picture_by_name("all/dashboard/menu/worn_equipment"),  
+    "verify": [get_action_picture_by_name("all/dashboard/menu/worn_equipment_pressed"),get_action_picture_by_name("fire_staff")], 
     "verify_args": {
         "reverse_verification": True,
     }, 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_inventory"),  
+            "mock_image": get_test_picture_by_name("test_worn_equipment"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
-    "extra_test_info": {
-        "end_mock_image_list": [
-           get_test_picture_by_name("test_inventory")
-        ],
+   
+     "replay_info": {
+        "click_info": {
+            "click_type": "click",
+            "number_clicks": 1,
+        },
     },
     "processor_info": {
         "processor_type": {
@@ -69,110 +72,155 @@ step_0 = {
             "verify": "template_match",
         },
     },
-    "id": "click_inventory",
+    "id": "check_fire_staff_equiped",
 }
 
+# step_1 = {
+#     "check": get_action_picture_by_name("inventory"),  
+#     "verify": [get_action_picture_by_name("all/dashboard/menu/inventory_pressed"),get_action_picture_by_name("fire_staff")], 
+#     "verify_args": {
+#         "reverse_verification": True,
+#     }, 
+#     "test": [
+#         {
+#             "mock_image": get_test_picture_by_name("test_inventory"),  
+#             "replay_input": {"replay_type": "mouse", "coords": None},
+#         },
+#     ],
+   
+#      "replay_info": {
+#         "click_info": {
+#             "click_type": "click",
+#             "number_clicks": 1,
+#         },
+#     },
+#     "processor_info": {
+#         "processor_type": {
+#             "check": "template_match",
+#             "verify": "template_match",
+#         },
+#     },
+#     "id": "equip_fire_staff",
+# }
 
-step_1 = {
-    "check": get_action_picture_by_name("skill_tab"),
-    "verify": get_action_picture_by_name("skill_tab"),
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("test_skill_tab"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
-        },
-    ],
-    "extra_test_info": {
-        "end_mock_image_list": [
-            get_test_picture_by_name("test_skill_tab")
-        ],
-    },
-    "processor_info": {
-        "processor_type": {
-            "check": "template_match",
-            "verify": "template_match",
-        },
-    },
-    "id": "select_skill_tab", 
-}
-
-
-# Step 2: Select Spell
 
 step_2 = {
-    "check": get_action_picture_by_name("high_alch"),
-    "verify": get_action_picture_by_name("high_alch"),
+    "jump": {
+        "step_num": "equip_fire_staff", 
+        "verify": [picture_by_name("fire_staff")],
+        "verify_mode": "verify_once",
+        "reverse_verification": True,
+    },
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_high_alch"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
+            "mock_image": get_test_picture_by_name("test_"),
+            "replay_input": {
+                "replay_type": "NA",
+                "word_to_write": None,
+            },
         },
     ],
     "extra_test_info": {
+        "loop_info": {
+            "num_iterations": 1,
+            "img_after_loop": get_test_picture_by_name("test_firestaff_equiped"),
+        },
+    },
+    "processor_info": {
+        "processor_type": {
+            "check": "template_match",
+            "verify": "template_match",
+        },
+        "verify_args": [
+            {
+                "precision_required": 0.9,
+            },
+        ],
+    },
+    "id": "loop_until_firestaff_equiped",
+}
+
+action_ordered_steps += [step_0,]
+updates = [
+    {
+        "id": "use_spell",     
+        "check": get_action_picture_by_name("high_alch"),
+        "verify": get_action_picture_by_name("item"),
+        "verify_args": {
+            "reverse_verification": True,
+        },
+        "extra_test_info": {
         "end_mock_image_list": [
             get_test_picture_by_name("test_high_alch")
         ],
     },
-    "processor_info": {
-        "processor_type": {
-            "check": "template_match",
-            "verify": "template_match",
-        },
     },
-    "id": "use_high_alch", 
-}
+]
+
+use_high_alch = copy.deepcopy( update_action(use_spell, updates) )
+action_ordered_steps +=  use_high_alch 
 
 
-# action_ordered_steps += [step_0,]
-# updates = [
-#     {
-#         "id": "use_spell",     
-#         "check": get_action_picture_by_name("high_alch"),
-#         "verify": get_action_picture_by_name("high_alch"),
-#         "verify_args": {
-#             "reverse_verification": True,
+# # Step 10: Click item (rune_longsword)
+
+# step_3 = {
+#     "check": get_action_picture_by_name("rune_longsword"),  
+#     "verify": get_action_picture_by_name("rune_longsword"), 
+#     "verify_args": {
+#         "reverse_verification": True,
+#     }, 
+#     "test": [
+#         {
+#             "mock_image": get_test_picture_by_name("test_nature_rune"),  
+#             "replay_input": {"replay_type": "mouse", "coords": None},
 #         },
-#         "extra_test_info": {
-#         "end_mock_image_list": [
-#             get_test_picture_by_name("test_high_alch")
-#         ],
+#     ],
+#     "processor_info": {
+#         "processor_type": {
+#             "check": "template_match",
+#             "verify": "template_match",
+#         },
 #     },
-#     },
-# ]
+#     "id": "click_item",
+# }
 
-# use_high_alch = copy.deepcopy( update_action(use_spell, updates) )
-# action_ordered_steps +=  use_high_alch 
-
-
-# Step 10: Click (nature_rune)
-
-step_3 = {
-    "check": get_action_picture_by_name("nature_rune"),  
-    "verify": get_action_picture_by_name("nature_rune"), 
-    "verify_args": {
-        "reverse_verification": True,
-    }, 
+step_2 = {
+    "jump": {
+        "step_num": "use_spell", 
+        "verify": get_action_picture_by_name("item"),
+        "verify_mode": "verify_once",
+        "reverse_verification": False,
+       
+    },
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_nature_rune"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
+            "mock_image": get_test_picture_by_name("test_item_in_inventory"),
+            "replay_input": {
+                "replay_type": "NA",
+                "word_to_write": None,
+            },
         },
     ],
     "extra_test_info": {
-        "end_mock_image_list": [
-           get_test_picture_by_name("test_nature_rune")
-        ],
+        "loop_info": {
+            "num_iterations": 1,
+            "img_after_loop": get_test_picture_by_name("test_inventory_without item"),
+        },
     },
     "processor_info": {
         "processor_type": {
             "check": "template_match",
             "verify": "template_match",
         },
+        "verify_args": [
+            {
+                "precision_required": 0.9,
+               
+            },
+        ],
     },
-    "id": "click_nature_rune",
+    "id": "high_alch_until_item_depletes",
 }
-
-
 
 
 # final step, always add a final step, this is for the if else cases
