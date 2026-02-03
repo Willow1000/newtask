@@ -47,43 +47,15 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 # check if firestaff is equiped
 # click worn equipments
 
-step_0 = {
-    "check": get_action_picture_by_name("all/dashboard/menu/worn_equipment"),  
-    "verify": [get_action_picture_by_name("all/dashboard/menu/worn_equipment_pressed"),get_action_picture_by_name("fire_staff")], 
-    "verify_args": {
-        "reverse_verification": True,
-    }, 
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("test_worn_equipment"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
-        },
-    ],
-   
-     "replay_info": {
-        "click_info": {
-            "click_type": "click",
-            "number_clicks": 1,
-        },
-    },
-    "processor_info": {
-        "processor_type": {
-            "check": "template_match",
-            "verify": "template_match",
-        },
-    },
-    "id": "check_fire_staff_equiped",
-}
-
-# step_1 = {
-#     "check": get_action_picture_by_name("inventory"),  
-#     "verify": [get_action_picture_by_name("all/dashboard/menu/inventory_pressed"),get_action_picture_by_name("fire_staff")], 
+# step_0 = {
+#     "check": get_action_picture_by_name("all/dashboard/menu/worn_equipment"),  
+#     "verify": [get_action_picture_by_name("all/dashboard/menu/worn_equipment_pressed"),get_action_picture_by_name("fire_staff")], 
 #     "verify_args": {
 #         "reverse_verification": True,
 #     }, 
 #     "test": [
 #         {
-#             "mock_image": get_test_picture_by_name("test_inventory"),  
+#             "mock_image": get_test_picture_by_name("test_worn_equipment"),  
 #             "replay_input": {"replay_type": "mouse", "coords": None},
 #         },
 #     ],
@@ -100,20 +72,48 @@ step_0 = {
 #             "verify": "template_match",
 #         },
 #     },
-#     "id": "equip_fire_staff",
+#     "id": "check_fire_staff_equiped",
 # }
 
+step_0 = {
+    "check": get_action_picture_by_name("fire_staff"),  
+    "verify": [get_action_picture_by_name("all/dashboard/menu/inventory_pressed"),get_action_picture_by_name("fire_staff")], 
+    "verify_args": {
+        "reverse_verification": True,
+    }, 
+    "test": [
+        {
+            "mock_image": get_test_picture_by_name("test_firestaff"),  
+            "replay_input": {"replay_type": "mouse", "coords": None},
+        },
+    ],
+   
+     "replay_info": {
+        "click_info": {
+            "click_type": "click",
+            "number_clicks": 1,
+        },
+    },
+    "processor_info": {
+        "processor_type": {
+            "check": "template_match",
+            "verify": "template_match",
+        },
+    },
+    "id": "equip_fire_staff",
+}
 
-step_2 = {
+
+step_1 = {
     "jump": {
         "step_num": "equip_fire_staff", 
-        "verify": [picture_by_name("fire_staff")],
+        "verify": [picture_by_name("fire_staff_equped")],
         "verify_mode": "verify_once",
         "reverse_verification": True,
     },
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_"),
+            "mock_image": get_test_picture_by_name("test_firestaff_equiped"),
             "replay_input": {
                 "replay_type": "NA",
                 "word_to_write": None,
@@ -145,7 +145,7 @@ updates = [
     {
         "id": "use_spell",     
         "check": get_action_picture_by_name("high_alch"),
-        "verify": get_action_picture_by_name("item"),
+        "verify": get_action_picture_by_name("rune_longsword"),
         "verify_args": {
             "reverse_verification": True,
         },
@@ -158,7 +158,8 @@ updates = [
 ]
 
 use_high_alch = copy.deepcopy( update_action(use_spell, updates) )
-action_ordered_steps +=  use_high_alch 
+# step_
+# action_ordered_steps +=  use_high_alch 
 
 
 # # Step 10: Click item (rune_longsword)
@@ -187,14 +188,14 @@ action_ordered_steps +=  use_high_alch
 step_2 = {
     "jump": {
         "step_num": "use_spell", 
-        "verify": get_action_picture_by_name("item"),
+        "verify": get_action_picture_by_name("rune_longsword"),
         "verify_mode": "verify_once",
         "reverse_verification": False,
        
     },
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_item_in_inventory"),
+            "mock_image": get_test_picture_by_name("test_rune_longsword"),
             "replay_input": {
                 "replay_type": "NA",
                 "word_to_write": None,
@@ -204,7 +205,7 @@ step_2 = {
     "extra_test_info": {
         "loop_info": {
             "num_iterations": 1,
-            "img_after_loop": get_test_picture_by_name("test_inventory_without item"),
+            "img_after_loop": get_test_picture_by_name("test_inventory_without_rune_longsword"),
         },
     },
     "processor_info": {
@@ -236,5 +237,5 @@ final_step = {
     },
 }
 
-action_ordered_steps = [step_0, step_1, step_2, step_3, final_step,]
-highalching_nature_rune = [step_0, step_1, step_2, step_3, final_step,]
+action_ordered_steps = [step_0, step_1,  use_high_alch, step_2, final_step,]
+highalching_nature_rune = [step_0, step_1,  use_high_alch, step_2, final_step,]

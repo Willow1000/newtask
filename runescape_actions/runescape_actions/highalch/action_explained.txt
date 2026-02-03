@@ -1,7 +1,7 @@
 #1 Ensure flame staff is equipped -> {
     click
     check if equipped
-    if not equipped equip
+    if not equipped then equip
 }
 
 #2 use spell
