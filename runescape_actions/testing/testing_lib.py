@@ -87,7 +87,11 @@ def build_background_images_to_find(action_screenshot_path, background_images_to
     new_background_images_to_find_icon_in_list = []
     unique_background_images = []
     for background_img in background_images_to_find_icon_in_list:
-        background_img_full = f'{action_screenshot_path}/{background_img}'
+        if background_img.startswith('all/'): 
+            common_photos_path = "./runescape_actions/runescape_actions/commons/0common_photos/" 
+            background_img_full = f"{common_photos_path}/{background_img[4:]}"
+        else:
+            background_img_full = f'{action_screenshot_path}/{background_img}'
         if os.path.exists(background_img_full):
             new_background_images_to_find_icon_in_list.append(background_img_full)
         else:

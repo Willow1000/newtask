@@ -1,0 +1,10 @@
+crafting_gold_ring
+runescape
+
+1. Move to (Edgeville Furnace)
+2. Click Highlight (Furnace)
+3. Select (Gold Ring)
+4. Move to (Banker)
+5. Highlight (Banker)
+6. Deposit (Gold Ring)
+7. Withdraw (Gold Bar)

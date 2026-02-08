@@ -1,35 +1,81 @@
-from PIL import ImageGrab
-from PIL import Image
-import copy
+# from PIL import ImageGrab
+# from PIL import Image
+# import copy
 
 from common_action_framework.common_action_framework.basic_interaction import (
     get_action_picture_by_name,
     none_step_verify,
     get_test_picture_by_name,
 )
-from common_action_framework.common_action_framework.image_matching_logic import (
-    template_matching
-)
-from common_action_framework.common_action_framework.common import (
-    left_click_highlighted,
-    send_user_name_to_replay_in_client,
-    send_pw_to_replay_in_client,
-    send_tab_key_to_client,
-    send_enter_key_to_client,
-    random_mouse_movement,
-    verify_after_checking_once,
-)
+# from common_action_framework.common_action_framework.image_matching_logic import (
+#     template_matching
+# )
+# from common_action_framework.common_action_framework.common import (
+#     left_click_highlighted,
+#     send_user_name_to_replay_in_client,
+#     send_pw_to_replay_in_client,
+#     send_tab_key_to_client,
+#     send_enter_key_to_client,
+#     random_mouse_movement,
+#     verify_after_checking_once,
+# )
 
-from common_action_framework.common_action_framework.reuse_action import (
-    update_action,
-    update_step,
-    merge_dicts,
-)
+# from common_action_framework.common_action_framework.reuse_action import (
+#     update_action,
+#     update_step,
+#     merge_dicts,
+# )
 
-from common_action_framework.common_action_framework.reuse_action import update_action
-from runescape_actions.commons.move_to.action_description import get_move_to as get_move_to
+# from common_action_framework.common_action_framework.reuse_action import update_action
+# from runescape_actions.commons.move_to.action_description import get_move_to as get_move_to
+from runescape_actions.commons.use_spell.action_description import use_highalch, apply_spell_on_target 
+# from runescape_actions.commons.definitions.full_setup import map_colors
+
+all_failure_elements = {
+}
+
+time_limit = None  # time limit for this action (in minutes)
+current_action_id = "highalch"
+app_config_id = "initial-config"  # each action may require a different set of configs from the app itself
+context = "rs_ps"  # context to know what profile to use, what is this session related to, etc.
+
+
+
+# from PIL import ImageGrab
+# from PIL import Image
+# import copy
+
+# from common_action_framework.common_action_framework.basic_interaction import (
+#     get_action_picture_by_name,
+#     none_step_verify,
+#     get_test_picture_by_name,
+# )
+# from common_action_framework.common_action_framework.image_matching_logic import (
+#     template_matching
+# )
+# from common_action_framework.common_action_framework.common import (
+#     left_click_highlighted,
+#     send_user_name_to_replay_in_client,
+#     send_pw_to_replay_in_client,
+#     send_tab_key_to_client,
+#     send_enter_key_to_client,
+#     random_mouse_movement,
+#     verify_after_checking_once,
+# )
+
+# from common_action_framework.common_action_framework.reuse_action import (
+#     update_action,
+#     update_step,
+#     merge_dicts,
+# )
+
+# from common_action_framework.common_action_framework.reuse_action import update_action
+# from runescape_actions.commons.move_to.action_description import get_move_to as get_move_to
 # from runescape_actions.commons.use_spell.action_description import action_ordered_steps as use_spell
-from runescape_actions.commons.definitions.full_setup import map_colors
+# from runescape_actions.commons.definitions.full_setup import map_colorsee c
+
+from runescape_actions.highalch_setup.action_description import setup
+from runescape_actions.highalch_wrap_up.action_description import wrap_up
 
 all_failure_elements = {
     "send_creds": [
@@ -47,176 +93,45 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 # check if firestaff is equiped
 # click worn equipments
 
-# step_0 = {
-#     "check": get_action_picture_by_name("all/dashboard/menu/worn_equipment"),  
-#     "verify": [get_action_picture_by_name("all/dashboard/menu/worn_equipment_pressed"),get_action_picture_by_name("fire_staff")], 
-#     "verify_args": {
-#         "reverse_verification": True,
-#     }, 
-#     "test": [
-#         {
-#             "mock_image": get_test_picture_by_name("test_worn_equipment"),  
-#             "replay_input": {"replay_type": "mouse", "coords": None},
-#         },
-#     ],
-   
-#      "replay_info": {
-#         "click_info": {
-#             "click_type": "click",
-#             "number_clicks": 1,
-#         },
-#     },
-#     "processor_info": {
-#         "processor_type": {
-#             "check": "template_match",
-#             "verify": "template_match",
-#         },
-#     },
-#     "id": "check_fire_staff_equiped",
-# }
-
-step_0 = {
-    "check": get_action_picture_by_name("fire_staff"),  
-    "verify": [get_action_picture_by_name("fire_staff")], 
-    "verify_args": {
-        "reverse_verification": True,
-    }, 
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("test_fire_staff_equiped"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
-        },
-    ],
-   
-     "replay_info": {
-        "click_info": {
-            "click_type": "click",
-            "number_clicks": 1,
-        },
-    },
-    "processor_info": {
-        "processor_type": {
-            "check": "template_match",
-            "verify": "template_match",
-        },
-    },
-    "id": "equip_fire_staff",
-}
 
 
-step_1 = {
-    "jump": {
-        "step_num": "equip_fire_staff", 
-        "verify": [get_action_picture_by_name("fire_staff_equiped")],
-        "verify_mode": "verify_once",
-        "reverse_verification": True,
-    },
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("test_fire_staff_equiped"),
-            "replay_input": {
-                "replay_type": "NA",
-                "word_to_write": None,
-            },
-        },
-    ],
-    "extra_test_info": {
-        "loop_info": {
-            "num_iterations": 1,
-            "img_after_loop": get_test_picture_by_name("test_spell"),
-        },
-    },
-    "processor_info": {
-        "processor_type": {
-            "check": "template_match",
-            "verify": "template_match",
-        },
-        "verify_args": [
-            {
-                "precision_required": 0.9,
-            },
-        ],
-    },
-    "id": "loop_until_firestaff_equiped",
-}
+# setup
+def gen_setup_steps(item_id):
+    setup_steps = setup(item_id=item_id)
+    #TODO withdraw from the bank
+    return setup_steps
 
-# action_ordered_steps += [step_0,]
-# updates = [
-#     {
-#         "id": "use_spell",     
-#         "check": get_action_picture_by_name("high_alch"),
-#         "verify": get_action_picture_by_name("rune_longsword"),
-#         "verify_args": {
-#             "reverse_verification": True,
-#         },
-#         "extra_test_info": {
-#         "end_mock_image_list": [
-#             get_test_picture_by_name("test_high_alch")
-#         ],
-#     },
-#     },
-# ]
+def wrap_up_steps():
+    wrap_up_steps = wrap_up()
+    return wrap_up_steps    
 
-# use_high_alch = copy.deepcopy( update_action(use_spell, updates) )
-# step_
-# action_ordered_steps +=  use_high_alch 
+ 
+def highalch_target_item(target_id):
+    """
+    target id is the item id
+    """
+    spell_steps = apply_spell_on_target(target_id, spell_id="highalch")
+    return spell_steps 
 
 
-step_2 = {
-    "check": get_action_picture_by_name("skill_tab"),
-    "verify": [get_action_picture_by_name("spell")],
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("test_skill_tab"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
-        },
-    ],
-    "processor_info": {
-        "processor_type": {
-            "check": "template_match",
-            "verify": "template_match",
-        },
-    },
-    "id": "select_skill_tab", 
-}
+def highalch_item(target_id):
+    setup_steps = gen_setup_steps(target_id)
+    spell_with_target_steps = highalch_target_item(target_id)
+    all_steps = setup_steps + spell_with_target_steps
+    return all_steps
 
-
-# Step 2: Select Spell
-
-step_3 = {
-    "check": get_action_picture_by_name("spell"),
-    "verify": get_action_picture_by_name("rune_longsword"),
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("test_spell"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
-        },
-    ],
-    "extra_test_info": {
-        "end_mock_image_list": [
-            get_test_picture_by_name("test_rune_longsword")
-        ],
-    },
-    "processor_info": {
-        "processor_type": {
-            "check": "template_match",
-            "verify": "template_match",
-        },
-    },
-    "id": "use_spell", 
-}
-
-step_4 = {
+def jump_back_to_start(target_id):
+    return [{
     "jump": {
         "step_num": "use_spell", 
-        "verify": get_action_picture_by_name("rune_longsword"),
+        "verify": get_action_picture_by_name(target_id),
         "verify_mode": "verify_once",
-        "reverse_verification": False,
+        "reverse_verification": True,
        
     },
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_rune_longsword"),
+            "mock_image": [get_test_picture_by_name(f"test_{item_id}"),get_test_picture_by_name(f"test_inventory_full_of_{item_id}")],
             "replay_input": {
                 "replay_type": "NA",
                 "word_to_write": None,
@@ -226,7 +141,7 @@ step_4 = {
     "extra_test_info": {
         "loop_info": {
             "num_iterations": 1,
-            "img_after_loop": get_test_picture_by_name("test_inventory_without_rune_longsword"),
+            "img_after_loop": get_test_picture_by_name(f"test_inventory_without_{item_id}"),
         },
     },
     "processor_info": {
@@ -242,14 +157,13 @@ step_4 = {
         ],
     },
     "id": "high_alch_until_item_depletes",
-}
-
+    }]
 
 # final step, always add a final step, this is for the if else cases
 final_step = {
     "check": none_step_verify,
     "verify": none_step_verify,
-    "id": "object_markers_final_step",
+    "id": "highalch_final_step",
     "processor_info": {
         "processor_type": {
             "check": "template_match",
@@ -258,5 +172,43 @@ final_step = {
     },
 }
 
-action_ordered_steps = [step_0, step_1,  step_2, step_3, final_step,]
-highalching_nature_rune = [step_0, step_1,  step_2, step_3, final_step,]
+def get_action_ordered_steps(target_id):
+    setup_steps = gen_setup_steps(target_id)
+    wrap_up_steps = wrap_up_steps()
+    spell_with_target_steps = highalch_target_item(target_id)
+    jump_back_to_start_steps = jump_back_to_start(target_id=target_id) #TODO add jump
+    all_steps = setup_steps + spell_with_target_steps + jump_back_to_start_steps + wrap_up_steps + [final_step]
+    return all_steps
+
+
+# test item will be ALL items (only tests highalch for ALL, not setup, only tests setup ONCE)
+setup_item_id = "adamant_platebody"
+setup_steps_testing = gen_setup_steps(setup_item_id)
+item_id_list = [
+    "rune_platebody",
+    "rune_kiteshield",
+    "rune_longsword",
+    "rune_pickaxe",
+    "adamant_platebody",
+    "rune_platelegs",
+    "rune_full_helm",
+    "rune_scimitar",
+    "mithril_platebody",
+    "rune_sq_shield",
+    "rune_mace",
+    "green_d'hide_body",
+    "mithril_pickaxe",
+    "rune_dagger",
+    "adamant_med_helm",
+    "rune_med_helm",
+    "rune_plateskirt",
+] # TODO add all the items and test (these are the items you are testing)
+ 
+action_ordered_steps_test = []
+action_ordered_steps_test += setup_steps_testing
+for item_id in item_id_list:
+    high_alch_steps_to_test = highalch_target_item(item_id)
+    action_ordered_steps_test += high_alch_steps_to_test
+action_ordered_steps_test += [final_step] 
+
+
