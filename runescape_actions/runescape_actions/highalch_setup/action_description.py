@@ -36,7 +36,7 @@ all_failure_elements = {
 }
 
 time_limit = None  # time limit for this action (in minutes)
-current_action_id = "highalching_combat_bracelet_at_fountain_of_rune"
+current_action_id = "highalching"
 app_config_id = "full_rs"  # each action may require a different set of configs from the app itself
 context = "rs_ps"  # context to know what profile to use, what is this session related to, etc.
 
@@ -93,7 +93,7 @@ def setup(item_id):
         }, 
         "test": [
             {
-                "mock_image": get_test_picture_by_name("test_worn_equipment"),  
+                "mock_image": get_test_picture_by_name("all/dashboard/menu/test_worn_equipment"),  
                 "replay_input": {"replay_type": "mouse", "coords": None},
             },
         ],
@@ -140,11 +140,11 @@ def setup(item_id):
                 "check": "template_match",
                 "verify": "template_match",
             },
-            "verify_args": [
-                {
-                    "precision_required": 0.9,
-                },
-            ],
+            # "verify_args": [
+            #     {
+            #         "precision_required": 0.9,
+            #     },
+            # ],
         },
         "id": "loop_until_firestaff_equiped",
     }
@@ -155,7 +155,7 @@ def setup(item_id):
     final_step = {
         "check": none_step_verify,
         "verify": none_step_verify,
-        "id": "",
+        "id": "highalch_setup_final",
         "processor_info": {
             "processor_type": {
                 "check": "template_match",

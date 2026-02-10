@@ -29,20 +29,20 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 # Step 2: Click on the search icon
 
 step_2 = {
-    "check": get_action_picture_by_name("search_icon"), 
+    "check": get_action_picture_by_name("all/dashboard/menu/withdraw/action/search_icon"), 
     "check_args": {
         "right_click": True
     },  
     "verify": none_step_verify, 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_click_item"),  
+            "mock_image": get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_click_item"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("test_click_item")
+           get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_click_item")
         ],
     },
     "processor_info": {
@@ -66,7 +66,7 @@ step_3 = {
     "verify": get_action_picture_by_name("bucket"),
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_click_item"),
+            "mock_image": get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_click_item"),
             "replay_input": {
                 "replay_type": "keyboard",
                 "word_to_write": None,
@@ -75,7 +75,7 @@ step_3 = {
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-            get_test_picture_by_name("test_withdraw_x")
+            get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_withdraw_x")
         ],
     },
     "processor_info": {
@@ -94,16 +94,16 @@ step_4 = {
     "check_args": {
         "right_click": True
     },  
-    "verify": get_action_picture_by_name("withdraw_x"), 
+    "verify": get_action_picture_by_name("all/dashboard/menu/withdraw/action/withdraw_x"), 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_click_item"),  
+            "mock_image": get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_click_item"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("test_withdraw_x")
+           get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_withdraw_x")
         ],
     },
     "processor_info": {
@@ -119,17 +119,17 @@ step_4 = {
 # Step 5: Click on the withdraw_X option
 
 step_5 = {
-    "check": get_action_picture_by_name("withdraw_x"), 
-    "verify": get_action_picture_by_name("enter_ammount"), 
+    "check": get_action_picture_by_name("all/dashboard/menu/withdraw/action/withdraw_x"), 
+    "verify": get_action_picture_by_name("all/dashboard/menu/withdraw/action/enter_ammount"), 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_withdraw_x"),  
+            "mock_image": get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_withdraw_x"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("test_type_ammount")
+           get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_type_ammount")
         ],
     },
     "processor_info": {
@@ -151,10 +151,10 @@ step_6 = {
             "string_to_write": "1", 
         },
     },
-    "verify": get_action_picture_by_name("outside_enter_ammount"),
+    "verify": get_action_picture_by_name("all/dashboard/menu/withdraw/action/outside_enter_ammount"),
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_enter_ammount"),
+            "mock_image": get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_enter_ammount"),
             "replay_input": {
                 "replay_type": "keyboard",
                 "word_to_write": None,
@@ -163,7 +163,7 @@ step_6 = {
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-            get_test_picture_by_name("test_click_item")
+            get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_click_item")
         ],
     },
     "processor_info": {
@@ -189,7 +189,7 @@ final_step = {
     },
 }
 
-withdraw__bank = copy.deepcopy([step_2, step_3, step_4, step_5, step_6])
+withdraw__bank = copy.deepcopy([step_2, step_3  step_4, step_5, step_6 ])# step 6, step_3
 enter_bank = copy.deepcopy( enter_bank )
 leave_bank = copy.deepcopy( leave_bank )
 

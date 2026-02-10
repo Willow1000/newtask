@@ -6,41 +6,50 @@ from common_action_framework.common_action_framework.basic_interaction import (
     get_test_picture_by_name,
 )
 
-all_failure_elements = {
-    "send_creds": [
-        get_action_picture_by_name("try_again_button")
-    ],
-}
+from common_action_framework.common_action_framework.reuse_action import (
+    update_action,
+    update_step,
+    merge_dicts,
+)
+
+all_failure_elements = {}
 
 time_limit = None  # time limit for this action (in minutes)
 current_action_id = "use_spell"
-app_config_id = "full_rs"  # each action may require a different set of configs from the app itself
+app_config_id = "initial-config"  # each action may require a different set of configs from the app itself
 context = "rs_ps"  # context to know what profile to use, what is this session related to, etc.
 
 
-# Step 1: Select Spellbook tab
+"""
+logic behind this file:
+    it contains the using of ALL spells, however, it does not contain the target of those spells
+"""
 
-step_1 = {
-    "check": get_action_picture_by_name("skill_tab"),
-    "verify": get_action_picture_by_name("spell"),
+
+# Step 1: Select Spellbook tab
+step_0 = {
+    "check": get_action_picture_by_name("all/dashboard/menu/magic"),
+    "verify": get_action_picture_by_name("all/dashboard/menu/magic_pressed"),
     "test": [
-        {
-            "mock_image": get_test_picture_by_name("test_skill_tab"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
-        },
-    ],
-    "extra_test_info": {
-        "end_mock_image_list": [
-            get_test_picture_by_name("test_spell")
+            {
+                "mock_image": get_test_picture_by_name("test_highalch"),  
+                "replay_input": {"replay_type": "mouse", "coords": None},
+            },
         ],
-    },
+    "extra_test_info": {
+            "loop_info": {
+                "num_iterations": 1,
+                "img_after_loop": get_test_picture_by_name("test_highalch"),
+            },
+        },    
+    "color_type": "colored",
     "processor_info": {
         "processor_type": {
             "check": "template_match",
             "verify": "template_match",
         },
     },
-    "id": "select_skill_tab", 
+    "id": "select_magic_tab", 
 }
 
 
@@ -62,7 +71,7 @@ step_1 = {
 final_step = {
     "check": none_step_verify,
     "verify": none_step_verify,
-    "id": "object_markers_final_step",
+    "id": "use_spell_final_step",
     "processor_info": {
         "processor_type": {
             "check": "template_match",
@@ -70,6 +79,7 @@ final_step = {
         },
     },
 }
+
  
 def use_spell_steps(updates) -> list:
     action_ordered_steps = [step_0, step_1, final_step,]
@@ -87,6 +97,12 @@ def use_spell_by_id(spell_id):
             "id": "use_spell",     
             "check": get_action_picture_by_name(f"all/dashboard/menu/spells/{spell_id}"),
             "verify": get_action_picture_by_name(f"all/dashboard/menu/spells/{spell_id}"),
+            "test": [
+            {
+                "mock_image": get_test_picture_by_name(f"test_{spell_id}"),  
+                "replay_input": {"replay_type": "mouse", "coords": None},
+            },
+            ],
             "verify_args": {
                 "reverse_verification": True,
             },
@@ -104,11 +120,11 @@ def apply_spell_on_target(target_id, spell_id):
     spell_steps = [  step for step in spell_steps if step["id"] != "use_spell_final_step" ]
     # notice the _test usage here, if you want to test a specific item, you must name it properly
     try:
-        test_image = get_test_picture_by_name(f"{target_id}_test")
+        test_image = get_test_picture_by_name(f"test_{target_id}")
         test_section = {
             "test": [
                 {
-                    "mock_image": test_image,
+                    "mock_image": [test_image],
                     "replay_input": {"replay_type": "mouse", "coords": None},
                 },
             ],
@@ -119,6 +135,7 @@ def apply_spell_on_target(target_id, spell_id):
     spell_target_step = {
         "check": get_action_picture_by_name(target_id),
         "verify": get_action_picture_by_name("all/dashboard/menu/spells/magic_spell_cast_confirmation"),
+        
         "extra_test_info": {
             "end_mock_image_list": [
                 get_test_picture_by_name("all/dashboard/menu/spells/test/magic_spell_cast_confirmation_test"),
@@ -133,7 +150,7 @@ def apply_spell_on_target(target_id, spell_id):
         "id": "spell_target_step",
     }
 
-    spell_target_step.update(test_section)
+    # spell_target_step.update(test_section)
      
     final_step = {
         "check": none_step_verify,

@@ -45,34 +45,62 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 #  wait till service is in a state such that the action can start should always be step 0
 
 
-
+# step_4 = {
+#         "check": get_action_picture_by_name(item_id), 
+#         "check_args": {
+#             "right_click": True
+#         },  
+#         "verify": get_action_picture_by_name(f"all/dashboard/menu/spells/action/{verify_image}"), 
+#         "test": [
+#             {
+#                 "mock_image": get_test_picture_by_name("test_click_item"),  
+#                 "replay_input": {"replay_type": "mouse", "coords": None},
+#             },
+#         ],
+#         "extra_test_info": {
+#             "end_mock_image_list": [
+#             get_test_picture_by_name("all/dashboard/menu/spells/test/test_deposit_x")
+#             ],
+#         },
+#         "processor_info": {
+#             "processor_type": {
+#                 "check": "template_match",
+#                 "verify": "template_match",
+#             },
+#         },
+#         "id": "right_click_item",
+#     }
 # Step 4: Right click on an item
-
-step_4 = {
-    "check": get_action_picture_by_name("bucket"), 
-    "check_args": {
-        "right_click": True
-    },  
-    "verify": get_action_picture_by_name("deposit_x"), 
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("test_click_item"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
-        },
-    ],
-    "extra_test_info": {
-        "end_mock_image_list": [
-           get_test_picture_by_name("test_deposit_x")
+def click_item( item_id,deposit_all = False):
+    if deposit_all:
+        verify_image = "deposit_all"
+    else:
+        verify_image = "deposit_x"    
+    return {
+        "check": get_action_picture_by_name(item_id), 
+        "check_args": {
+            "right_click": True
+        },  
+        "verify": get_action_picture_by_name(f"all/dashboard/menu/spells/action/{verify_image}"), 
+        "test": [
+            {
+                "mock_image": get_test_picture_by_name("test_click_item"),  
+                "replay_input": {"replay_type": "mouse", "coords": None},
+            },
         ],
-    },
-    "processor_info": {
-        "processor_type": {
-            "check": "template_match",
-            "verify": "template_match",
+        "extra_test_info": {
+            "end_mock_image_list": [
+            get_test_picture_by_name("all/dashboard/menu/spells/test/test_deposit_x")
+            ],
         },
-    },
-    "id": "right_click_item",
-}
+        "processor_info": {
+            "processor_type": {
+                "check": "template_match",
+                "verify": "template_match",
+            },
+        },
+        "id": "right_click_item",
+    }
 
 # Step 5: Click on the deposit_X option
 step_5 = {
@@ -80,7 +108,7 @@ step_5 = {
     "verify": get_action_picture_by_name("enter_ammount"), 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_deposit_x"),  
+            "mock_image": get_test_picture_by_name("all/dashboard/menu/spells/test/test_deposit_x"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
@@ -99,20 +127,20 @@ step_5 = {
 }
 
 step_5_1 = {
-    "check": get_action_picture_by_name("deposit_all"), 
-    "verify": get_action_picture_by_name("deposit_all"),
+    "check": get_action_picture_by_name("all/dashboard/menu/spells/action/deposit_all"), 
+    "verify": get_action_picture_by_name("all/dashboard/menu/spells/action/deposit_all"),
     "verify_args": {
         "reverse_verification": True,
     },  
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_deposit_x"),  
+            "mock_image": get_test_picture_by_name("all/dashboard/menu/spells/test/test_deposit_x"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("test_deposit_x")
+           get_test_picture_by_name("all/dashboard/menu/spells/test/test_deposit_x")
         ],
     },
     "processor_info": {
@@ -194,7 +222,7 @@ def deposit_x(ammount, image, mock_image):
         }
     ]
     action_ordered_steps = [
-        step_4,
+        click_item(item_id=image),
         step_5,
         step_6,
         final_step,
@@ -225,7 +253,7 @@ def deposit_all(image, mock_image=None):
             }
         ]
     action_ordered_steps = [
-        step_4,
+        click_item(item_id=image,deposit_all=True),
         step_5_1,
     ]
     action_ordered_steps = action_ordered_steps + [final_step]

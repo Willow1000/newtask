@@ -21,20 +21,20 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 
 # Step 0: Click on the cross to leave bank
 step_0 = {
-    "check": get_action_picture_by_name("leave_bank"), 
-    "verify": get_action_picture_by_name("leave_bank"), 
+    "check": get_action_picture_by_name("all/dashboard/menu/leave_bank/action/leave_bank"), 
+    "verify": get_action_picture_by_name("all/dashboard/menu/leave_bank/action/leave_bank"), 
     "verify_args": {
         "reverse_verification": True,
     }, 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("test_click_item"),  
+            "mock_image": get_test_picture_by_name("all/dashboard/menu/leave_bank/test/test_click_item"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("test_click_banker")
+           get_test_picture_by_name("all/dashboard/menu/leave_bank/test/test_click_banker")
         ],
     },
     "processor_info": {
