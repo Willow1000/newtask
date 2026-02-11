@@ -29,20 +29,20 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 # Step 2: Click on the search icon
 
 step_2 = {
-    "check": get_action_picture_by_name("all/dashboard/menu/withdraw/action/search_icon"), 
+    "check": get_action_picture_by_name("search_icon"), 
     "check_args": {
         "right_click": True
     },  
     "verify": none_step_verify, 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_click_item"),  
+            "mock_image": get_test_picture_by_name("test_click_item"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_click_item")
+           get_test_picture_by_name("test_click_item")
         ],
     },
     "processor_info": {
@@ -55,81 +55,82 @@ step_2 = {
 }
 
 # Step 3: Search for the item to withdraw
-
-step_3 = {
-    "check": write_string_in_client,
-    "check_args": {
-        "write_string_in_client": {
-            "string_to_write": "Bucket", 
-        },
-    },
-    "verify": get_action_picture_by_name("bucket"),
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_click_item"),
-            "replay_input": {
-                "replay_type": "keyboard",
-                "word_to_write": None,
+def custom_logic(item_id, mock_image):
+    step_3 = {
+        "check": write_string_in_client,
+        "check_args": {
+            "write_string_in_client": {
+                "string_to_write":item_id, 
             },
         },
-    ],
-    "extra_test_info": {
-        "end_mock_image_list": [
-            get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_withdraw_x")
+        "verify": get_action_picture_by_name(item_id),
+        "test": [
+            {
+                "mock_image": get_test_picture_by_name(mock_image),
+                "replay_input": {
+                    "replay_type": "keyboard",
+                    "word_to_write": None,
+                },
+            },
         ],
-    },
-    "processor_info": {
-        "processor_type": {
-            "check": "xdot_keyboard_processing",
-            "verify": "template_match",
-        }
-    },
-    "id": "type_item_name",
-}
-
-# Step 4: Right click on an item
-
-step_4 = {
-    "check": get_action_picture_by_name("bucket"), 
-    "check_args": {
-        "right_click": True
-    },  
-    "verify": get_action_picture_by_name("all/dashboard/menu/withdraw/action/withdraw_x"), 
-    "test": [
-        {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_click_item"),  
-            "replay_input": {"replay_type": "mouse", "coords": None},
+        "extra_test_info": {
+            "end_mock_image_list": [
+                get_test_picture_by_name("test_withdraw_x")
+            ],
         },
-    ],
-    "extra_test_info": {
-        "end_mock_image_list": [
-           get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_withdraw_x")
+        "processor_info": {
+            "processor_type": {
+                "check": "xdot_keyboard_processing",
+                "verify": "template_match",
+            }
+        },
+        "id": "type_item_name",
+    }
+
+    # Step 4: Right click on an item
+
+    step_4 = {
+        "check": get_action_picture_by_name(item_id), 
+        "check_args": {
+            "right_click": True
+        },  
+        "verify": get_action_picture_by_name("withdraw_x"), 
+        "test": [
+            {
+                "mock_image": get_test_picture_by_name(mock_image),  
+                "replay_input": {"replay_type": "mouse", "coords": None},
+            },
         ],
-    },
-    "processor_info": {
-        "processor_type": {
-            "check": "template_match",
-            "verify": "template_match",
+        "extra_test_info": {
+            "end_mock_image_list": [
+            get_test_picture_by_name("test_withdraw_x")
+            ],
         },
-    },
-    "id": "right_click_item",
-}
+        "processor_info": {
+            "processor_type": {
+                "check": "template_match",
+                "verify": "template_match",
+            },
+        },
+        "id": "right_click_item",
+    }
+    return [step_3,step_4]
 
 
 # Step 5: Click on the withdraw_X option
 
 step_5 = {
-    "check": get_action_picture_by_name("all/dashboard/menu/withdraw/action/withdraw_x"), 
-    "verify": get_action_picture_by_name("all/dashboard/menu/withdraw/action/enter_ammount"), 
+    "check": get_action_picture_by_name("withdraw_x"), 
+    "verify": get_action_picture_by_name("enter_ammount"), 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_withdraw_x"),  
+            "mock_image": get_test_picture_by_name("test_withdraw_x"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_type_ammount")
+           get_test_picture_by_name("test_type_ammount")
         ],
     },
     "processor_info": {
@@ -151,10 +152,10 @@ step_6 = {
             "string_to_write": "1", 
         },
     },
-    "verify": get_action_picture_by_name("all/dashboard/menu/withdraw/action/outside_enter_ammount"),
+    "verify": get_action_picture_by_name("outside_enter_ammount"),
     "test": [
         {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_enter_ammount"),
+            "mock_image": get_test_picture_by_name("test_enter_ammount"),
             "replay_input": {
                 "replay_type": "keyboard",
                 "word_to_write": None,
@@ -163,7 +164,7 @@ step_6 = {
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-            get_test_picture_by_name("all/dashboard/menu/withdraw/test/test_click_item")
+            get_test_picture_by_name("test_click_item")
         ],
     },
     "processor_info": {
@@ -189,27 +190,13 @@ final_step = {
     },
 }
 
-withdraw__bank = copy.deepcopy([step_2, step_3  step_4, step_5, step_6 ])# step 6, step_3
-enter_bank = copy.deepcopy( enter_bank )
-leave_bank = copy.deepcopy( leave_bank )
+
 
 def get_withdraw_x(ammount, image, mock_image):
+    step_3,step_4 = custom_logic(item_id = image,mock_image=mock_image)
+    withdraw__bank = copy.deepcopy([step_2, step_4, step_5 ])# step 6, step_3
+  
     updates = [
-        {
-        "id": "type_item_name",
-        "check": write_string_in_client,
-        "check_args": {
-            "write_string_in_client": {
-                "string_to_write": "Bucket", 
-            },
-        },
-        "verify": get_action_picture_by_name(image),
-        "extra_test_info": {
-            "end_mock_image_list": [
-                get_test_picture_by_name(mock_image)
-            ],
-        },
-        },
         {
         "id": "type_ammount",
         "check_args": {
@@ -218,16 +205,6 @@ def get_withdraw_x(ammount, image, mock_image):
             },
             }
         },
-        {
-            "id": "right_click_item",
-            "check": get_action_picture_by_name(image),
-            "test": [
-                {
-                    "mock_image": get_test_picture_by_name(mock_image),  
-                    "replay_input": {"replay_type": "mouse", "coords": None},
-                },
-            ],
-        }
     ]
 
     action_ordered_steps = copy.deepcopy( enter_bank ) \
@@ -238,8 +215,7 @@ def get_withdraw_x(ammount, image, mock_image):
     update_action(action_ordered_steps, updates)
     return copy.deepcopy(action_ordered_steps)
 
+
+
 def get_withdraw_x_test():
-    return get_withdraw_x("10", "bucket", "test_click_item")
-
-
-
+    return get_withdraw_x("1", "fire_staff", "test_click_fire_staff") + get_withdraw_x("30", "nature_rune", "test_click_nature_rune") + get_withdraw_x("26", "rune_longsword", "test_click_rune_longsword")

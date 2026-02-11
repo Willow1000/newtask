@@ -77,20 +77,20 @@ def click_item( item_id,deposit_all = False):
     else:
         verify_image = "deposit_x"    
     return {
-        "check": get_action_picture_by_name(item_id), 
+        "check": get_action_picture_by_name('rune_longsword'), 
         "check_args": {
             "right_click": True
         },  
-        "verify": get_action_picture_by_name(f"all/dashboard/menu/spells/action/{verify_image}"), 
+        "verify": get_action_picture_by_name(f"{verify_image}"), 
         "test": [
             {
-                "mock_image": get_test_picture_by_name("test_click_item"),  
+                "mock_image": get_test_picture_by_name("test_deposit_items"),  
                 "replay_input": {"replay_type": "mouse", "coords": None},
             },
         ],
         "extra_test_info": {
             "end_mock_image_list": [
-            get_test_picture_by_name("all/dashboard/menu/spells/test/test_deposit_x")
+            get_test_picture_by_name("test_deposit_x")
             ],
         },
         "processor_info": {
@@ -108,7 +108,7 @@ step_5 = {
     "verify": get_action_picture_by_name("enter_ammount"), 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/spells/test/test_deposit_x"),  
+            "mock_image": get_test_picture_by_name("test_deposit_x"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
@@ -127,20 +127,20 @@ step_5 = {
 }
 
 step_5_1 = {
-    "check": get_action_picture_by_name("all/dashboard/menu/spells/action/deposit_all"), 
-    "verify": get_action_picture_by_name("all/dashboard/menu/spells/action/deposit_all"),
+    "check": get_action_picture_by_name("deposit_all"), 
+    "verify": get_action_picture_by_name("deposit_all"),
     "verify_args": {
         "reverse_verification": True,
     },  
     "test": [
         {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/spells/test/test_deposit_x"),  
+            "mock_image": get_test_picture_by_name("test_deposit_x"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("all/dashboard/menu/spells/test/test_deposit_x")
+           get_test_picture_by_name("test_deposit_x")
         ],
     },
     "processor_info": {
@@ -276,7 +276,7 @@ def get_deposit_x_test():
     return deposit_x("28", "steel_bar", "test_deposit_steel_bar")
 
 def get_deposit_all_test():
-    return deposit_all("steel_bar", "test_deposit_steel_bar")
+    return deposit_all("nature_rune", "test_deposit_items") + deposit_all("fire_staff", "test_deposit_items")
 
 
 

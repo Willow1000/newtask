@@ -1,0 +1,4793 @@
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: verify
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//0_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//1_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//1_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//2_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: verify
+
+report for step:
+step num:4
+step id:click_seach_icon
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/search_icon.png
+precision: 0.999839186668396
+position on screen: (403, 314)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/search_icon.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//4_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//4_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//4_search_icon_iteration_0_check.png
+
+tested component for step: click_seach_icon
+step num: 4,
+element was of type: check
+
+report for step:
+step num:4
+step id:click_seach_icon
+element:verify
+testing verify component
+
+
+tested component for step: click_seach_icon
+step num: 4,
+element was of type: verify
+
+report for step:
+step num:5
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_click_fire_staff.png
+icon image name: action/fire_staff.png
+precision: 0.811948299407959
+position on screen: (996, 201)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/fire_staff.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//5_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//5_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//5_fire_staff_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 5,
+element was of type: check
+
+report for step:
+step num:5
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//5_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//5_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//5_withdraw_x_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 5,
+element was of type: verify
+
+report for step:
+step num:6
+step id:click_withdraw_x
+element:check
+testing check component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//6_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//6_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//6_withdraw_x_iteration_0_check.png
+
+tested component for step: click_withdraw_x
+step num: 6,
+element was of type: check
+
+report for step:
+step num:6
+step id:click_withdraw_x
+element:verify
+testing verify component
+
+background image name: test/test_type_ammount.png
+icon image name: action/enter_ammount.png
+precision: 0.9999753832817078
+position on screen: (256, 398)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/enter_ammount.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//6_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//6_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//6_enter_ammount_iteration_0_verify.png
+
+tested component for step: click_withdraw_x
+step num: 6,
+element was of type: verify
+
+report for step:
+step num:7
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//7_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//7_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//7_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 7,
+element was of type: check
+
+report for step:
+step num:7
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//7_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 7,
+element was of type: verify
+
+report for step:
+step num:8
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 8,
+element was of type: check
+
+report for step:
+step num:8
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 8,
+element was of type: verify
+
+report for step:
+step num:9
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 9,
+element was of type: check
+
+report for step:
+step num:9
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 9,
+element was of type: verify
+
+report for step:
+step num:10
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 10,
+element was of type: check
+
+report for step:
+step num:10
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//10_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//10_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//10_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 10,
+element was of type: verify
+
+report for step:
+step num:11
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//11_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//11_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//11_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 11,
+element was of type: check
+
+report for step:
+step num:11
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//11_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//11_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//11_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 11,
+element was of type: verify
+
+report for step:
+step num:12
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//12_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//12_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//12_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 12,
+element was of type: check
+
+report for step:
+step num:12
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//12_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//12_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//12_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 12,
+element was of type: verify
+
+report for step:
+step num:13
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 13,
+element was of type: check
+
+report for step:
+step num:13
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 13,
+element was of type: verify
+
+report for step:
+step num:14
+step id:click_seach_icon
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/search_icon.png
+precision: 0.999839186668396
+position on screen: (403, 314)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/search_icon.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//14_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//14_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//14_search_icon_iteration_0_check.png
+
+tested component for step: click_seach_icon
+step num: 14,
+element was of type: check
+
+report for step:
+step num:14
+step id:click_seach_icon
+element:verify
+testing verify component
+
+
+tested component for step: click_seach_icon
+step num: 14,
+element was of type: verify
+
+report for step:
+step num:15
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_click_nature_rune.png
+icon image name: action/nature_rune.png
+precision: 0.9500763416290283
+position on screen: (992, 305)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/nature_rune.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//15_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//15_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//15_nature_rune_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 15,
+element was of type: check
+
+report for step:
+step num:15
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//15_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//15_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//15_withdraw_x_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 15,
+element was of type: verify
+
+report for step:
+step num:16
+step id:click_withdraw_x
+element:check
+testing check component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//16_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//16_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//16_withdraw_x_iteration_0_check.png
+
+tested component for step: click_withdraw_x
+step num: 16,
+element was of type: check
+
+report for step:
+step num:16
+step id:click_withdraw_x
+element:verify
+testing verify component
+
+background image name: test/test_type_ammount.png
+icon image name: action/enter_ammount.png
+precision: 0.9999753832817078
+position on screen: (256, 398)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/enter_ammount.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//16_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//16_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//16_enter_ammount_iteration_0_verify.png
+
+tested component for step: click_withdraw_x
+step num: 16,
+element was of type: verify
+
+report for step:
+step num:17
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//17_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//17_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//17_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 17,
+element was of type: check
+
+report for step:
+step num:17
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//17_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 17,
+element was of type: verify
+
+report for step:
+step num:18
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 18,
+element was of type: check
+
+report for step:
+step num:18
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 18,
+element was of type: verify
+
+report for step:
+step num:19
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 19,
+element was of type: check
+
+report for step:
+step num:19
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 19,
+element was of type: verify
+
+report for step:
+step num:20
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 20,
+element was of type: check
+
+report for step:
+step num:20
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//20_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//20_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//20_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 20,
+element was of type: verify
+
+report for step:
+step num:21
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//21_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//21_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//21_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 21,
+element was of type: check
+
+report for step:
+step num:21
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//21_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//21_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//21_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 21,
+element was of type: verify
+
+report for step:
+step num:22
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//22_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//22_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//22_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 22,
+element was of type: check
+
+report for step:
+step num:22
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//22_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//22_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//22_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 22,
+element was of type: verify
+
+report for step:
+step num:23
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 23,
+element was of type: check
+
+report for step:
+step num:23
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 23,
+element was of type: verify
+
+report for step:
+step num:24
+step id:click_seach_icon
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/search_icon.png
+precision: 0.999839186668396
+position on screen: (403, 314)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/search_icon.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//24_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//24_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//24_search_icon_iteration_0_check.png
+
+tested component for step: click_seach_icon
+step num: 24,
+element was of type: check
+
+report for step:
+step num:24
+step id:click_seach_icon
+element:verify
+testing verify component
+
+
+tested component for step: click_seach_icon
+step num: 24,
+element was of type: verify
+
+report for step:
+step num:25
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_click_rune_longsword.png
+icon image name: action/rune_longsword.png
+precision: 0.6024308800697327
+position on screen: (657, 355)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/rune_longsword.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//25_rune_longsword_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//25_rune_longsword_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//25_rune_longsword_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 25,
+element was of type: check
+
+report for step:
+step num:25
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//25_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//25_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//25_withdraw_x_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 25,
+element was of type: verify
+
+report for step:
+step num:26
+step id:click_withdraw_x
+element:check
+testing check component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//26_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//26_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//26_withdraw_x_iteration_0_check.png
+
+tested component for step: click_withdraw_x
+step num: 26,
+element was of type: check
+
+report for step:
+step num:26
+step id:click_withdraw_x
+element:verify
+testing verify component
+
+background image name: test/test_type_ammount.png
+icon image name: action/enter_ammount.png
+precision: 0.9999753832817078
+position on screen: (256, 398)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/enter_ammount.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//26_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//26_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//26_enter_ammount_iteration_0_verify.png
+
+tested component for step: click_withdraw_x
+step num: 26,
+element was of type: verify
+
+report for step:
+step num:27
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//27_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//27_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//27_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 27,
+element was of type: check
+
+report for step:
+step num:27
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//27_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 27,
+element was of type: verify
+
+report for step:
+step num:28
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 28,
+element was of type: check
+
+report for step:
+step num:28
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 28,
+element was of type: verify
+
+report for step:
+step num:29
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 29,
+element was of type: check
+
+report for step:
+step num:29
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 29,
+element was of type: verify
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/leave_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/leave_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/0_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 1,
+element was of type: verify
+
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: verify
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//0_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//1_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//1_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//2_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: verify
+
+report for step:
+step num:4
+step id:click_seach_icon
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/search_icon.png
+precision: 0.999839186668396
+position on screen: (403, 314)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/search_icon.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//4_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//4_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//4_search_icon_iteration_0_check.png
+
+tested component for step: click_seach_icon
+step num: 4,
+element was of type: check
+
+report for step:
+step num:4
+step id:click_seach_icon
+element:verify
+testing verify component
+
+
+tested component for step: click_seach_icon
+step num: 4,
+element was of type: verify
+
+report for step:
+step num:5
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_click_fire_staff.png
+icon image name: action/fire_staff.png
+precision: 0.811948299407959
+position on screen: (996, 201)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/fire_staff.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//5_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//5_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//5_fire_staff_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 5,
+element was of type: check
+
+report for step:
+step num:5
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//5_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//5_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//5_withdraw_x_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 5,
+element was of type: verify
+
+report for step:
+step num:6
+step id:click_withdraw_x
+element:check
+testing check component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//6_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//6_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//6_withdraw_x_iteration_0_check.png
+
+tested component for step: click_withdraw_x
+step num: 6,
+element was of type: check
+
+report for step:
+step num:6
+step id:click_withdraw_x
+element:verify
+testing verify component
+
+background image name: test/test_type_ammount.png
+icon image name: action/enter_ammount.png
+precision: 0.9999753832817078
+position on screen: (256, 398)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/enter_ammount.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//6_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//6_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//6_enter_ammount_iteration_0_verify.png
+
+tested component for step: click_withdraw_x
+step num: 6,
+element was of type: verify
+
+report for step:
+step num:7
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//7_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//7_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//7_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 7,
+element was of type: check
+
+report for step:
+step num:7
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//7_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 7,
+element was of type: verify
+
+report for step:
+step num:8
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 8,
+element was of type: check
+
+report for step:
+step num:8
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 8,
+element was of type: verify
+
+report for step:
+step num:9
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 9,
+element was of type: check
+
+report for step:
+step num:9
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 9,
+element was of type: verify
+
+report for step:
+step num:10
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 10,
+element was of type: check
+
+report for step:
+step num:10
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//10_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//10_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//10_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 10,
+element was of type: verify
+
+report for step:
+step num:11
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//11_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//11_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//11_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 11,
+element was of type: check
+
+report for step:
+step num:11
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//11_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//11_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//11_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 11,
+element was of type: verify
+
+report for step:
+step num:12
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//12_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//12_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//12_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 12,
+element was of type: check
+
+report for step:
+step num:12
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//12_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//12_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//12_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 12,
+element was of type: verify
+
+report for step:
+step num:13
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 13,
+element was of type: check
+
+report for step:
+step num:13
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 13,
+element was of type: verify
+
+report for step:
+step num:14
+step id:click_seach_icon
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/search_icon.png
+precision: 0.999839186668396
+position on screen: (403, 314)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/search_icon.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//14_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//14_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//14_search_icon_iteration_0_check.png
+
+tested component for step: click_seach_icon
+step num: 14,
+element was of type: check
+
+report for step:
+step num:14
+step id:click_seach_icon
+element:verify
+testing verify component
+
+
+tested component for step: click_seach_icon
+step num: 14,
+element was of type: verify
+
+report for step:
+step num:15
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_click_nature_rune.png
+icon image name: action/nature_rune.png
+precision: 0.9500763416290283
+position on screen: (992, 305)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/nature_rune.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//15_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//15_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//15_nature_rune_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 15,
+element was of type: check
+
+report for step:
+step num:15
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//15_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//15_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//15_withdraw_x_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 15,
+element was of type: verify
+
+report for step:
+step num:16
+step id:click_withdraw_x
+element:check
+testing check component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//16_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//16_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//16_withdraw_x_iteration_0_check.png
+
+tested component for step: click_withdraw_x
+step num: 16,
+element was of type: check
+
+report for step:
+step num:16
+step id:click_withdraw_x
+element:verify
+testing verify component
+
+background image name: test/test_type_ammount.png
+icon image name: action/enter_ammount.png
+precision: 0.9999753832817078
+position on screen: (256, 398)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/enter_ammount.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//16_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//16_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//16_enter_ammount_iteration_0_verify.png
+
+tested component for step: click_withdraw_x
+step num: 16,
+element was of type: verify
+
+report for step:
+step num:17
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//17_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//17_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//17_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 17,
+element was of type: check
+
+report for step:
+step num:17
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//17_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 17,
+element was of type: verify
+
+report for step:
+step num:18
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 18,
+element was of type: check
+
+report for step:
+step num:18
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 18,
+element was of type: verify
+
+report for step:
+step num:19
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 19,
+element was of type: check
+
+report for step:
+step num:19
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 19,
+element was of type: verify
+
+report for step:
+step num:20
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 20,
+element was of type: check
+
+report for step:
+step num:20
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//20_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//20_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//20_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 20,
+element was of type: verify
+
+report for step:
+step num:21
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//21_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//21_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//21_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 21,
+element was of type: check
+
+report for step:
+step num:21
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//21_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//21_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//21_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 21,
+element was of type: verify
+
+report for step:
+step num:22
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//22_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//22_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//22_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 22,
+element was of type: check
+
+report for step:
+step num:22
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//22_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//22_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//22_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 22,
+element was of type: verify
+
+report for step:
+step num:23
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 23,
+element was of type: check
+
+report for step:
+step num:23
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 23,
+element was of type: verify
+
+report for step:
+step num:24
+step id:click_seach_icon
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/search_icon.png
+precision: 0.999839186668396
+position on screen: (403, 314)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/search_icon.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//24_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//24_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//24_search_icon_iteration_0_check.png
+
+tested component for step: click_seach_icon
+step num: 24,
+element was of type: check
+
+report for step:
+step num:24
+step id:click_seach_icon
+element:verify
+testing verify component
+
+
+tested component for step: click_seach_icon
+step num: 24,
+element was of type: verify
+
+report for step:
+step num:25
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_click_rune_longsword.png
+icon image name: action/rune_longsword.png
+precision: 0.6024308800697327
+position on screen: (657, 355)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/rune_longsword.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//25_rune_longsword_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//25_rune_longsword_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//25_rune_longsword_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 25,
+element was of type: check
+
+report for step:
+step num:25
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//25_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//25_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//25_withdraw_x_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 25,
+element was of type: verify
+
+report for step:
+step num:26
+step id:click_withdraw_x
+element:check
+testing check component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//26_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//26_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//26_withdraw_x_iteration_0_check.png
+
+tested component for step: click_withdraw_x
+step num: 26,
+element was of type: check
+
+report for step:
+step num:26
+step id:click_withdraw_x
+element:verify
+testing verify component
+
+background image name: test/test_type_ammount.png
+icon image name: action/enter_ammount.png
+precision: 0.9999753832817078
+position on screen: (256, 398)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/enter_ammount.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//26_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//26_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//26_enter_ammount_iteration_0_verify.png
+
+tested component for step: click_withdraw_x
+step num: 26,
+element was of type: verify
+
+report for step:
+step num:27
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//27_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//27_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//27_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 27,
+element was of type: check
+
+report for step:
+step num:27
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//27_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 27,
+element was of type: verify
+
+report for step:
+step num:28
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 28,
+element was of type: check
+
+report for step:
+step num:28
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 28,
+element was of type: verify
+
+report for step:
+step num:29
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 29,
+element was of type: check
+
+report for step:
+step num:29
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 29,
+element was of type: verify
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/leave_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/leave_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/1_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 1,
+element was of type: verify
+
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: verify
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//0_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//1_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//1_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//2_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: verify
+
+report for step:
+step num:4
+step id:click_seach_icon
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/search_icon.png
+precision: 0.999839186668396
+position on screen: (403, 314)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/search_icon.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//4_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//4_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//4_search_icon_iteration_0_check.png
+
+tested component for step: click_seach_icon
+step num: 4,
+element was of type: check
+
+report for step:
+step num:4
+step id:click_seach_icon
+element:verify
+testing verify component
+
+
+tested component for step: click_seach_icon
+step num: 4,
+element was of type: verify
+
+report for step:
+step num:5
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_click_fire_staff.png
+icon image name: action/fire_staff.png
+precision: 0.811948299407959
+position on screen: (996, 201)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/fire_staff.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//5_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//5_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//5_fire_staff_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 5,
+element was of type: check
+
+report for step:
+step num:5
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//5_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//5_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//5_withdraw_x_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 5,
+element was of type: verify
+
+report for step:
+step num:6
+step id:click_withdraw_x
+element:check
+testing check component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//6_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//6_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//6_withdraw_x_iteration_0_check.png
+
+tested component for step: click_withdraw_x
+step num: 6,
+element was of type: check
+
+report for step:
+step num:6
+step id:click_withdraw_x
+element:verify
+testing verify component
+
+background image name: test/test_type_ammount.png
+icon image name: action/enter_ammount.png
+precision: 0.9999753832817078
+position on screen: (256, 398)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/enter_ammount.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//6_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//6_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//6_enter_ammount_iteration_0_verify.png
+
+tested component for step: click_withdraw_x
+step num: 6,
+element was of type: verify
+
+report for step:
+step num:7
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//7_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//7_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//7_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 7,
+element was of type: check
+
+report for step:
+step num:7
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//7_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 7,
+element was of type: verify
+
+report for step:
+step num:8
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 8,
+element was of type: check
+
+report for step:
+step num:8
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 8,
+element was of type: verify
+
+report for step:
+step num:9
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 9,
+element was of type: check
+
+report for step:
+step num:9
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 9,
+element was of type: verify
+
+report for step:
+step num:10
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 10,
+element was of type: check
+
+report for step:
+step num:10
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//10_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//10_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//10_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 10,
+element was of type: verify
+
+report for step:
+step num:11
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//11_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//11_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//11_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 11,
+element was of type: check
+
+report for step:
+step num:11
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//11_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//11_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//11_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 11,
+element was of type: verify
+
+report for step:
+step num:12
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//12_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//12_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//12_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 12,
+element was of type: check
+
+report for step:
+step num:12
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//12_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//12_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//12_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 12,
+element was of type: verify
+
+report for step:
+step num:13
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 13,
+element was of type: check
+
+report for step:
+step num:13
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 13,
+element was of type: verify
+
+report for step:
+step num:14
+step id:click_seach_icon
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/search_icon.png
+precision: 0.999839186668396
+position on screen: (403, 314)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/search_icon.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//14_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//14_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//14_search_icon_iteration_0_check.png
+
+tested component for step: click_seach_icon
+step num: 14,
+element was of type: check
+
+report for step:
+step num:14
+step id:click_seach_icon
+element:verify
+testing verify component
+
+
+tested component for step: click_seach_icon
+step num: 14,
+element was of type: verify
+
+report for step:
+step num:15
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_click_nature_rune.png
+icon image name: action/nature_rune.png
+precision: 0.9500763416290283
+position on screen: (992, 305)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/nature_rune.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//15_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//15_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//15_nature_rune_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 15,
+element was of type: check
+
+report for step:
+step num:15
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//15_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//15_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//15_withdraw_x_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 15,
+element was of type: verify
+
+report for step:
+step num:16
+step id:click_withdraw_x
+element:check
+testing check component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//16_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//16_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//16_withdraw_x_iteration_0_check.png
+
+tested component for step: click_withdraw_x
+step num: 16,
+element was of type: check
+
+report for step:
+step num:16
+step id:click_withdraw_x
+element:verify
+testing verify component
+
+background image name: test/test_type_ammount.png
+icon image name: action/enter_ammount.png
+precision: 0.9999753832817078
+position on screen: (256, 398)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/enter_ammount.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//16_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//16_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//16_enter_ammount_iteration_0_verify.png
+
+tested component for step: click_withdraw_x
+step num: 16,
+element was of type: verify
+
+report for step:
+step num:17
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//17_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//17_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//17_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 17,
+element was of type: check
+
+report for step:
+step num:17
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//17_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 17,
+element was of type: verify
+
+report for step:
+step num:18
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 18,
+element was of type: check
+
+report for step:
+step num:18
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 18,
+element was of type: verify
+
+report for step:
+step num:19
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 19,
+element was of type: check
+
+report for step:
+step num:19
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 19,
+element was of type: verify
+
+report for step:
+step num:20
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 20,
+element was of type: check
+
+report for step:
+step num:20
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//20_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//20_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//20_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 20,
+element was of type: verify
+
+report for step:
+step num:21
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//21_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//21_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//21_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 21,
+element was of type: check
+
+report for step:
+step num:21
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//21_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//21_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//21_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 21,
+element was of type: verify
+
+report for step:
+step num:22
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//22_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//22_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//22_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 22,
+element was of type: check
+
+report for step:
+step num:22
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//22_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//22_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//22_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 22,
+element was of type: verify
+
+report for step:
+step num:23
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 23,
+element was of type: check
+
+report for step:
+step num:23
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 23,
+element was of type: verify
+
+report for step:
+step num:24
+step id:click_seach_icon
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/search_icon.png
+precision: 0.999839186668396
+position on screen: (403, 314)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/search_icon.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//24_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//24_search_icon_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//24_search_icon_iteration_0_check.png
+
+tested component for step: click_seach_icon
+step num: 24,
+element was of type: check
+
+report for step:
+step num:24
+step id:click_seach_icon
+element:verify
+testing verify component
+
+
+tested component for step: click_seach_icon
+step num: 24,
+element was of type: verify
+
+report for step:
+step num:25
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_click_rune_longsword.png
+icon image name: action/rune_longsword.png
+precision: 0.6024308800697327
+position on screen: (657, 355)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/rune_longsword.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//25_rune_longsword_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//25_rune_longsword_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//25_rune_longsword_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 25,
+element was of type: check
+
+report for step:
+step num:25
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//25_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//25_withdraw_x_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//25_withdraw_x_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 25,
+element was of type: verify
+
+report for step:
+step num:26
+step id:click_withdraw_x
+element:check
+testing check component
+
+background image name: test/test_withdraw_x.png
+icon image name: action/withdraw_x.png
+precision: 0.9999987483024597
+position on screen: (163, 234)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/withdraw_x.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//26_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//26_withdraw_x_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//26_withdraw_x_iteration_0_check.png
+
+tested component for step: click_withdraw_x
+step num: 26,
+element was of type: check
+
+report for step:
+step num:26
+step id:click_withdraw_x
+element:verify
+testing verify component
+
+background image name: test/test_type_ammount.png
+icon image name: action/enter_ammount.png
+precision: 0.9999753832817078
+position on screen: (256, 398)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/enter_ammount.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//26_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//26_enter_ammount_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//26_enter_ammount_iteration_0_verify.png
+
+tested component for step: click_withdraw_x
+step num: 26,
+element was of type: verify
+
+report for step:
+step num:27
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//27_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//27_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//27_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 27,
+element was of type: check
+
+report for step:
+step num:27
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/withdraw_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//27_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 27,
+element was of type: verify
+
+report for step:
+step num:28
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 28,
+element was of type: check
+
+report for step:
+step num:28
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 28,
+element was of type: verify
+
+report for step:
+step num:29
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 29,
+element was of type: check
+
+report for step:
+step num:29
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 29,
+element was of type: verify
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/leave_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/leave_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/2_WithdrawBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 1,
+element was of type: verify
+
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:select_magic_tab
+element:check
+testing check component
+
+background image name: test/test_highalch.png
+icon image name: menu/magic.png
+precision: 0.8829086422920227
+position on screen: (740, 182)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/magic.png
+output image path: local_test_output/highalch/dependencies/3_UseSpellTest//0_magic_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/3_UseSpellTest//0_magic_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/3_UseSpellTest//0_magic_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/unique_images_for_this_test//0_magic_iteration_0_check.png
+
+tested component for step: select_magic_tab
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:select_magic_tab
+element:verify
+testing verify component
+
+background image name: test/test_highalch.png
+icon image name: menu/magic_pressed.png
+precision: 0.9705803394317627
+position on screen: (740, 182)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/magic_pressed.png
+output image path: local_test_output/highalch/dependencies/3_UseSpellTest//0_magic_pressed_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/3_UseSpellTest//0_magic_pressed_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/3_UseSpellTest//0_magic_pressed_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/unique_images_for_this_test//0_magic_pressed_iteration_0_verify.png
+
+tested component for step: select_magic_tab
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:use_spell
+element:check
+testing check component
+
+background image name: test/test_highalch.png
+icon image name: spells/highalch.png
+precision: 0.9963052272796631
+position on screen: (562, 333)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/spells/highalch.png
+output image path: local_test_output/highalch/dependencies/3_UseSpellTest//1_highalch_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/3_UseSpellTest//1_highalch_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/3_UseSpellTest//1_highalch_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/unique_images_for_this_test//1_highalch_iteration_0_check.png
+
+tested component for step: use_spell
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:use_spell
+element:verify
+testing verify component
+
+no test element provided
+tested component for step: use_spell
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:spell_target_step
+element:check
+testing check component
+
+no test element provided
+tested component for step: spell_target_step
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:spell_target_step
+element:verify
+testing verify component
+
+background image name: test/magic_spell_cast_confirmation_test.png
+icon image name: spells/magic_spell_cast_confirmation.png
+precision: 0.6980019211769104
+position on screen: (393, 47)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/spells/magic_spell_cast_confirmation.png
+output image path: local_test_output/highalch/dependencies/3_UseSpellTest//2_magic_spell_cast_confirmation_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/3_UseSpellTest//2_magic_spell_cast_confirmation_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/3_UseSpellTest//2_magic_spell_cast_confirmation_iteration_0_verify.png
+
+tested component for step: spell_target_step
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:spell_target_final_step
+element:check
+testing check component
+
+
+tested component for step: spell_target_final_step
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:spell_target_final_step
+element:verify
+testing verify component
+
+
+tested component for step: spell_target_final_step
+step num: 3,
+element was of type: verify
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:equip_fire_staff
+element:check
+testing check component
+
+background image name: test/test_fire_staff.png
+icon image name: action/fire_staff.png
+precision: 0.8501623868942261
+position on screen: (1721, 561)
+
+test element: runescape_actions/runescape_actions/highalch/all_action_files/screenshots//action/fire_staff.png
+output image path: local_test_output/highalch/0_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/0_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/0_fire_staff_iteration_0_check.png
+
+tested component for step: equip_fire_staff
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:equip_fire_staff
+element:verify
+testing verify component
+
+background image name: menu/test_worn_equipment.png
+icon image name: action/fire_staff_equiped.png
+precision: 0.9617186188697815
+position on screen: (877, 460)
+
+test element: runescape_actions/runescape_actions/highalch/all_action_files/screenshots//action/fire_staff_equiped.png
+output image path: local_test_output/highalch/0_fire_staff_equiped_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/0_fire_staff_equiped_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/0_fire_staff_equiped_iteration_0_verify_reverse_verify_should_be_black_img.png
+
+tested component for step: equip_fire_staff
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:check_fire_staff_equiped
+element:check
+testing check component
+
+background image name: menu/test_worn_equipment.png
+icon image name: menu/worn_equipment.png
+precision: 0.8101484775543213
+position on screen: (1011, 279)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/worn_equipment.png
+output image path: local_test_output/highalch/1_worn_equipment_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/1_worn_equipment_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/1_worn_equipment_iteration_0_check.png
+
+tested component for step: check_fire_staff_equiped
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:check_fire_staff_equiped
+element:verify
+testing verify component
+
+background image name: test/test_fire_staff_equiped.png
+icon image name: menu/worn_equipment_pressed.png
+precision: 0.9717507362365723
+position on screen: (1024, 287)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/worn_equipment_pressed.png
+output image path: local_test_output/highalch/1_worn_equipment_pressed_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/1_worn_equipment_pressed_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/1_worn_equipment_pressed_iteration_0_verify_reverse_verify_should_be_black_img.png
+background image name: test/test_fire_staff_equiped.png
+icon image name: menu/worn_equipment_pressed.png
+precision: 0.9717507362365723
+position on screen: (1024, 287)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/worn_equipment_pressed.png
+output image path: local_test_output/highalch/1_worn_equipment_pressed_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/1_worn_equipment_pressed_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/1_worn_equipment_pressed_iteration_0_verify_reverse_verify_should_be_black_img.png
+background image name: test/test_fire_staff_equiped.png
+icon image name: action/fire_staff_equiped.png
+precision: 0.96172034740448
+position on screen: (888, 467)
+
+test element: runescape_actions/runescape_actions/highalch/all_action_files/screenshots//action/fire_staff_equiped.png
+output image path: local_test_output/highalch/1_fire_staff_equiped_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/1_fire_staff_equiped_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/1_fire_staff_equiped_iteration_0_verify_reverse_verify_should_be_black_img.png
+
+tested component for step: check_fire_staff_equiped
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:loop_until_firestaff_equiped
+element:jump
+testing jump component
+
+background image name: test/test_fire_staff_equiped.png
+icon image name: action/fire_staff_equiped.png
+precision: 0.96172034740448
+position on screen: (888, 467)
+
+test element: runescape_actions/runescape_actions/highalch/all_action_files/screenshots//action/fire_staff_equiped.png
+output image path: local_test_output/highalch/2_fire_staff_equiped_iteration_0_jump.png
+Image with cross saved as local_test_output/highalch/2_fire_staff_equiped_iteration_0_jump.png
+Image with cross saved as local_test_output/highalch/2_fire_staff_equiped_iteration_0_jump.png
+background image name: test/test_fire_staff_equiped.png
+icon image name: action/fire_staff_equiped.png
+precision: 0.96172034740448
+position on screen: (888, 467)
+
+test element: runescape_actions/runescape_actions/highalch/all_action_files/screenshots//action/fire_staff_equiped.png
+output image path: local_test_output/highalch/2_fire_staff_equiped_iteration_0_jump.png
+Image with cross saved as local_test_output/highalch/2_fire_staff_equiped_iteration_0_jump.png
+Image with cross saved as local_test_output/highalch/2_fire_staff_equiped_iteration_0_jump.png
+background image name: test/test_fire_staff_equiped.png
+icon image name: action/fire_staff_equiped.png
+precision: 0.96172034740448
+position on screen: (888, 467)
+
+test element: runescape_actions/runescape_actions/highalch/all_action_files/screenshots//action/fire_staff_equiped.png
+output image path: local_test_output/highalch/2_fire_staff_equiped_iteration_1_jump.png
+Image with cross saved as local_test_output/highalch/2_fire_staff_equiped_iteration_1_jump.png
+Image with cross saved as local_test_output/highalch/2_fire_staff_equiped_iteration_1_jump.png
+
+tested component for step: loop_until_firestaff_equiped
+step num: 2,
+element was of type: jump
+
+report for step:
+step num:3
+step id:click_worn_equipment
+element:check
+testing check component
+
+background image name: menu/test_worn_equipment.png
+icon image name: menu/worn_equipment.png
+precision: 0.8101484775543213
+position on screen: (1011, 279)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/worn_equipment.png
+output image path: local_test_output/highalch/3_worn_equipment_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/3_worn_equipment_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/3_worn_equipment_iteration_0_check.png
+
+tested component for step: click_worn_equipment
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:click_worn_equipment
+element:verify
+testing verify component
+
+background image name: test/test_fire_staff_equiped.png
+icon image name: menu/worn_equipment_pressed.png
+precision: 0.9717507362365723
+position on screen: (1024, 287)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/worn_equipment_pressed.png
+output image path: local_test_output/highalch/3_worn_equipment_pressed_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/3_worn_equipment_pressed_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/3_worn_equipment_pressed_iteration_0_verify_reverse_verify_should_be_black_img.png
+
+tested component for step: click_worn_equipment
+step num: 3,
+element was of type: verify
+
+report for step:
+step num:4
+step id:unequip_fire_staff
+element:check
+testing check component
+
+background image name: test/test_fire_staff_equiped.png
+icon image name: action/fire_staff_equiped.png
+precision: 0.96172034740448
+position on screen: (888, 467)
+
+test element: runescape_actions/runescape_actions/highalch/all_action_files/screenshots//action/fire_staff_equiped.png
+output image path: local_test_output/highalch/4_fire_staff_equiped_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/4_fire_staff_equiped_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/4_fire_staff_equiped_iteration_0_check.png
+
+tested component for step: unequip_fire_staff
+step num: 4,
+element was of type: check
+
+report for step:
+step num:4
+step id:unequip_fire_staff
+element:verify
+testing verify component
+
+no test element provided
+tested component for step: unequip_fire_staff
+step num: 4,
+element was of type: verify
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: verify
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_deposit_items.png
+icon image name: action/nature_rune.png
+precision: 0.9930627942085266
+position on screen: (1649, 557)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/nature_rune.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//0_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//0_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//0_nature_rune_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//0_deposit_all_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//0_deposit_all_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//0_deposit_all_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:click_deposit_x
+element:check
+testing check component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//1_deposit_all_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//1_deposit_all_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//1_deposit_all_iteration_0_check.png
+
+tested component for step: click_deposit_x
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:click_deposit_x
+element:verify
+testing verify component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//1_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//1_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//1_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+
+tested component for step: click_deposit_x
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_deposit_items.png
+icon image name: action/fire_staff.png
+precision: 0.8501637578010559
+position on screen: (1716, 561)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/fire_staff.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//3_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//3_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//3_fire_staff_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//3_deposit_all_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//3_deposit_all_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//3_deposit_all_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 3,
+element was of type: verify
+
+report for step:
+step num:4
+step id:click_deposit_x
+element:check
+testing check component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//4_deposit_all_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//4_deposit_all_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//4_deposit_all_iteration_0_check.png
+
+tested component for step: click_deposit_x
+step num: 4,
+element was of type: check
+
+report for step:
+step num:4
+step id:click_deposit_x
+element:verify
+testing verify component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//4_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//4_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//4_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+
+tested component for step: click_deposit_x
+step num: 4,
+element was of type: verify
+
+report for step:
+step num:5
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 5,
+element was of type: check
+
+report for step:
+step num:5
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 5,
+element was of type: verify
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/leave_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/leave_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/4_DepositBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 1,
+element was of type: verify
+
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:check
+testing check component
+
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:check_app_state_in_game_lobby
+element:verify
+testing verify component
+
+background image name: test/test_lowbar.png
+icon image name: action/report.png
+precision: 0.9999397397041321
+position on screen: (48, 26)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/report.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//0_report_iteration_0_verify.png
+
+tested component for step: check_app_state_in_game_lobby
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:click_continue
+element:check
+testing check component
+
+background image name: test/test_talk_banker.png
+icon image name: action/continue.png
+precision: 0.9999279975891113
+position on screen: (301, 448)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/continue.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//1_continue_iteration_0_check.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:click_continue
+element:verify
+testing verify component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//1_access_bank_account_iteration_0_verify.png
+
+tested component for step: click_continue
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:access_bank_account
+element:check
+testing check component
+
+background image name: test/test_banker_options.png
+icon image name: action/access_bank_account.png
+precision: 0.9999638795852661
+position on screen: (265, 383)
+
+test element: runescape_actions/runescape_actions/commons/enter_bank/all_action_files/screenshots//action/access_bank_account.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//2_access_bank_account_iteration_0_check.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:access_bank_account
+element:verify
+testing verify component
+
+background image name: test/test_click_item.png
+icon image name: action/verify_inside_bank_account.png
+precision: 0.9998361468315125
+position on screen: (403, 314)
+
+test element: ./runescape_actions/runescape_actions/commons/0common_photos//dashboard/menu/enter_bank/action/verify_inside_bank_account.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/0_EnterBankTest//2_verify_inside_bank_account_iteration_0_verify.png
+
+tested component for step: access_bank_account
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:enter_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: enter_bank_final_step
+step num: 3,
+element was of type: verify
+
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_deposit_items.png
+icon image name: action/nature_rune.png
+precision: 0.9930627942085266
+position on screen: (1649, 557)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/nature_rune.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//0_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//0_nature_rune_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//0_nature_rune_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//0_deposit_all_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//0_deposit_all_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//0_deposit_all_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:click_deposit_x
+element:check
+testing check component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//1_deposit_all_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//1_deposit_all_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//1_deposit_all_iteration_0_check.png
+
+tested component for step: click_deposit_x
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:click_deposit_x
+element:verify
+testing verify component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//1_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//1_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//1_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+
+tested component for step: click_deposit_x
+step num: 1,
+element was of type: verify
+
+report for step:
+step num:2
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 2,
+element was of type: check
+
+report for step:
+step num:2
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 2,
+element was of type: verify
+
+report for step:
+step num:3
+step id:right_click_item
+element:check
+testing check component
+
+background image name: test/test_deposit_items.png
+icon image name: action/fire_staff.png
+precision: 0.8501637578010559
+position on screen: (1716, 561)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/fire_staff.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//3_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//3_fire_staff_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//3_fire_staff_iteration_0_check.png
+
+tested component for step: right_click_item
+step num: 3,
+element was of type: check
+
+report for step:
+step num:3
+step id:right_click_item
+element:verify
+testing verify component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//3_deposit_all_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//3_deposit_all_iteration_0_verify.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//3_deposit_all_iteration_0_verify.png
+
+tested component for step: right_click_item
+step num: 3,
+element was of type: verify
+
+report for step:
+step num:4
+step id:click_deposit_x
+element:check
+testing check component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//4_deposit_all_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//4_deposit_all_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//4_deposit_all_iteration_0_check.png
+
+tested component for step: click_deposit_x
+step num: 4,
+element was of type: check
+
+report for step:
+step num:4
+step id:click_deposit_x
+element:verify
+testing verify component
+
+background image name: test/test_deposit_x.png
+icon image name: action/deposit_all.png
+precision: 0.9978458285331726
+position on screen: (596, 350)
+
+test element: runescape_actions/runescape_actions/commons/deposit_bank/all_action_files/screenshots//action/deposit_all.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//4_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//4_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//4_deposit_all_iteration_0_verify_reverse_verify_should_be_black_img.png
+
+tested component for step: click_deposit_x
+step num: 4,
+element was of type: verify
+
+report for step:
+step num:5
+step id:object_markers_final_step
+element:check
+testing check component
+
+
+tested component for step: object_markers_final_step
+step num: 5,
+element was of type: check
+
+report for step:
+step num:5
+step id:object_markers_final_step
+element:verify
+testing verify component
+
+
+tested component for step: object_markers_final_step
+step num: 5,
+element was of type: verify
+
+end of debug logs
+
+
+start of full report:
+
+
+report for step:
+step num:0
+step id:leave_bank
+element:check
+testing check component
+
+background image name: test/test_click_item.png
+icon image name: action/leave_bank.png
+precision: 0.9999235272407532
+position on screen: (486, 25)
+
+test element: runescape_actions/runescape_actions/commons/leave_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+Image with cross saved as local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_check.png
+
+tested component for step: leave_bank
+step num: 0,
+element was of type: check
+
+report for step:
+step num:0
+step id:leave_bank
+element:verify
+testing verify component
+
+background image name: test/test_click_banker.png
+icon image name: action/leave_bank.png
+precision: 0.3912181854248047
+position on screen: (-1, -1)
+
+test element: runescape_actions/runescape_actions/commons/leave_bank/all_action_files/screenshots//action/leave_bank.png
+output image path: local_test_output/highalch/dependencies/5_DepositBankTest//dependencies/1_LeaveBankTest//0_leave_bank_iteration_0_verify_reverse_verify_should_be_black_img.png
+precision is too low, black image created: 0.3912181854248047
+
+tested component for step: leave_bank
+step num: 0,
+element was of type: verify
+
+report for step:
+step num:1
+step id:leave_bank_final_step
+element:check
+testing check component
+
+
+tested component for step: leave_bank_final_step
+step num: 1,
+element was of type: check
+
+report for step:
+step num:1
+step id:leave_bank_final_step
+element:verify
+testing verify component
+
+
+tested component for step: leave_bank_final_step
+step num: 1,
+element was of type: verify
+
+
+
+
+
+final output analysis, with warning and possible errors:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

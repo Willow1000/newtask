@@ -70,8 +70,9 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 # )
 
 
-from runescape_actions.highalch_setup.action_description import setup
-from runescape_actions.highalch_wrap_up.action_description import action_ordered_steps as wrap_up_steps
+from runescape_actions.highalch_setup.action_description import setup,setup_without_withdraw
+from runescape_actions.commons.withdraw_bank.action_description import get_withdraw_x
+from runescape_actions.highalch_wrap_up.action_description import action_ordered_steps as wrap_up_steps, wrap_up_steps_without_deposit
 
 all_failure_elements = {
     "send_creds": [
@@ -94,10 +95,10 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 
 
 # setup
-def gen_setup_steps(item_id):
-    setup_steps = setup(item_id=item_id)
-    #TODO withdraw from the bank
-    return setup_steps
+# def gen_setup_steps(item_id):
+#     setup_steps = setup(item_id=item_id)
+#     #TODO withdraw from the bank
+#     return setup_steps
 
 # def wrap_up_steps():
     
@@ -178,7 +179,7 @@ def get_action_ordered_steps(target_id):
     spell_with_target_steps = highalch_item(target_id)
     jump_back_to_start_steps = jump_back_to_start(target_id=target_id) #TODO add jump
     all_steps = spell_with_target_steps + jump_back_to_start_steps + wrap_up_steps + [final_step]
-    return all_steps
+    return all_steps,target_id
 
 
 # test item will be ALL items (only tests highalch for ALL, not setup, only tests setup ONCE)
@@ -204,7 +205,18 @@ item_id_list = [
     "rune_plateskirt",
 ] # TODO add all the items and test (these are the items you are testing)
 
-action_ordered_steps = get_action_ordered_steps("rune_longsword")
+
+
+action_ordered_steps,item_id = get_action_ordered_steps("rune_longsword")
+
+highalch_item = highalch_target_item(target_id = item_id)
+# deposit_all_nature_rune =  deposit_all('nature_rune',"test_deposit_items")
+# deposit_all_fire_staff =  deposit_all('fire_staff',"test_deposit_items")
+withdraw_nature_rune = get_withdraw_x("30","nature_rune","test_click_nature_rune")
+withdraw_fire_staff = get_withdraw_x("1","fire_staff","test_click_fire_staff")
+withdraw_item = get_withdraw_x("26",item_id,f"test_click_{item_id}")
+custom_actions = setup_without_withdraw + wrap_up_steps_without_deposit
+
 # action_ordered_steps_test = []
 # action_ordered_steps_test += setup_steps_testing
 # for item_id in item_id_list:

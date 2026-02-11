@@ -21,7 +21,7 @@ class DepositBankTest(Test):
     def main_test(self, action_ordered_steps_current_action):
         from deposit_bank.action_description import get_deposit_all_test, enter_bank, leave_bank
         from runescape_actions.commons.enter_bank.action_tests import EnterBankTest
-        from withdraw_bank.action_description import withdraw__bank
+        # from withdraw_bank.action_description import withdraw__bank
         from runescape_actions.commons.leave_bank.action_tests import LeaveBankTest
 
         self.incorporate_test(EnterBankTest, enter_bank)

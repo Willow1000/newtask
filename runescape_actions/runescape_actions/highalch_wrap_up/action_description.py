@@ -105,17 +105,20 @@ step_1 = {
     "id": "unequip_fire_staff",
 }
 
+wrap_up_steps_without_deposit = [step_0, step_1]
 
 action_ordered_steps = [step_0,step_1]
 
 items_to_be_deposited = ['nature_rune','fire_staff']
 
 
+deposits = []
 for item in items_to_be_deposited:
     step = get_deposit_all(item,"test_deposit_items")
+    deposits+=[step]
     action_ordered_steps += step
 
-
+deposit_all_nature_rune,deposit_all_fire_staff = deposits
 # final step, always add a final step, this is for the if else cases
 final_step = {
     "check": none_step_verify,

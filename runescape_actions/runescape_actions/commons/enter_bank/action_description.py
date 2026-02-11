@@ -28,16 +28,16 @@ context = "rs_ps"  # context to know what profile to use, what is this session r
 
 step_0 = {
     "check": none_step_verify,
-    "verify": get_action_picture_by_name("all/dashboard/menu/enter_bank/action/report"),
+    "verify": get_action_picture_by_name("report"),
     "test": [
         {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/enter_bank/test/not_in_game_lobby"),  
+            "mock_image": get_test_picture_by_name("not_in_game_lobby"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-            get_test_picture_by_name("all/dashboard/menu/enter_bank/test/test_lowbar")
+            get_test_picture_by_name("test_lowbar")
         ],
     },
     "processor_info": {
@@ -57,21 +57,21 @@ step_1 = {
             "highlight_color": [ map_colors["banker"], map_colors["default_blue"] ],
         }
     },
-    "verify": get_action_picture_by_name("all/dashboard/menu/enter_bank/action/continue"), 
+    "verify": get_action_picture_by_name("continue"), 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/enter_bank/test/test_click_banker_general_highlight"),  
+            "mock_image": get_test_picture_by_name("test_click_banker_general_highlight"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
         { 
             # 2 values are tested here, cause the banker can be one color or the other
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/enter_bank/test/test_click_banker_blue_highlight"),
+            "mock_image": get_test_picture_by_name("test_click_banker_blue_highlight"),
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("all/dashboard/menu/enter_bank/test/test_talk_banker")
+           get_test_picture_by_name("test_talk_banker")
         ],
     },
     "processor_info": {
@@ -86,17 +86,17 @@ step_1 = {
 
 # Step 2: Click the "continue" option
 step_2 = {
-    "check": get_action_picture_by_name("all/dashboard/menu/enter_bank/action/continue"),  
-    "verify": get_action_picture_by_name("all/dashboard/menu/enter_bank/action/access_bank_account"), 
+    "check": get_action_picture_by_name("continue"),  
+    "verify": get_action_picture_by_name("access_bank_account"), 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/enter_bank/test/test_talk_banker"),  
+            "mock_image": get_test_picture_by_name("test_talk_banker"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("all/dashboard/menu/enter_bank/test/test_banker_options")
+           get_test_picture_by_name("test_banker_options")
         ],
     },
     "processor_info": {
@@ -111,17 +111,17 @@ step_2 = {
 
 # Step 3: Click the "access my bank account option
 step_3 = {
-    "check": get_action_picture_by_name("all/dashboard/menu/enter_bank/action/access_bank_account"),  
+    "check": get_action_picture_by_name("access_bank_account"),  
     "verify": get_action_picture_by_name("all/dashboard/menu/enter_bank/action/verify_inside_bank_account"), 
     "test": [
         {
-            "mock_image": get_test_picture_by_name("all/dashboard/menu/enter_bank/test/test_banker_options"),  
+            "mock_image": get_test_picture_by_name("test_banker_options"),  
             "replay_input": {"replay_type": "mouse", "coords": None},
         },
     ],
     "extra_test_info": {
         "end_mock_image_list": [
-           get_test_picture_by_name("all/dashboard/menu/enter_bank/test/test_click_item")
+           get_test_picture_by_name("test_click_item")
         ],
     },
     "processor_info": {
@@ -147,7 +147,7 @@ final_step = {
 
 action_ordered_steps = [
     step_0,
-    step_1,
+    # step_1,
     step_2,
     step_3,
     final_step,

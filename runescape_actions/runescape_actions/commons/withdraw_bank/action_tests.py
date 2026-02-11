@@ -28,11 +28,13 @@ class WithdrawBankTest(Test):
         from withdraw_bank.action_description import (enter_bank, leave_bank)
         from runescape_actions.commons.enter_bank.action_tests import EnterBankTest
 
-        from withdraw_bank.action_description import withdraw__bank
+        # from withdraw_bank.action_description import withdraw__bank
         from runescape_actions.commons.leave_bank.action_tests import LeaveBankTest
+        from withdraw_bank.action_description import get_withdraw_x_test
+        action_ordered_steps = get_withdraw_x_test()
 
         self.incorporate_test(EnterBankTest, enter_bank)
-        self.test(withdraw__bank)
+        self.test(action_ordered_steps)
         self.incorporate_test(LeaveBankTest, leave_bank)
      
     def run(self):
