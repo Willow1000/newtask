@@ -87,24 +87,29 @@ current_action_id = "highalching"
 app_config_id = "full_rs"  # each action may require a different set of configs from the app itself
 context = "rs_ps"  # context to know what profile to use, what is this session related to, etc.
 
+#setup
+def gen_setup_steps(item_id):
+    start_step = {
+    "check": none_step_verify,
+    "verify": none_step_verify,
+    "processor_info": {
+    "processor_type": {
+        "check": "template_match",
+        "verify": "template_match",
+            },
+        },
+    "id":"setup_start"
+    }
+    setup_steps = setup(item_id=item_id)
+    #TODO withdraw from the bank and equip firestaff
+    return [start_step] + setup_steps
 
-
-# check if firestaff is equiped
-# click worn equipments
-
-
-
-# setup
-# def gen_setup_steps(item_id):
-#     setup_steps = setup(item_id=item_id)
-#     #TODO withdraw from the bank
-#     return setup_steps
 
 # def wrap_up_steps():
     
-#     return wrap_up_steps    
+# #     return wrap_up_steps    
 
- 
+
 def highalch_target_item(target_id):
     """
     target id is the item id
