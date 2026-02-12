@@ -124,7 +124,7 @@ def highalch_item(target_id):
 def jump_back_to_start(target_id):
     return [{
     "jump": {
-        "step_num": highalch_item(target_id=target_id), 
+        "step_num": "spell_target_step", 
         "verify": get_action_picture_by_name(target_id),
         "verify_mode": "verify_once",
         "reverse_verification": True,
@@ -132,7 +132,7 @@ def jump_back_to_start(target_id):
     },
     "test": [
         {
-            "mock_image": [get_test_picture_by_name(f"test_inventory_filled_with_{target_id}")],
+            "mock_image": [get_test_picture_by_name(f"test_inventory_filled_with_{target_id}"),get_test_picture_by_name('test_items')],
             "replay_input": {
                 "replay_type": "NA",
                 "word_to_write": None,
@@ -212,9 +212,9 @@ action_ordered_steps,item_id = get_action_ordered_steps("rune_longsword")
 highalch_item = highalch_target_item(target_id = item_id)
 # deposit_all_nature_rune =  deposit_all('nature_rune',"test_deposit_items")
 # deposit_all_fire_staff =  deposit_all('fire_staff',"test_deposit_items")
-withdraw_nature_rune = get_withdraw_x("30","nature_rune","test_click_nature_rune")
-withdraw_fire_staff = get_withdraw_x("1","fire_staff","test_click_fire_staff")
-withdraw_item = get_withdraw_x("26",item_id,f"test_click_{item_id}")
+withdraw_nature_rune = get_withdraw_x("30","nature_rune","test_withdraw_items")
+withdraw_fire_staff = get_withdraw_x("1","fire_staff","test_withdraw_items")
+withdraw_item = get_withdraw_x("26",item_id,f"test_withdraw_items")
 custom_actions = setup_without_withdraw + wrap_up_steps_without_deposit
 
 # action_ordered_steps_test = []

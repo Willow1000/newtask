@@ -1,6 +1,0 @@
-unix  2      [ ACC ]     STREAM     LISTENING     9828064  1602/Xvfb            @/tmp/.X11-unix/X0
-unix  2      [ ACC ]     STREAM     LISTENING     9757435  -                    @/tmp/.X11-unix/X1
-unix  2      [ ACC ]     STREAM     LISTENING     9837099  1984/Xvfb            @/tmp/.X11-unix/X2
-unix  2      [ ACC ]     STREAM     LISTENING     9757436  -                    /tmp/.X11-unix/X1
-unix  2      [ ACC ]     STREAM     LISTENING     9828065  1602/Xvfb            /tmp/.X11-unix/X0
-unix  2      [ ACC ]     STREAM     LISTENING     9837100  1984/Xvfb            /tmp/.X11-unix/X2

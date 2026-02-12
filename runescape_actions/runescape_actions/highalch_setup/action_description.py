@@ -160,7 +160,7 @@ def setup(item_id):
         item_id: 26
     }
     for item in items_to_be_withdrawn:
-        action_ordered_steps+= get_withdraw_x(item_quantity_dict.get(item),item,f"test_click_{item}")
+        action_ordered_steps+= get_withdraw_x(item_quantity_dict.get(item),item,f"test_withdraw_items")
 
     action_ordered_steps += [step_1,step_2,step_3,final_step]
     return action_ordered_steps
