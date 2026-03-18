@@ -1,0 +1,132 @@
+{
+    "icons": {
+        "A": "highalch/all_action_files/screenshots/action/adamant_med_helm.png",
+        "B": "highalch/all_action_files/screenshots/action/adamant_platebody.png",
+        "C": "highalch/all_action_files/screenshots/action/fire_staff.png",
+        "D": "highalch/all_action_files/screenshots/action/fire_staff_equiped.png",
+        "E": "highalch/all_action_files/screenshots/action/fire_staff_unequiped.png",
+        "F": "highalch/all_action_files/screenshots/action/green_d'hide_body.png",
+        "G": "highalch/all_action_files/screenshots/action/nature_rune.png",
+        "H": "highalch/all_action_files/screenshots/action/rune-battleaxe.png",
+        "I": "highalch/all_action_files/screenshots/action/rune_dagger.png",
+        "J": "highalch/all_action_files/screenshots/action/rune_full_helm.png",
+        "K": "highalch/all_action_files/screenshots/action/rune_kiteshield.png",
+        "L": "highalch/all_action_files/screenshots/action/rune_longsword.png",
+        "M": "highalch/all_action_files/screenshots/action/rune_mace.png",
+        "N": "highalch/all_action_files/screenshots/action/rune_med_helm.png",
+        "O": "highalch/all_action_files/screenshots/action/rune_pickaxe.png",
+        "P": "highalch/all_action_files/screenshots/action/rune_platebody.png",
+        "Q": "highalch/all_action_files/screenshots/action/rune_platelegs.png",
+        "R": "highalch/all_action_files/screenshots/action/rune_plateskirt.png",
+        "S": "highalch/all_action_files/screenshots/action/rune_scimitar.png",
+        "T": "highalch/all_action_files/screenshots/action/rune_sq_shield.png",
+        "U": "highalch/all_action_files/screenshots/action/rune_warhammer.png"
+    },
+    "tests": {
+        "1": "highalch/all_action_files/screenshots/test/adamant_platebody_test.png",
+        "2": "highalch/all_action_files/screenshots/test/test_click_fire_staff.png",
+        "3": "highalch/all_action_files/screenshots/test/test_click_nature_rune.png",
+        "4": "highalch/all_action_files/screenshots/test/test_click_rune_longsword.png",
+        "5": "highalch/all_action_files/screenshots/test/test_deposit_items.png",
+        "6": "highalch/all_action_files/screenshots/test/test_fire_staff.png",
+        "7": "highalch/all_action_files/screenshots/test/test_fire_staff_equiped.png",
+        "8": "highalch/all_action_files/screenshots/test/test_fire_staff_unequiped.png",
+        "9": "highalch/all_action_files/screenshots/test/test_inventory_filled_with_rune_longsword.png",
+        "10": "highalch/all_action_files/screenshots/test/test_inventory_without_rune_longsword.png",
+        "11": "highalch/all_action_files/screenshots/test/test_items.png",
+        "12": "highalch/all_action_files/screenshots/test/test_rune_longsword.png",
+        "13": "highalch/all_action_files/screenshots/test/test_withdraw_items.png"
+    },
+    "comparisons": {
+        "A": [
+            "11",
+            "13"
+        ],
+        "B": [
+            "11",
+            "13"
+        ],
+        "C": [
+            "11",
+            "13",
+            "6"
+        ],
+        "D": [
+            "11",
+            "13",
+            "6",
+            "7"
+        ],
+        "E": [
+            "11",
+            "13",
+            "6",
+            "8"
+        ],
+        "F": [
+            "11",
+            "13"
+        ],
+        "G": [
+            "11",
+            "13"
+        ],
+        "H": [
+            "11",
+            "13"
+        ],
+        "I": [
+            "11",
+            "13"
+        ],
+        "J": [
+            "11",
+            "13"
+        ],
+        "K": [
+            "11",
+            "13"
+        ],
+        "L": [
+            "11",
+            "12",
+            "13"
+        ],
+        "M": [
+            "11",
+            "13"
+        ],
+        "N": [
+            "11",
+            "13"
+        ],
+        "O": [
+            "11",
+            "13"
+        ],
+        "P": [
+            "11",
+            "13"
+        ],
+        "Q": [
+            "11",
+            "13"
+        ],
+        "R": [
+            "11",
+            "13"
+        ],
+        "S": [
+            "11",
+            "13"
+        ],
+        "T": [
+            "11",
+            "13"
+        ],
+        "U": [
+            "11",
+            "13"
+        ]
+    }
+}
