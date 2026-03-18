@@ -1,0 +1,4 @@
+runescape_actions/rs_login/all_action_files/screenshots/rs_login/all_action_files/screenshots/test : Point(x=106, y=172) : Point(x=235, y=199)
+runescape_actions/rs_login/all_action_files/screenshots/rs_login/all_action_files/screenshots/change_world : Point(x=355, y=115) : Point(x=408, y=141)
+runescape_actions/rs_login/all_action_files/screenshots/rs_login/all_action_files/screenshots/fullscreen : Point(x=0, y=0) : Point(x=1920, y=1080)
+runescape_actions/rs_login/all_action_files/screenshots/rs_login/all_action_files/screenshots/teste : Point(x=941, y=332) : Point(x=1242, y=501)

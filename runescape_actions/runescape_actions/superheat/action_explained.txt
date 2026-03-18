@@ -1,0 +1,12 @@
+# superheating_items
+
+withdraw all the required items (nature_runes,fire_runes,fire_staff, required_ores) based on the desired bar
+
+Equip item (fire_staff...) if required
+
+suerheat items
+
+unequip fire_staff (if was equipped)
+
+deposit everything to bank
+

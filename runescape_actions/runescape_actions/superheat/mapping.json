@@ -1,0 +1,149 @@
+{
+    "icons": {
+        "A": "superheat/all_action_files/screenshots/action/adamantite_bar.png",
+        "B": "superheat/all_action_files/screenshots/action/adamantite_ore.png",
+        "C": "superheat/all_action_files/screenshots/action/coal.png",
+        "D": "superheat/all_action_files/screenshots/action/copper_bar.png",
+        "E": "superheat/all_action_files/screenshots/action/copper_bar1.png",
+        "F": "superheat/all_action_files/screenshots/action/copper_ore.png",
+        "G": "superheat/all_action_files/screenshots/action/copper_ore1.png",
+        "H": "superheat/all_action_files/screenshots/action/fire_rune.png",
+        "I": "superheat/all_action_files/screenshots/action/fire_staff.png",
+        "J": "superheat/all_action_files/screenshots/action/gold_bar.png",
+        "K": "superheat/all_action_files/screenshots/action/gold_ore.png",
+        "L": "superheat/all_action_files/screenshots/action/iron_bar.png",
+        "M": "superheat/all_action_files/screenshots/action/iron_ore.png",
+        "N": "superheat/all_action_files/screenshots/action/mithril_bar.png",
+        "O": "superheat/all_action_files/screenshots/action/mithril_ore.png",
+        "P": "superheat/all_action_files/screenshots/action/nature_rune.png",
+        "Q": "superheat/all_action_files/screenshots/action/runite_bar.png",
+        "R": "superheat/all_action_files/screenshots/action/runite_ore.png",
+        "S": "superheat/all_action_files/screenshots/action/silver_bar.png",
+        "T": "superheat/all_action_files/screenshots/action/silver_ore.png",
+        "U": "superheat/all_action_files/screenshots/action/steel_bar.png",
+        "V": "superheat/all_action_files/screenshots/action/superheat.png",
+        "W": "superheat/all_action_files/screenshots/action/tin_ore.png",
+        "X": "superheat/all_action_files/screenshots/action/tin_ore1.png"
+    },
+    "tests": {
+        "1": "superheat/all_action_files/screenshots/test/test_adamantite.png",
+        "2": "superheat/all_action_files/screenshots/test/test_adamantite_ore.png",
+        "3": "superheat/all_action_files/screenshots/test/test_bar.png",
+        "4": "superheat/all_action_files/screenshots/test/test_coal.png",
+        "5": "superheat/all_action_files/screenshots/test/test_gold_ore.png",
+        "6": "superheat/all_action_files/screenshots/test/test_iron_ore.png",
+        "7": "superheat/all_action_files/screenshots/test/test_mithril_ore.png",
+        "8": "superheat/all_action_files/screenshots/test/test_ore.png",
+        "9": "superheat/all_action_files/screenshots/test/test_rune.png",
+        "10": "superheat/all_action_files/screenshots/test/test_runite_ore.png",
+        "11": "superheat/all_action_files/screenshots/test/test_silver_ore.png",
+        "12": "superheat/all_action_files/screenshots/test/test_siver_ore.png",
+        "13": "superheat/all_action_files/screenshots/test/test_superheat.png",
+        "14": "superheat/all_action_files/screenshots/test/test_tin_ore.png",
+        "15": "superheat/all_action_files/screenshots/test/test_withdraw.png",
+        "16": "superheat/all_action_files/screenshots/test/test_withdraw_items.png"
+    },
+    "comparisons": {
+        "A": [
+            "1",
+            "16",
+            "3"
+        ],
+        "B": [
+            "1",
+            "16",
+            "2",
+            "8"
+        ],
+        "C": [
+            "16",
+            "4"
+        ],
+        "D": [
+            "16",
+            "3"
+        ],
+        "E": [
+            "16"
+        ],
+        "F": [
+            "16",
+            "8"
+        ],
+        "G": [
+            "16"
+        ],
+        "H": [
+            "16",
+            "9"
+        ],
+        "I": [
+            "16"
+        ],
+        "J": [
+            "16",
+            "3"
+        ],
+        "K": [
+            "16",
+            "5",
+            "8"
+        ],
+        "L": [
+            "16",
+            "3"
+        ],
+        "M": [
+            "16",
+            "6",
+            "8"
+        ],
+        "N": [
+            "16",
+            "3"
+        ],
+        "O": [
+            "16",
+            "7",
+            "8"
+        ],
+        "P": [
+            "16",
+            "9"
+        ],
+        "Q": [
+            "16",
+            "3"
+        ],
+        "R": [
+            "10",
+            "16",
+            "8"
+        ],
+        "S": [
+            "16",
+            "3"
+        ],
+        "T": [
+            "11",
+            "16",
+            "8"
+        ],
+        "U": [
+            "16",
+            "3"
+        ],
+        "V": [
+            "13",
+            "16"
+        ],
+        "W": [
+            "14",
+            "16",
+            "8"
+        ],
+        "X": [
+            "16"
+        ]
+    }
+}
